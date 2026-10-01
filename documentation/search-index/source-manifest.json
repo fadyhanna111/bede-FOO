@@ -1,0 +1,41 @@
+{
+  "received_date": "2026-10-01",
+  "timezone": "Asia/Beirut",
+  "files": [
+    {
+      "name": "Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "original_path": "/Users/fadyhanna/Downloads/Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "project_path": "documentation/compliance/Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "sha256": "e1328b53191830d50724b62041f9c5074275f483e07210f73752b751a53cf769",
+      "bytes": 73630,
+      "sheets": [
+        {
+          "title": "Technical compliance",
+          "state": "visible",
+          "populated_last_row": 68,
+          "populated_last_column": 4,
+          "nonempty_rows": 66
+        }
+      ],
+      "searchable_cells": "documentation/search-index/Annex2_LMS_Compliance_FOO_Response.json"
+    },
+    {
+      "name": "FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "original_path": "/Users/fadyhanna/Downloads/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "project_path": "documentation/proposals/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "sha256": "e3c64a02ce1513858e82e8719b3d0442984c456cc327ccd8e2b49136809fd8d4",
+      "bytes": 946243,
+      "pages": 61,
+      "searchable_text": "documentation/search-index/FOO - Bede - Loan Management System - Technical Response V1.0.txt"
+    },
+    {
+      "name": "FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "original_path": "/Users/fadyhanna/Downloads/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "project_path": "documentation/proposals/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "sha256": "ddb8c4dc7b48361ac5b4ec82e1163845cc21ccc6569a40befa3c81d388d6ac46",
+      "bytes": 442029,
+      "pages": 22,
+      "searchable_text": "documentation/search-index/FOO - Bede - Loan Management System - Commercial Response V1.6.txt"
+    }
+  ]
+}

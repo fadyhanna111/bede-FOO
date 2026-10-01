@@ -1,0 +1,10 @@
+working/transcription-env/
+working/whisper-model/
+__pycache__/
+.DS_Store
+working/python-packages/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example

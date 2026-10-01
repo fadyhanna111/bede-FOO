@@ -1,0 +1,326 @@
+{
+  "Technical compliance": [
+    {
+      "C2": "Possible Feedback:"
+    },
+    {
+      "C3": "Fully compliant"
+    },
+    {
+      "C4": "Comply with provision (state provision)"
+    },
+    {
+      "C5": "Partly comply"
+    },
+    {
+      "C6": "Not compliant"
+    },
+    {
+      "C7": "PROPOSALS"
+    },
+    {
+      "B9": "Parameters",
+      "C9": "Compliance  Sheet"
+    },
+    {
+      "C10": "Feedback",
+      "D10": "Comment"
+    },
+    {
+      "A11": "Functional Fit",
+      "B11": "Loan Book Keeping",
+      "C11": "Fully compliant",
+      "D11": "FOO LMS provides complete loan book-keeping with cash and accrual accounting, configurable chart of accounts, general ledger entries, and customizable accounting rules per loan product."
+    },
+    {
+      "B12": "Repayment Processing",
+      "C12": "Fully compliant",
+      "D12": "Repayment processing is supported via APIs and the admin portal: scheduled, manual and automated repayments; multiple accepted payment types are configurable per product."
+    },
+    {
+      "B13": "Collections & Delinquency",
+      "C13": "Comply with provision (state provision)",
+      "D13": "Our LMS provides essential collection features readily, while more advanced options can be tailored to specific needs through configuration."
+    },
+    {
+      "B14": "Interest & Fees Management",
+      "C14": "Fully compliant",
+      "D14": "Configurable interest methods (flat, declining, balance) and a full fees & charges engine (one-off, recurring, percentage/fixed, penalty) attachable to any loan product."
+    },
+    {
+      "B15": "Early Settlement",
+      "C15": "Fully compliant",
+      "D15": "Foreclosure / early-settlement is supported with automatic recalculation of outstanding principal, interest rebate and waivers, exposed both via UI and API."
+    },
+    {
+      "B16": "Partial Settlement ",
+      "C16": "Fully compliant",
+      "D16": "Partial settlement / partial repayment is supported with automatic re-amortization of the remaining schedule and configurable allocation order (principal/interest/fees)."
+    },
+    {
+      "B17": "Creating loan for the customer ",
+      "C17": "Fully compliant",
+      "D17": "Full loan origination journey is covered: customer creation, KYC, application capture, repayment-schedule preview, approval workflow (incl. maker/checker), and disbursement."
+    },
+    {
+      "B18": "Loan Restructure & Modifications",
+      "C18": "Fully compliant",
+      "D18": "Loan rescheduling, refinancing, repayment-frequency change, top-up and term modification are all out-of-the-box with audit-trailed maker/checker controls."
+    },
+    {
+      "B19": "Write-offs",
+      "C19": "Fully compliant",
+      "D19": "Loan write-off (full and partial) is supported with associated GL impact and reversal capability; exposed via UI and API."
+    },
+    {
+      "B20": "Loan Account Management",
+      "C20": "Fully compliant",
+      "D20": "End-to-end loan account management: status lifecycle, statements, repayment schedule, transactions history, charges, collateral and guarantor linkage."
+    },
+    {
+      "B21": "Account Integration",
+      "C21": "Comply with provision (state provision)",
+      "D21": "Provision: integration with the customer's accounting / core banking system is supported via FOO's open APIs and middleware layer; capped effort subject to BRD and the target system's published API set."
+    },
+    {
+      "B22": "CRM Integration",
+      "C22": "Comply with provision (state provision)",
+      "D22": "Provision: CRM integration is delivered via REST APIs / FOO Middleware; effort is capped subject to the target CRM exposing standard APIs (Salesforce, MS Dynamics, in-house, etc.)."
+    },
+    {
+      "B23": "Payment Channel Integration",
+      "C23": "Comply with provision (state provision)",
+      "D23": "Provision: integration with payment channels (wallet, switch, ACH/RTGS, card processor) via FOO's open APIs and middleware; per-channel effort scoped under a CR/BRD."
+    },
+    {
+      "B24": "Commodity Trading Integration",
+      "C24": "Comply with provision (state provision)",
+      "D24": "Provision: commodity-trading integration (for Murabaha-style Shariah-compliant lending) is supported via integration with EIGER or an equivalent commodity-trading platform; effort capped subject to BRD."
+    },
+    {
+      "B25": "Analytics & Reporting",
+      "C25": "Fully compliant",
+      "D25": "APIs available for BI/data-warehouse extraction."
+    },
+    {
+      "B26": "Audit & Compliance",
+      "C26": "Fully compliant",
+      "D26": "Full audit trail across users, loans, payments, disbursements, fees and account activity; maker/checker on critical operations."
+    },
+    {
+      "A27": "Regulatory & Compliance ",
+      "B27": "CBB",
+      "C27": "Comply with provision (state provision)",
+      "D27": "Customization required for reports to align with the formats mandated by the Central Bank of Bahrain"
+    },
+    {
+      "B28": "AAOIFI",
+      "C28": "Comply with provision (state provision)",
+      "D28": "Customization required for reports to align with the formats mandated by the AAOIFI"
+    },
+    {
+      "B29": "Audit trail",
+      "C29": "Fully compliant",
+      "D29": "Comprehensive audit trail covering user actions, loan lifecycle events, fee creation, disbursements, payments and account activity, with timestamp and user attribution; immutable and exportable."
+    },
+    {
+      "A30": "Technology & Architecture ",
+      "B30": "Technology Stack",
+      "C30": "Fully compliant",
+      "D30": "Modern microservices-based stack with containerized deployment; full stack disclosed in the technical proposal."
+    },
+    {
+      "B31": "Development Language(s)/Frameworks",
+      "C31": "Fully compliant",
+      "D31": "Backend: Java / Spring Boot microservices; Frontend: Angular for portals"
+    },
+    {
+      "B32": "Database",
+      "C32": "Fully compliant",
+      "D32": "PostgreSQL as primary RDBMS; Redis for caching; supported alternatives can be assessed under deployment design."
+    },
+    {
+      "B33": "Integration interfaces (APIs, webhooks, file-based)",
+      "C33": "Fully compliant",
+      "D33": "Integration via REST APIs (primary), webhooks, and file-based interfaces (SFTP / batch); message-bus / Kafka available through the FOO Middleware integration layer."
+    },
+    {
+      "B34": "Multi-tenancy model and data isolation",
+      "C34": "Fully compliant",
+      "D34": "LMS supports multi-tenancy out-of-the-box: each organization runs with isolated loan products, users, clients, and reports; logical isolation per tenant with optional dedicated-DB deployment."
+    },
+    {
+      "B35": "Front-end / admin portal compatiblity and requirements (desktop, mobile, windows, mac)",
+      "C35": "Fully compliant",
+      "D35": "Admin portal is browser-based and OS-agnostic (Windows / macOS / Linux), tested on modern Chrome, Edge, Safari and Firefox; responsive layout."
+    },
+    {
+      "B36": "SaaS Deployment: Cloud provider, region (data residency), shared vs. dedicated",
+      "C36": "Fully compliant",
+      "D36": "SaaS available on AWS, data-residency selectable per region; both shared-tenant and dedicated-tenant deployment options offered."
+    },
+    {
+      "B37": "On-premise/Private cloud: Infrastructure requirements, supported OS/DB/container platform/native cloud services required or supported",
+      "C37": "Fully compliant",
+      "D37": "On-premise / private-cloud deployment supported; infrastructure requirements (VMs/containers, OS, DB, networking, sizing) provided in the deployment design document."
+    },
+    {
+      "B38": "Hybrid options available",
+      "C38": "Fully compliant",
+      "D38": "Hybrid deployment is supported (e.g., on-prem core + SaaS channels, or on-prem LMS with cloud-hosted analytics/reporting)."
+    },
+    {
+      "B39": "Standard integration patterns (REST, SOAP, Kafka, etc.)",
+      "C39": "Fully compliant",
+      "D39": "REST is the primary integration pattern."
+    },
+    {
+      "B40": "Open API / API-first architecture",
+      "C40": "Fully compliant",
+      "D40": "API-first architecture: every LMS capability (loans, applications, transactions, collateral, clients, guarantors, credit bureau) is exposed through documented REST APIs."
+    },
+    {
+      "A41": "Performance & Scalability",
+      "B41": "Benchmark data or load test results",
+      "C41": "Fully compliant"
+    },
+    {
+      "B42": "Scaling model (vertical/horizontal, auto-scaling for SaaS)",
+      "C42": "Fully compliant",
+      "D42": "Horizontal auto-scaling on cloud via containerized microservices and stateless services behind a load balancer."
+    },
+    {
+      "A43": "Customization & Development",
+      "B43": "Custom development capability and pricing model",
+      "C43": "Fully compliant",
+      "D43": "Custom development is supported either as a fixed-price CR (well-defined scope) or T&M for evolutive work; pricing model defined in the commercial proposal."
+    },
+    {
+      "B44": "Access to dev/sandbox environments",
+      "C44": "Fully compliant",
+      "D44": "DEV / UAT environments are provided; sandbox API access available for the client's integration teams."
+    },
+    {
+      "B45": "Release management and upgrade impact on customizations",
+      "C45": "Fully compliant",
+      "D45": "Release management follows a versioned semantic-release model; customizations are isolated as configurations or extensions to minimize upgrade impact and are regression-tested per release."
+    },
+    {
+      "A46": "Security",
+      "B46": "Certifications held: ISO 27001, SOC 2, PCI-DSS, etc.",
+      "C46": "Comply with provision (state provision)",
+      "D46": "FOO holds  PCI-DSS (where card scope applies). SOC 2 and ISO 27001 attestation are on the roadmap"
+    },
+    {
+      "B47": "Data enryption (at rest/in transit), key management",
+      "C47": "Fully compliant",
+      "D47": "AES-256 at rest and TLS 1.2+ in transit; key management via cloud KMS (SaaS); secrets managed in a dedicated vault."
+    },
+    {
+      "B48": "Penetration testing cadence and last report availabilit",
+      "C48": "Fully compliant"
+    },
+    {
+      "A49": "Support & SLA",
+      "B49": "Support tiers, channels, and hours (including regional timezone)",
+      "C49": "Fully compliant",
+      "D49": "L1 by Client Call Center; L2 by FOO Support; L3 by FOO Project/Dev team. Channels: Jira, support@foo.mobi\n, phone for P1. P1: 24x7; P2–P4: Mon–Fri 9 AM–6 PM local business hours."
+    },
+    {
+      "B50": "SLA commitments (uptime, response, resolution)",
+      "C50": "Fully compliant",
+      "D50": "P1: 2h workaround / 4h resolution, 24x7. P2: next business day. P3: 4 business days. P4: minimum 10 business days, based on priority."
+    },
+    {
+      "B51": "Escalation path and dedicated account management",
+      "C51": "Fully compliant",
+      "D51": "Escalation: Jira/Email/Hotline → Project Manager → Head of Support → Program Manager → COO. Dedicated Account Management by Account Manager is provided."
+    },
+    {
+      "A52": "Licensing",
+      "B52": "Licensing model (per user/module/transaction/flat fee)",
+      "C52": "Fully compliant",
+      "D52": "Flat Fee"
+    },
+    {
+      "B53": "SaaS: subscription structure, multi-year discounts",
+      "C53": "Fully compliant"
+    },
+    {
+      "B54": "Non-SaaS: perpetual vs. annual license, maintenance",
+      "C54": "Fully compliant",
+      "D54": "Perpetual"
+    },
+    {
+      "B55": "Implementation cost breakdown (fixed vs. T&M)",
+      "C55": "Fully compliant",
+      "D55": "Please refer to the Commercial Proposal"
+    },
+    {
+      "B56": "Total cost of ownership (3-5 year projection requested)",
+      "C56": "Fully compliant",
+      "D56": "Please refer to Annex 5 - Pricing Template - USD"
+    },
+    {
+      "A57": "Vendor Risk & Continuity",
+      "B57": "Source code escrow (for on-premise/perpetual licenses)",
+      "C57": "Fully compliant",
+      "D57": "Available upon contractual agreement for eligible on-premise/perpetual licenses. If an Escrow arrangement is required, Bede will need to cover the cost"
+    },
+    {
+      "B58": "Key-person dependency and support team structure",
+      "C58": "Fully compliant",
+      "D58": "Support is team-based with proper escalation to reduce dependency on any single person."
+    },
+    {
+      "B59": "Exit / data portability provisions",
+      "C59": "Fully compliant",
+      "D59": "Client data can be exported or handed over in an agreed format during termination/exit."
+    },
+    {
+      "B60": "Sub-processors and third-party dependencies",
+      "C60": "Fully compliant",
+      "D60": "Third-party providers are used where required and are managed through supplier/vendor controls."
+    },
+    {
+      "B61": "Business Continuity Program",
+      "C61": "Fully compliant",
+      "D61": "FOO maintains a business continuity program to support continuity of critical services."
+    },
+    {
+      "B62": "Business Continuity Framework",
+      "C62": "Fully compliant",
+      "D62": "FOO’s continuity approach covers people, processes, technology, suppliers, and recovery planning."
+    },
+    {
+      "B63": "Incident Response and Crisis Communication",
+      "C63": "Fully compliant",
+      "D63": "Incidents are managed through defined escalation, communication, investigation, and resolution procedures."
+    },
+    {
+      "B64": "People and Remote Work Implementation",
+      "C64": "Fully compliant",
+      "D64": "FOO supports secure remote work using controlled access, company tools, and internal security policies."
+    },
+    {
+      "B65": "Business Continuity & Disaster Recovery Center",
+      "C65": "Fully compliant",
+      "D65": "Critical systems are backed up and recovery arrangements are maintained according to service needs"
+    },
+    {
+      "B66": "Suppliers’ assessments",
+      "C66": "Fully compliant",
+      "D66": "Key suppliers are assessed based on service criticality, security, reliability, and business impact."
+    },
+    {
+      "B67": "BCM Awareness & Training",
+      "C67": "Fully compliant",
+      "D67": "Relevant staff receive awareness and guidance on business continuity and incident response procedures."
+    },
+    {
+      "B68": "Business Continuity Exercise",
+      "C68": "Fully compliant",
+      "D68": "Business continuity arrangements are reviewed and tested periodically, with findings tracked for improvement."
+    }
+  ]
+}

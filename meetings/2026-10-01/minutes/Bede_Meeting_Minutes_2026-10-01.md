@@ -1,0 +1,71 @@
+# Bede LMS Meeting Minutes
+
+Project planning and delivery alignment | Draft for review
+
+**Date:** 1 October 2026 (recording date; meeting date to confirm)  
+**Organizer:** Bassel Beaini  
+**Recording duration:** 51 minutes 49 seconds  
+**Attendees:** Bassel Beaini; Fady Hanna; Geryes Saikaly; Elias Sayegh; Petra Ammar; Rami Fatayri; Maher Haber; Mohamed Ketrawi; Ghady Rayess; Hussein Fares; Tony Younes.  
+
+The meeting focused on starting delivery of the Bede loan management system (LMS), moving the current solution from Optasia toward Mifos, and identifying the product, integration, reporting and workshop activities needed. The team emphasized starting immediately while clarifying the remaining scope and dependencies.
+
+## Discussion and working direction
+
+### Project importance and initial scope
+
+The project was described as an important step for FOO into deeper banking and loan management capabilities, with potential relevance to Bede and the wider Zain fintech business. The immediate emphasis was successful delivery of the LMS project. Broader digital banking ambitions were discussed as future context.
+
+### Product readiness and integration reuse
+
+The team discussed reusing the existing front end and wallet integrations. Remaining LMS product work includes loan simulation, saving loan information and related flows. Product setup and configuration, environment readiness and the connection to Mifos need to be checked so the team can begin implementation and testing.
+
+### End to end testing and demonstration
+
+The project team and QA were asked to exercise the application flows against the intended back end. A representative product and a demonstration flow were discussed; sample or simulated product information may be needed where the required data is not yet available. The precise environment and demonstration readiness remain to be confirmed.
+
+### Credit scoring and approval workflow
+
+The team needs to clarify whether the client expects its existing credit scoring approach or a FOO solution, and how the approval workflow should operate. Manual approval and rejection tasks were discussed as configurable workflow steps. A workshop is needed to confirm the expected process and any additional integration or development work.
+
+### Financial reporting
+
+Metabase was identified for report implementation. The team needs someone with financial reporting knowledge to define and validate report content, fields and underlying data. A possible supporting person was mentioned, but the name and assignment could not be established reliably.
+
+### Migration and solution architecture
+
+The discussion covered migration and the status of connections to CRM, ticketing, ERP and banking systems. An updated solution architecture is needed to show existing interfaces and missing connections, particularly when Optasia is replaced. Rami Fatayri and Tony Younes were referenced in this work. Whether accounting functionality is required from FOO remains an open question.
+
+### Scoring demonstration and delivery planning
+
+The team requested sample data currently sent to Optasia, together with available responses or eligibility results, for Petra Ammar to explore a demonstration scoring model. This was discussed as a sample or showcase exercise; a production scoring solution was not confirmed. A nine week period was mentioned during delivery planning, but its scope, starting point and approval were not clear enough to record as a committed deadline.
+
+
+## Actions and follow up
+
+The following actions were requested or discussed. Owners are recorded only where the attribution is sufficiently clear; other assignments need confirmation. Completion was not verified during preparation of these minutes.
+
+
+| Action | Owner or coordination | Timing |
+| --- | --- | --- |
+| Share the high level delivery plan, identify workstreams and begin the activities that are ready. | Project team; named lead to confirm | ASAP |
+| Confirm Mifos product configuration, environment readiness and the remaining LMS product changes. | Product and technical teams; lead to confirm | Immediate start discussed |
+| Test the application flows and prepare a representative product demonstration against the intended back end. | Project team and QA | Date to confirm |
+| Arrange a workshop to settle credit scoring, manual approval or rejection, workflow ownership and integration requirements. | Tony Younes referenced; workshop lead to confirm | Date to confirm |
+| Identify financial reporting support and define and validate the reports, data fields and Metabase requirements. | Owner and specialist to confirm | Date to confirm |
+| Update the solution architecture, identify missing connections and clarify CRM, ticketing, ERP, banking and accounting responsibilities. | Rami Fatayri and Tony Younes referenced; lead to confirm | ASAP |
+| Compile sample Optasia request data and available response or eligibility results for the scoring exercise. | Current integration or data owner to confirm | Date to confirm |
+| Explore a demonstration scoring model using the available sample data; clarify the intended use before treating it as a delivery commitment. | Petra Ammar | Date to confirm |
+| Consolidate the workshop list, estimates, responsibilities and client next steps across the project and product teams. | Project coordination; named lead to confirm | Next day preparation requested; date to confirm |
+
+## Points requiring confirmation
+
+- Final scope and acceptance criteria for the Optasia to Mifos transition, including remaining product work and migration responsibilities.
+- Credit scoring ownership, client workflow expectations and the boundary between a demonstration model and any production requirement.
+- Required financial reports, specialist support, source data and responsibility for accounting and external system interfaces.
+- The basis of the nine week estimate, its treatment of reporting and dependencies, and any committed delivery or workshop dates.
+- Named action owners and the technical and product points of contact. Several closing statements and names were unclear.
+
+## Record and review
+
+Sources: Bede.m4a and the user supplied attendee list. Low volume and mixed Arabic and English left some passages unclear. Confirm the meeting date, action owners, scope and schedule before approval. The attendee screenshot shows four awaiting responses; attendance duration is not established. No next meeting date was reliably identified. Retain the approved minutes, corrections and source recording together.
+

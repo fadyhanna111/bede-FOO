@@ -1,0 +1,233 @@
+=== PDF PAGE 1 ===
+0
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Friday, September 4, 2026
+Bede – Loan 
+Management System
+© Copyright 2026 FOO_ //                   @foo.mobi   //  www.foo.mobi
+FOO COMMERCIAL RESPONSE
+Version 1.6.0
+
+=== PDF PAGE 2 ===
+1
+B2B Fintech Technology and 
+Services Provider enabling
+Banks, FinTechs, Retailers
+and Service Providers
+
+
+=== PDF PAGE 3 ===
+2
+The copyright in this document is owned by FOO TECH LTD, [“FOO”]. 
+This document may not be reproduced, in whole or in part, in any 
+form without the express consent of FOO in writing.
+Information contained in this document is proprietary and confidential 
+to FOO. 
+That information, irrespective of form, must not be used other than 
+for the purposes for which it is disclosed to the recipient and must not 
+under any circumstances be disclosed to any third party without the 
+express consent in writing of FOO.
+Although FOO uses all reasonable efforts to ensure the accuracy and 
+completeness of this document, no warranty or representation 
+whatsoever is given by FOO in respect of it and any use of or reliance 
+on any of the information contained herein is entirely at the risk of 
+the person so acting. 
+FOO shall have no liability whatsoever in respect of any use of or 
+reliance on any of such information.
+FOO_
+Copyright © 
+FOO TECH LTD, 
+2026.
+All rights reserved
+
+=== PDF PAGE 4 ===
+3
+Table of 
+Content
+3
+Introduction Slide 4
+Company Profile Slide 5
+Executive Summary Slide 6
+Proposed Solution Slide 7
+Client Requirements Slide 8
+Solution Architecture Slide 9
+High Level Project Plan Slide 10
+High Level Project Timeline Slide 11
+Commercial Proposal Slide 12
+License Fees – Subscription License Slide 13
+Professional Services Slide 14
+Important Notes Slide 15
+Maintenance & Support Slide 16
+Invoicing Terms Slide 17
+Invoicing Terms Slide 18
+Terms & Conditions Slide 19
+Sign-Off Slide 20
+
+=== PDF PAGE 5 ===
+4
+Introduction
+
+=== PDF PAGE 6 ===
+5
+ 5
+Company 
+Profile
+Our Mission is INNOVATION. EXPERTISE. QUALITY.
+Founded in 2009, FOO has emerged as a leading Fintech provider by focusing 
+on Technology, Innovation, Expertise and Quality.
+ 
+Working with leading clients in their industries, FOO has quickly expanded in the 
+MENA region and has set the benchmark for design experience and quality.
+FOO’s vision is to expand globally and create a positive impact on future 
+technologies.
+Check Annex 1 for full Company Profile
+
+=== PDF PAGE 7 ===
+6
+ 6
+Executive 
+Summary
+BEDE, referred to as Client, has shown interest in an LMS solution to provide 
+the clients with a solution for loan disbursement.
+In this regard, FOO will offer its FOO LMS which incorporate cutting-edge 
+fintech features and can be seamlessly customized to align with the client’s 
+design requirements.
+FOO’s solutions have revolutionized the fintech industry, transforming the way 
+people interact with financial institutions and conduct their day-to-day financial 
+activities.
+In this proposal we will be discussing the below main features offered through 
+the mobile app and different portals as per the below:
+FOO Products
+• FOO Loan Management System
+
+=== PDF PAGE 8 ===
+7
+Proposed Solution
+
+=== PDF PAGE 9 ===
+8
+Client Requirements
+The following section details all requirements that have been provided by the Client pertaining to the current solution. 
+FOO technical proposal and the solution provided will be based on fulfilling the requirements shared in the RFP documents.
+
+=== PDF PAGE 10 ===
+9
+Solution Architecture
+
+
+=== PDF PAGE 11 ===
+10
+High Level Project Plan
+The project duration is estimated to be 4 Months given the platforms in scope and the related assumptions.
+The below image is the high-level project timeline.
+A detailed Project Implementation Plan will be shared with the client upon completion of the requirements gathering.
+PM and PTL efforts are charged based on the duration of the project, if the duration of the project is extended additional will 
+be incurred based on the manday rate shared in the commercial proposal.
+
+=== PDF PAGE 12 ===
+11
+High Level Project Timeline
+
+
+=== PDF PAGE 13 ===
+12
+Commercial
+Proposal
+
+=== PDF PAGE 14 ===
+13
+License Fees – Subscription License
+Description Contract Term License Type Metric Quantity Unit Price Total Fee in USD
+Loan Management System 5 Years Subscription License Flat Fee 1 $ 134,000 $ 134,000
+SPECIAL DISCOUNT FOR BEDE -$ 134,000
+TOTAL TO BE PAID IN USD EXCLUDING TAXES, VAT AND DUTIES WAIVED
+
+=== PDF PAGE 15 ===
+14
+Professional Services
+Description Payment Frequency Fee in USD
+Environment Setup One-Time Fee $ 8,000
+Loan Management Product Configuration One-Time Fee $ 35,000
+Technical Planning One-Time Fee $ 14,000
+Requirements Gathering One-Time Fee $ 28,050
+CBB Regulatory Reports One-Time Fee $ 30,000
+Third Party Integrations One-Time Fee $ 61,600
+LMS Migrations One-Time Fee $ 29,700
+UAT Delivery One-Time Fee $ 28,000
+Production Delivery One-Time Fee $ 14,900
+Training One-Time Fee $ 12,100
+44 Man/Days of Post-Live Transition Empowerment One-Time Fee $ 24,200
+NET TOTAL TO BE PAID IN USD EXCLUDING TAXES, VAT AND DUTIES $ 285,550
+SPECIAL DISCOUNT FOR BEDE -$ 15,550
+NET TOTAL TO BE PAID IN USD EXCLUDING TAXES, VAT AND DUTIES $ 270,000
+
+=== PDF PAGE 16 ===
+15
+Important Notes
+• If project timelines are extended beyond the initially agreed schedule, additional budget will be required to cover the extended period. 
+This includes costs related to resources, administrative overhead, and potential reallocation expenses.
+• If a project stops or blocks due to external factors beyond FOO's control, an evaluation will be conducted to determine the necessary 
+timeline adjustment and budget impact. This is mainly due to potential resource reallocation.
+• If the SRS phase requires more time and iterations than initially planned, the project timeline will be affected. If no additional changes are 
+made to the scope, the timeline will be extended by the same period needed to complete the SRS. Any new changes will result in a re-
+assessment to evaluate their impact on the final timeline and budget. Any new changes requested during implementation will also be 
+assessed for potential impact on the timeline and budget.
+• If the infrastructure is provided by a third party, any delays in delivering any of the agreed environments will impact the timeline. 
+Additionally, any issues with the connection between FOO servers and third-party integration endpoints will affect the timeline and 
+potentially the budget if FOO is responsible for the connection testing.
+• If third-party APIs are not provided on time or do not function as expected, additional budget will be required to address delays in 
+integration, troubleshooting, testing, and potential rework. This includes any additional development, review, and testing efforts. 
+Timelines will also be impacted based on the duration of the delay and resource reallocation.
+• If the UAT phase takes longer and requires more iterations, a re-assessment of resource availability will be done, and the budget will be 
+adjusted to cover extended testing efforts, additional iterations, feedback incorporation, and retesting.
+• Poor or low-quality in VA & PT (Vulnerability Assessment and Penetration Testing) auditing will result in additional time and budget to re-
+check and evaluate any invalid raised issues.
+• Any new regulatory compliance requirements not listed in the initial commercial or technical proposal will be subject to timeline and 
+budget assessment.
+
+=== PDF PAGE 17 ===
+16
+Maintenance & Support Fees
+Description Contract Term Type Metric Qty Unit Price Total Fee in USD
+Loan Management System – Yearly 
+Maintenance & Support 5 Years Yearly Maintenance Fees Flat Fee 1 $ 60,000 $ 60,000
+NET TOTAL TO BE PAID IN USD EXCLUDING TAXES, VAT AND DUTIES $ 60,000
+
+=== PDF PAGE 18 ===
+17
+Invoicing 
+Terms
+
+=== PDF PAGE 19 ===
+18
+Invoicing Terms
+Professional Services
+• 30% on Resources Mobilization
+• 40% UAT Completion & Sign-Off
+• 20% Production Completion & Sign-Off
+• 10% Post-Live Transition Empowerment Completion
+Maintenance & Support Services Recurrent Yearly Payment
+• 100% on a Yearly Basis starting after Production Completion & Sign-off
+
+=== PDF PAGE 20 ===
+19
+Terms & Conditions
+• All invoices should be settled in a max period of 45 days for Services after issuance.
+• All invoices should be settled in a max period of 60 days for Goods after issuance.
+• Legal Entity: The purchase order should be issued in favour of FOO TECH LTD
+• Proposal Validity: Proposal is valid for 6 Months from the Submission Date
+• All prices are NET, and in US Dollars Excluding VAT or any taxes or any Withholding Tax
+• All invoices are to be paid in USD.
+
+=== PDF PAGE 21 ===
+20
+Sign-Off
+REF# FOO/Bede/LMS -RFP/2026
+On behalf of Client name On behalf of FOO
+Name: Name: Ghady Rayess
+Position: Position: Managing Director
+
+=== PDF PAGE 22 ===
+21
+© Copyright 2026 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Let’s Get Started!

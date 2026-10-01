@@ -1,0 +1,1317 @@
+{
+  "capture_date": "2026-10-01",
+  "timezone": "Asia/Beirut",
+  "scope": "Workbook metadata and bounded intake samples only; not a full workbook export or formula audit.",
+  "metadata": {
+    "spreadsheetId": "1dprGn0XU50lfuDBHKK7CKuznUqifd-Xldsf7YMlz7dE",
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1dprGn0XU50lfuDBHKK7CKuznUqifd-Xldsf7YMlz7dE/edit?ouid=100362924937628828528",
+    "properties": {
+      "title": "FOO - BEDE LMS - RFP Response - Estimation v1.0",
+      "locale": "en_US",
+      "timeZone": "America/Los_Angeles"
+    },
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 158092332,
+          "title": "Revision History",
+          "index": 0,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 999,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1660934949,
+          "title": "Estimations",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1012,
+            "columnCount": 36,
+            "frozenRowCount": 2
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1108579543,
+          "title": "Sprints Timeline",
+          "index": 2,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 405134528,
+          "title": "Statistics",
+          "index": 3,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 998,
+            "columnCount": 23
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 644452608,
+          "title": "Helper",
+          "index": 4,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 158887769,
+          "title": "Summary",
+          "index": 5,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1001,
+            "columnCount": 28
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 308026902,
+          "title": "Copy of Summary",
+          "index": 6,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1001,
+            "columnCount": 28
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1571577388,
+          "title": "FOO Core (Wallet)",
+          "index": 7,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1001,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 164306363,
+          "title": "DMP",
+          "index": 8,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 996,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 217437760,
+          "title": "Digital Onboarding",
+          "index": 9,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1001,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1567051615,
+          "title": "Remittance",
+          "index": 10,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 496522347,
+          "title": "SVA",
+          "index": 11,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 993,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 932954085,
+          "title": "VCN",
+          "index": 12,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 994,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1529550951,
+          "title": "TR-TSP",
+          "index": 13,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 994,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1982306499,
+          "title": "I-TSP",
+          "index": 14,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 994,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 227388991,
+          "title": "Push Provisioning",
+          "index": 15,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 995,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1763574494,
+          "title": "Infra - Cloud - Containers",
+          "index": 16,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 999,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1366874716,
+          "title": "Infra - Premises - Containers",
+          "index": 17,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 993,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 2108113194,
+          "title": "Infra - Premises - Containers - Managed",
+          "index": 18,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 993,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1502907784,
+          "title": "Infra - Cloud - VMs",
+          "index": 19,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 998,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 523480988,
+          "title": "Infra - Premises - VMs",
+          "index": 20,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 992,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1451343475,
+          "title": "Infra - Premises - DR",
+          "index": 21,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 993,
+            "columnCount": 26
+          }
+        }
+      },
+      {
+        "properties": {
+          "sheetId": 1847608803,
+          "title": "Feature Template",
+          "index": 22,
+          "sheetType": "GRID",
+          "hidden": true,
+          "gridProperties": {
+            "rowCount": 983,
+            "columnCount": 27
+          }
+        }
+      }
+    ]
+  },
+  "read_samples": {
+    "Revision History": {
+      "range": "'Revision History'!A1:AB35",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Revision Date",
+          "Revisor",
+          "Version",
+          "Description"
+        ]
+      ]
+    },
+    "Estimations": {
+      "range": "Estimations!A1:AJ12",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "5.00%",
+          "5.00%",
+          "2.00%",
+          "3.00%",
+          "",
+          "15.00%"
+        ],
+        [
+          "Sprint",
+          "Phase",
+          "Deliverable",
+          "Commercial Effort (MD)",
+          "Commercial Pricing",
+          "Deliverable Effort (MD)",
+          "Deliverable Pricing",
+          "Feature",
+          "Product/Project",
+          "Funded By",
+          "Commercial Effort (MD)",
+          "Commercial Pricing",
+          "Feature Effort (MD)",
+          "Feature Pricing",
+          "Tasks",
+          "Platform",
+          "Efforts (MD)",
+          "Meetings",
+          "Code Quality",
+          "Documentation",
+          "Unit Testing",
+          "Sub Total Efforts (MD)",
+          "Contingency",
+          "Total Deliverable Efforts (MD)",
+          "PM",
+          "PTL",
+          "Scrums",
+          "Total Commercial Efforts (MD)"
+        ],
+        [
+          "Setup",
+          "Environment Setup",
+          "Dev Environment & Project Setup + Configurations",
+          "1.40",
+          " $ 714 ",
+          "1.15",
+          " $ 587 ",
+          "Dev Environment & Project Setup",
+          "Project",
+          "Project",
+          "1.40",
+          " $ 714 ",
+          "1.15",
+          " $ 587 ",
+          "SYS - Setup Dev Environment & Deploy",
+          "SYS",
+          "0.50",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.50",
+          "0.08",
+          "0.58",
+          "0.05",
+          "0.06",
+          "0.02",
+          "0.70"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SYS - Pipeline Setup",
+          "SYS",
+          "0.50",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.50",
+          "0.08",
+          "0.58",
+          "0.05",
+          "0.06",
+          "0.02",
+          "0.70"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Android - Setup Google Store",
+          "Android",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Android - Setup Huawei Store",
+          "Android",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "iOS - Setup Apple Store",
+          "iOS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SYS - Setup Firebase, Crashlytics, Google Maps, ...",
+          "SYS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "UAT Environment Setup + Configurations",
+          "6.30",
+          " $ 3,213 ",
+          "5.18",
+          " $ 2,639 ",
+          "UAT Environment Setup",
+          "Project",
+          "Project",
+          "6.30",
+          " $ 3,213 ",
+          "5.18",
+          " $ 2,639 ",
+          "SYS - Create HA Network",
+          "SYS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SYS - Create EKS (Kubernetes Service)",
+          "SYS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SYS - Create Aurora DB (DB Service)",
+          "SYS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SYS - Create Redis Service",
+          "SYS",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "0.00"
+        ]
+      ]
+    },
+    "Summary": {
+      "range": "Summary!A1:AB35",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Sprint",
+          "Phase",
+          "Deliverable",
+          "Commercial Effort (MD)",
+          "Commercial Pricing",
+          "",
+          "TOTAL Project ",
+          "406.4",
+          " $ 207,243 ",
+          "",
+          "Product Funded",
+          "288.4",
+          " $ 147,073 ",
+          "",
+          "Optional",
+          "0.0",
+          " $ -   "
+        ],
+        [
+          "Setup",
+          "Environment Setup",
+          "Dev Environment & Project Setup + Configurations",
+          "1.40",
+          " $ 714 ",
+          "",
+          "TOTAL Product",
+          "78.5",
+          " $ 40,057 ",
+          "",
+          "TOTAL (incl. product funded)",
+          "817.3",
+          " $ 416,813 "
+        ],
+        [
+          "",
+          "",
+          "UAT Environment Setup + Configurations",
+          "6.30",
+          " $ 3,213 ",
+          "",
+          "Post Live Support",
+          "44.0",
+          " $ 22,440 "
+        ],
+        [
+          "",
+          "",
+          "Prod Environment Setup + Configurations",
+          "6.30",
+          " $ 3,213 ",
+          "",
+          "TOTAL",
+          "528.9",
+          " $ 269,740 "
+        ],
+        [
+          "",
+          "Planning",
+          "Requirement Gathering - Capped",
+          "50.40",
+          " $ 25,705 "
+        ],
+        [
+          "",
+          "",
+          "Technical Planning",
+          "22.40",
+          " $ 11,424 "
+        ],
+        [
+          "",
+          "",
+          "LMS Configuration",
+          "61.22",
+          " $ 31,221 "
+        ],
+        [
+          "",
+          "",
+          "Shariah Compliancy ",
+          "58.91",
+          " $ 30,044 ",
+          "",
+          "Annual Costs",
+          "",
+          "",
+          "",
+          "Products",
+          "Existing\n(To be filled by Presales)",
+          "New\n(To be filled by Presales)",
+          "License Charged \n(To be filled by Sales)",
+          "SAAS"
+        ],
+        [
+          "",
+          "",
+          "LMS Enhancements",
+          "58.52",
+          " $ 29,846 ",
+          "",
+          "UAT Environment Cost",
+          "",
+          " $ -   ",
+          "",
+          "FOO Core",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Receivable & Deferred Profit Movement Reports",
+          "41.58",
+          " $ 21,207 ",
+          "",
+          "Prod Environment Cost",
+          "",
+          " $ -   ",
+          "",
+          "Digital Wallet",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "AAOIFI FAS-compliant reports",
+          "41.58",
+          " $ 21,207 ",
+          "",
+          "DR Environment Cost",
+          "",
+          " $ -   ",
+          "",
+          "Digital Banking",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "CBB Regulatory Reports (capped bucket)",
+          "78.54",
+          " $ 40,057 ",
+          "",
+          "PCI Costs",
+          "",
+          " $ -   ",
+          "",
+          "DMP",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Real-time Management & Finance Dashboards",
+          "10.78",
+          " $ 5,498 ",
+          "",
+          "PCI Support",
+          "",
+          " $ -   ",
+          "",
+          "Corporate",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Aging Buckets ",
+          "6.16",
+          " $ 3,142 ",
+          "",
+          "NOC/SOC",
+          "",
+          " $ -   ",
+          "",
+          "Agent Platform",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Insurance amortised (EMI)",
+          "7.70",
+          " $ 3,927 ",
+          "",
+          "M&S",
+          "",
+          " $ 53,948 ",
+          "",
+          "Secure Checkout",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Variable Fees",
+          "3.85",
+          " $ 1,964 ",
+          "",
+          "Total Annual Costs",
+          "",
+          " $ 53,948 ",
+          "",
+          "Digital Invoices",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Customer Global Exposure Limit",
+          "5.39",
+          " $ 2,749 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Marketplace",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Customer Statement Generation",
+          "6.93",
+          " $ 3,534 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Merchant Onboarding",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Bank Movement Reconciliation Report",
+          "39.27",
+          " $ 20,028 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Reconcilliation & Settlement",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Legal Fees & Aging Penalties engine",
+          "5.39",
+          " $ 2,749 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VCN",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Cheque-based settlement surcharge",
+          "2.31",
+          " $ 1,178 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "SVA",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Third Party Integrations - Capped",
+          "112.00",
+          " $ 57,122 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "COF",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "LMS Migration - Capped",
+          "53.93",
+          " $ 27,504 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Payment Platform",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Deliverable Walkthrough",
+          "46.20",
+          " $ 23,563 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Digital Onboarding",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "UAT E2E Testing",
+          "0.00",
+          " $ -   ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "AML",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "Prod Delivery",
+          "Performance",
+          "3.50",
+          " $ 1,785 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "IDV",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Security",
+          "7.00",
+          " $ 3,570 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Crypto Service",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Prod E2E Testing",
+          "14.00",
+          " $ 7,140 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Crypto Stack",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "Training",
+          "21.70",
+          " $ 11,067 ",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "FaaS",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Remittance",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "PFM",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Bill Payments",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "BNPL",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "LMS",
+          "FALSE",
+          "TRUE",
+          "FALSE",
+          "FALSE"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Youth App",
+          "FALSE",
+          "FALSE",
+          "FALSE",
+          "FALSE"
+        ]
+      ]
+    },
+    "Statistics": {
+      "range": "Statistics!A1:W35",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Platforms",
+          "Effort",
+          "Resources",
+          "Duration"
+        ],
+        [
+          "SYS",
+          "17.25",
+          "1",
+          "17.25"
+        ],
+        [
+          "Android",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "iOS",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "Meetings",
+          "10.0625",
+          "1",
+          "10.0625"
+        ],
+        [
+          "BA",
+          "75.9",
+          "1",
+          "75.9"
+        ],
+        [
+          "UI/UX",
+          "0.575",
+          "1",
+          "0.575"
+        ],
+        [
+          "QA",
+          "94.1275",
+          "1",
+          "94.1275"
+        ],
+        [
+          "BE",
+          "383.5825",
+          "7",
+          "54.7975"
+        ],
+        [
+          "FE",
+          "27.7725",
+          "1",
+          "27.7725"
+        ],
+        [
+          "",
+          "0",
+          "1",
+          "0"
+        ]
+      ]
+    }
+  }
+}

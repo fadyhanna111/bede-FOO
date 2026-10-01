@@ -1,0 +1,1485 @@
+=== PDF PAGE 1 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Wednesday, April 29, 2026
+Bede – Loan 
+Management System
+© Copyright 2026 FOO_ //                   @foo.mobi   //  www.foo.mobi
+FOO TECHNICAL RESPONSE
+Version 1.0.0
+
+=== PDF PAGE 2 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+B2B Fintech Technology and 
+Services Provider enabling
+Banks, FinTechs, Retailers
+and Service Providers
+
+
+=== PDF PAGE 3 ===
+The copyright in this document is owned by FOO TECH LTD, [“FOO”]. 
+This document may not be reproduced, in whole or in part, in any 
+form without the express consent of FOO in writing.
+Information contained in this document is proprietary and confidential 
+to FOO. 
+That information, irrespective of form, must not be used other than 
+for the purposes for which it is disclosed to the recipient and must not 
+under any circumstances be disclosed to any third party without the 
+express consent in writing of FOO.
+Although FOO uses all reasonable efforts to ensure the accuracy and 
+completeness of this document, no warranty or representation 
+whatsoever is given by FOO in respect of it and any use of or reliance 
+on any of the information contained herein is entirely at the risk of 
+the person so acting.
+FOO shall have no liability whatsoever in respect of any use of or 
+reliance on any of such information.
+FOO_
+Copyright © 
+FOO TECH LTD, 
+2026.
+All rights reserved
+
+=== PDF PAGE 4 ===
+Our Mission is INNOVATION. EXPERTISE. QUALITY.
+Founded in 2009, FOO has emerged as a leading Fintech provider by focusing 
+on Technology, Innovation, Expertise and Quality.
+Working with leading clients in their industries, FOO has quickly expanded in the 
+MENA region and has set the benchmark for design experience and quality.
+FOO’s vision is to expand globally and create a positive impact on future 
+technologies.
+Check Annex 1 for full Company Profile
+Company 
+Profile
+
+=== PDF PAGE 5 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Introduction
+
+=== PDF PAGE 6 ===
+BEDE, referred to as Client, has shown interest in an LMS solution to provide 
+the clients with a solution for loan disbursement.
+In this regard, FOO will offer its FOO LMS which incorporate cutting-edge 
+fintech features and can be seamlessly customized to align with the client’s 
+design requirements.
+FOO’s solutions have revolutionized the fintech industry, transforming the way 
+people interact with financial institutions and conduct their day-to-day financial 
+activities.
+In this proposal we will be discussing the below main features offered through 
+the mobile app and different portals as per the below:
+FOO Products
+• FOO Loan Management System
+Executive 
+Summary
+
+=== PDF PAGE 7 ===
+The following section details all requirements that have been provided by the 
+Client pertaining to the current solution.
+FOO technical proposal and the solution provided will be based on fulfilling the 
+requirements shared in the RFP documents.
+Client 
+Requirements
+
+=== PDF PAGE 8 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Proposed 
+Solution
+
+=== PDF PAGE 9 ===
+BEDE LMS
+Sprint 2
+Solution Architecture
+
+
+=== PDF PAGE 10 ===
+FOO LMS Portal
+Functionality Details Implementation Type
+Loan Origination
+Loan product configuration with customizable parameters including loan amount, tenure, and interest rate. Out of the box
+Document management for storing and verifying borrower information Out of the box
+Loan Disbursement 
+and Repayment
+Manual and scheduled loan disbursement processing. Out of the box
+Flexible repayment schedules and options. Out of the box
+Profit Calculation 
+Methods
+Support for flat profit calculation methodology Out of the box
+Real-time profit calculation and tracking for accurate reporting Out of the box
+Grace Period
+The system allows for the inclusion of grace periods, during which clients are not required to make repayments, 
+providing them with flexibility in managing their loans. Out of the box
+Configuration of grace periods including principal-only grace, Interest-only grace and full grace periods Out of the box
+Penalty and Fees 
+Configuration
+Configuration of fees and penalties including fixed and percentage-based charges. Out of the box
+Support for late payment penalties, upfront fees, and recurring charges.
+Automatic application of penalties based on overdue installments. Out of the box
+Loan Approval 
+Workflow
+Configurable loan approval process including manual approval and maker-checker workflows. Maker-Checker flows 
+applies on all features that have a permission linked to it in the Permissions/Roles section
+Enhanced by FOO
+Loan approval based on predefined product rules and limits Out of the box
+Portfolio Management
+Real-time tracking of loan portfolio including outstanding balances, repayment status, and arrears. Out of the box
+Loan lifecycle management including active, closed, and written-off statuses.
+Basic delinquency tracking using Days Past Due (DPD).
+Out of the box
+Loan Account 
+Management
+Detailed loan account view including repayment schedule, transaction history, charges,    and balances. Out of the box
+Support for multiple loans per customer. Out of the box
+Full transaction audit trail at loan level Enhanced by FOO
+Repayment 
+Processing
+Processing of scheduled and ad-hoc repayments with automatic allocation to penalties, fees, interest, and principal. Out of the box
+Support for overpayments and prepayments. Out of the box
+Real-time balance updates after each transaction. Out of the box
+
+=== PDF PAGE 11 ===
+FOO LMS Portal
+Functionality Details Implementation Type
+Delinquency 
+Management
+Tracking of overdue loans and arrears. Out of the box
+Calculation of Days Past Due (DPD) and basic aging buckets. Out of the box
+Support for basic delinquency bucket classification based on DPD ranges (e.g., 1–30  days, 31–60 days, 61–90 days, 
+90+ days) Out of the box
+Loan Rescheduling & 
+Modifications Support for loan rescheduling including change of repayment dates and extension of loan term. Out of the box
+Write-Off Management
+Support for full and partial loan write-offs. Out of the box
+Automatic adjustment of loan balances upon write-off. Out of the box
+Recording of write-off transactions with audit trail. Enhanced by FOO
+Early Settlement / 
+Prepayment
+Support for early loan settlement through full repayment of all outstanding amounts (principal, interest, fees, and 
+penalties).
+Out of the box
+Loan closure is system-driven and occurs automatically once all outstanding balances  are cleared. Out of the box
+Partial Settlement
+Ability to pay one or multiple future installments in advance. Out of the box
+Support for partial installment payments. Out of the box
+Accounting Entries 
+Automatic generation of accounting entries for disbursements, repayments, fees, and write-offs. Out of the box
+Integration with accounting systems via APIs. Enhanced by FOO
+Reporting 
+Standard reports including loan portfolio, repayment schedules, arrears, and transaction reports. Customized by FOO
+Export capabilities (CSV/Excel). Customized by FOO
+Audit Trail
+Tracking of all loan transactions and user actions at transaction level. Enhanced by FOO
+Visibility of historical changes and operations. Enhanced by FOO
+VAT/TAX Configuration
+Ability to define tax components as part of charges (fixed or percentage-based). Enhanced by FOO
+Automatic calculation and application of VAT during fee/penalty posting. Enhanced by FOO
+API Integration REST APIs available for integration with external systems such as mobile apps, CRM, and payment systems. Enhanced by FOO
+
+=== PDF PAGE 12 ===
+FOO LMS Portal
+Functionality Details Implementation Type
+Advanced Loan Product 
+Configuration
+Support for multiple amortization methods (equal installments, equal principal, etc.) Out of the box
+Support for multi-disbursement loans (tranches) Out of the box
+Configurable repayment frequency (daily, weekly, monthly, etc.) Out of the box
+Holiday calendar setup and configuration affecting repayment schedule Out of the box
+Custom Fields & 
+Metadata Configuration
+Ability to define and attach additional custom fields to core entities such as Clients and Loans. Enhanced by FOO
+Supports extension of standard data model without code changes.
+Enables capturing institution-specific information using configurable data tables. Enhanced by FOO
+Insurance Payment 
+Handling
+Support for insurance payment collection as part of financing Customized by FOO
+Ability to configure insurance amount as a fee linked to the financing account Customized by FOO
+Insurance fee can be included within installments or applied separately Customized by FOO
+Commodity 
+Transaction 
+Integration
+Ability to select and link a commodity transaction during financing creation Customized by FOO
+Retrieve list of available commodity transactions from external system Customized by FOO
+Store commodity reference and key details with the financing account Customized by FOO
+Enable tracking of commodity-linked financing for reporting and audit Customized by FOO
+Automatic Payment 
+via Standing 
+Instructions (SI)
+Support automatic payment of financing installments using Standing Instructions Enhanced by FOO
+Ability to configure SI for fixed or due-based payments Enhanced by FOO
+Trigger automatic transfer from linked account on scheduled dates Enhanced by FOO
+Enable tracking of SI execution and payment status Enhanced by FOO
+Murabaha Financing 
+Type
+Introduced new “Financing Type” concept to support Islamic financing Enhanced by FOO
+Profit Handling (Interest → Profit Relabeling) Customized by FOO
+Introduced new financial fields and validation rules for Murabaha (Cost, Profit, Selling Price…) Customized by FOO
+
+=== PDF PAGE 13 ===
+BEDE LMS
+Sprint 2
+Deliverables
+Deliverable Area Description Summary
+Project Kickoff & Governance 
+Setup
+Initiation of the engagement including the kickoff workshop, project charter, governance model, RACI, communication plan, and
+risk/issue logs. Establishes the PMO tooling (Jira, Slack, shared drive) and confirms stakeholder roles on both sides before any
+discovery or design work begins.
+Business Requirements 
+Document (BRD) - Capped
+Structured requirements gathering through workshops with BEDE business teams to document the full post-disbursement lifecycle, 
+product configuration parameters, and business rules for aging, penalties, settlement, and restructure. Culminates in a signed BRD 
+that locks the functional scope before SRS work begins.
+System Requirements 
+Specification (SRS) & Test 
+Cases
+Translation of the signed BRD into a technical specification covering screen-level specs for custom LMS portal changes, and QA test 
+cases reviewed with BEDE. Acts as the formal build contract and is signed off before implementation starts.
+Dev / UAT / Prod Environment 
+Setup on AWS
+Full AWS infrastructure provisioning across four environments using EKS. Includes HA networking, CI/CD pipelines, Kubernetes 
+hardening, container security scanning, FOO observability stack (logging, monitoring, security).
+FOO LMS Core Configuration
+Baseline deployment and configuration of FOO LMS including organisation structure, offices, BHD currency, chart of accounts, loan 
+product templates for flat-rate and reducing-balance variants, maker-checker permissions, role-based access, and the holiday 
+calendar. Provides the out-of-the-box foundation before Shariah customisation begins.
+Murabaha Financing Type & 
+Terminology
+Extension of the LMS with a Murabaha-specific data model (cost, profit, selling price), validation rules, and UI/API relabeling of 
+"Interest" to "Profit" across loan product forms, schedules, and transaction responses. Makes FOO LMS a Shariah-compliant system
+while leveraging its native calculation engine.
+Commodity Trading Platform 
+Integration - Capped
+Integration layer that captures the commodity contract reference at loan creation, fetches deal information from the external
+commodity platform, and persists contract ID, product details, purchase/sell dates, and trading status as extended attributeson
+each financing agreement. Includes a commodity block on the loan details screen.
+Core Accounting System 
+Integration - Capped
+API-based posting of accounting entries from LMS to BEDE's core accounting system for all portfolio events, disbursement, accrual, 
+collection, settlement, reversal, and write-off, with GL account mapping, error handling and retries, and a reconciliation log between 
+the and the core accounting ledger.
+CRM Integration (One-way 
+Customer Read) - Capped
+One-way read of customer profile data from the CRM into the LMS portal for display during loan operations and agreement lookup. 
+The CRM remains the master source of customer data, bidirectional synchronisation is explicitly not implemented per client direction.
+
+=== PDF PAGE 14 ===
+BEDE LMS
+Sprint 2
+Deliverables
+Deliverable Area Description Summary
+Payment Gateway Integration 
+- Capped
+Inbound processing of repayments via payment gateway events and webhooks, including automatic installment allocation, payment
+confirmation handling (including cheque-clearing status updates passed through from upstream systems), and a reconciliation log 
+between gateway transactions and loan payments.
+APIs Exposed for BEDE 
+Backend
+REST APIs exposed by the LMS to BEDE's backend services for loan data, schedules, transactions, and restructured-offer retrieval. 
+Includes API authentication, rate limiting, and error code handling. The mobile app consumes these through BEDE's existing 
+backend, there is no direct app-to-LMS contract.
+Insurance Handling within 
+Installment (EMI)
+Custom scheduling logic that treats insurance as a recurring charge amortised equally across the loan tenure and includes it within 
+the displayed EMI alongside principal and profit. Insurance is managed internally with no external insurer integration, no separate 
+accounting entries, and no dedicated insurance reporting.
+VAT & Fee Configuration 
+Engine
+Extension of FOO LMS Tax Groups to support VAT-exclusive calculation on all fee types with configurable rates over time, flexible fee 
+definitions (fixed, percentage, one-time, recurring), variable fees with a hard cap (e.g., BD 100), and dedicated fee types for 
+cheque-based surcharges.
+Aging, Delinquency & NPA 
+Handling
+Configuration of DPD buckets from 1–30 days up to 36 months, automatic cessation of profit accrual at 90+ DPD, inclusion of legal 
+fees and aging penalties in the customer's total outstanding balance, and tracking of the maximum delinquency reached by each
+customer over the product's lifetime.
+Receivable & Deferred Profit 
+Tracking
+Dedicated reporting module tracking movement of deferred profit (charged, reversed, new disbursements) and the receivable 
+balance (disbursements, repayments, reversals, write-offs) at the individual agreement level, with real-time visibility of outstanding 
+principal, accrued profit, and unearned profit at any point in time.
+Early & Partial Settlement 
+Engine
+Automated settlement quote calculation covering outstanding principal, pro-rata accrued profit, and applicable fees. Supports fixed, 
+percentage, and variable-with-cap fee structures plus cheque-based surcharges. Allows customers to pay one or multiple future 
+installments in advance, with auto-closure once all balances are cleared.
+Customer Exposure Limit & 
+Multi-Loan Handling
+Custom validation hook at the loan origination API enforcing a configurable global exposure limit per customer across all active
+products in real time. Supports multiple concurrent financing agreements per customer with separate installment schedules foreach, 
+aggregated against the exposure cap.
+
+=== PDF PAGE 15 ===
+BEDE LMS
+Sprint 2
+Deliverables
+Deliverable Area Description Summary
+CBB & AAOIFI FAS Regulatory 
+Reports - Capped (20 Reports)
+Custom reports aligned with Central Bank of Bahrain regulatory templates and AAOIFI FAS-compliant reporting requirements 
+(provisioning, deferred and earned profit recognition). Delivered as standard data exports (CSV/Excel) suitable for manual CBB 
+submission, no direct system-to-system API integration to CBB.
+Real-Time Dashboards & 
+Customer Statements
+Management and finance dashboards with real-time data refresh (receivables, deferred profit, portfolio yield, delinquency rates,
+disbursement KPIs), branded PDF customer statement generation on demand, and file-based reconciliation reports against 
+inward/outward bank movements.
+Legacy LMS Data Migration & 
+Cutover - Capped
+End-to-end migration of up to 10,000 active loan agreements plus required history from the legacy system into FOO LMS. Includes 
+mapping rules, ETL scripts, data cleansing and transformation, two rehearsal cycles, post-migration reconciliation report, and 
+production cutover support with optional parallel run.
+UAT Deployment & Support
+UAT environment deployment, formal deliverable walkthrough with BEDE, FOO-led System Integration Testing and E2E test 
+execution, and support through two defect-fix cycles during BEDE's user acceptance testing window. BEDE owns test execution and 
+testers mobilisation.
+Security Hardening & VA/PT 
+Support
+Security hardening of AWS infrastructure (container layer, network, IAM), role-based access control review, and support for one 
+third-party VA/PT audit exercise including remediation of valid findings within the capped effort.
+Production Deployment & Go-
+Live
+Orchestrated production deployment with a documented runbook, single go-live cutover window, FOO-led production E2E testing, 
+and handover to post-live hypercare support. All UAT defects must be resolved and signed off before cutover.
+Training, Hypercare & Post-
+Live Support User guide documentation, remote client training sessions (up to 5 MDs), formal support handover, and a post-live support. 
+
+=== PDF PAGE 16 ===
+BEDE LMS
+Sprint 2
+Setup & Foundation
+IN SCOPE
+▪ Kickoff workshop with BEDE 
+stakeholders and PM
+▪ Project charter and governance model
+▪ Escalation matrix, communication 
+plan
+▪ Risk & issue log baseline
+OUT OF SCOPE
+▪ BEDE's internal change-management 
+or procurement workflow
+▪ On-site travel or on-premise 
+workshops
+ASSUMPTIONS
+▪ BEDE assigns a dedicated PM and 
+business SME
+▪ Decision-makers attend sign-off 
+meetings
+▪ FOO tooling is used for PMO
+Project Kickoff & Governance Setup
+IN SCOPE
+▪ Requirements workshops with BEDE 
+business team
+▪ Functional flows covering the full 
+post-disbursement lifecycle
+▪ Product configuration parameters 
+(rates, tenures, fees, grace, 
+insurance)
+▪ Business rules for aging, penalties, 
+settlement, restructure
+▪ Stakeholder-specific report 
+requirements
+▪ Final BRD document signed off before 
+SRS begins
+OUT OF SCOPE
+▪ Requirements for Loan Origination
+▪ Mobile app customer-facing UX 
+requirements
+▪ Wallet, account opening, cash deposit 
+flows
+▪ SME financing (future phase)
+▪ Re-opening requirements after BRD 
+sign-off (handled via CR)
+ASSUMPTIONS
+▪ BEDE provides complete regulatory 
+references (CBB circulars, FAS 
+standards)
+▪ Max 2 iterations before sign-off, further 
+iterations = timeline impact
+▪ BRD limited to scope of this RFP (post-
+disbursement)
+▪ Business rules for legal fees & aging 
+penalties to be finalised during BRD
+Business Requirements Document (BRD)
+
+=== PDF PAGE 17 ===
+BEDE LMS
+Sprint 2
+Setup & Foundation
+IN SCOPE
+▪ SRS covering all functional, 
+integration, and non-functional items 
+from BRD
+▪ Screen-level specs for the LMS portal 
+(new/modified screens only)
+▪ QA test cases reviewed with BEDE
+▪ SRS signed off before implementation 
+starts
+OUT OF SCOPE
+▪ Detailed design for OOB FOO LMS 
+screens that remain unchanged
+▪ Mobile app screen specifications
+▪ Design documents for third-party 
+systems
+▪ Re-design following mid-
+implementation scope changes (CR)
+ASSUMPTIONS
+▪ BRD is frozen before SRS kickoff
+▪ Max 2 iterations on SRS before sign-off
+▪ BEDE provides UAT test scenarios, if 
+not, FOO QA provides with 1 iteration
+▪ Third-party API specs are available from 
+BEDE before SRS close
+System Requirements Specification (SRS) & Test Cases
+IN SCOPE
+▪ AWS infrastructure provisioning: EKS, 
+Aurora (PostgreSQL), S3, Redis, SQS
+▪ HA network, container registry, 
+shared storage
+▪ Pipelines (CI/CD) and environment 
+promotion flow
+▪ Kubernetes hardening and container 
+security scanning
+▪ FOO observability stack (logging, 
+monitoring, security)
+OUT OF SCOPE
+▪ AWS account purchase, billing, 
+enterprise support contracts
+▪ Custom VPC peering with BEDE 
+corporate networks beyond one VPN 
+tunnel
+▪ Multi-region active-active deployment 
+(active-passive DR proposed)
+▪ Third-party WAF/CDN procurement
+ASSUMPTIONS
+▪ BEDE provides AWS account with admin 
+access or pre-provisioned IAM roles
+▪ Aurora Global Database for multi-region 
+replication if required (extra cost)
+▪ BEDE owns annual infrastructure costs
+Dev / UAT / Prod Environment Setup on AWS
+
+=== PDF PAGE 18 ===
+BEDE LMS
+Sprint 2
+Setup & Foundation
+IN SCOPE
+▪ Base FOO LMS deployment and 
+platform configuration
+▪ Organisation, offices, currencies 
+(BHD), CoA setup
+▪ Loan product templates: flat rate, 
+reducing balance, grace period 
+variants
+▪ Maker-checker permissions & role-
+based access
+▪ Holiday calendar, repayment 
+frequency settings
+▪ OOB reports and dashboards baseline
+OUT OF SCOPE
+▪ New loan products not defined in BRD 
+(covered via CR)
+▪ Multi-currency operations (BHD only 
+for go-live)
+▪ Fineract CN (microservices variant) , 
+Fineract 1.x modular monolith is used
+▪ Modifications to Fineract core source 
+code (extensions only)
+ASSUMPTIONS
+▪ BEDE provides target CoA structure 
+before configuration starts
+FOO LMS (Fineract) Core Configuration
+
+=== PDF PAGE 19 ===
+BEDE LMS
+Sprint 2
+Shariah & Core Customisation
+IN SCOPE
+▪ New financing type on loan product 
+(Murabaha / Tawarruq)
+▪ Murabaha-specific data model: cost, 
+profit, selling price
+▪ Validation rules aligned with Shariah 
+structure
+▪ "Interest → Profit" relabeling on LMS 
+portal UI
+▪ Conditional label service / pipe 
+reading financingType
+▪ API response enrichment with 
+Murabaha block
+OUT OF SCOPE
+▪ Additional Islamic products (Ijarah, 
+Musharakah, Qard Hassan , future 
+phases)
+▪ Terminology mapping in downstream 
+systems (mobile app, CRM, core 
+accounting)
+▪ Shariah advisory certification or board 
+review
+▪ Simultaneous dual-labeling 
+(conventional + Shariah) in same 
+portal session
+ASSUMPTIONS
+▪ Murabaha is the only financing type at 
+go-live
+▪ Other financing types are configurable 
+extensions for future phases
+▪ Downstream systems map terminology 
+on their side
+▪ BEDE provides Arabic/English label 
+glossary
+Murabaha Financing Type & Terminology
+
+=== PDF PAGE 20 ===
+BEDE LMS
+Sprint 2
+Shariah & Core Customisation
+IN SCOPE
+▪ Commodity reference input at loan 
+creation (contract ID)
+▪ Fetch & auto-populate deal info from 
+commodity platform API
+▪ LMS datatable extension to persist 
+contract ID, product, dates, status
+▪ Display commodity block on loan 
+details screen
+▪ Association between each financing 
+agreement and its commodity 
+transaction
+OUT OF SCOPE
+▪ Development or modification of the 
+commodity trading platform
+▪ Real-time bidirectional sync (one-way 
+read at creation + status updates)
+▪ Commodity fee calculation engine 
+beyond capture of reported fees
+▪ Replacement of commodity platform
+ASSUMPTIONS
+▪ Commodity API specs, auth, sample 
+payloads provided by BEDE before build
+▪ Commodity API is stable, retry/failure 
+handled gracefully with manual 
+intervention
+▪ Sync frequency and reconciliation rules 
+defined in SRS
+▪ Integration effort capped, additional 
+effort requires CR
+Commodity Trading Platform Integration
+IN SCOPE
+▪ API-based posting of accounting 
+entries to the core accounting system
+▪ Events: disbursement, accrual, 
+collection, settlement, reversal, write-
+off
+▪ Error handling, retries, reconciliation 
+log
+OUT OF SCOPE
+▪ Modification of the core accounting 
+system itself
+▪ Multi-ledger / multi-entity posting
+▪ Historical GL data backfill beyond 
+migration scope
+▪ Real-time GL balance queries from 
+LMS to core
+ASSUMPTIONS
+▪ Core accounting APIs documented and 
+available in stable non-prod 
+environment
+Core Accounting System Integration
+
+=== PDF PAGE 21 ===
+BEDE LMS
+Sprint 2
+Shariah & Core Customisation
+IN SCOPE
+▪ One-way read of customer profile 
+data from CRM into LMS portal
+▪ Customer search and basic 
+demographic display on LMS UI
+▪ CRM as master source of customer 
+data
+OUT OF SCOPE
+▪ Bidirectional sync 
+▪ Customer onboarding workflows
+▪ KYC/AML processes and document 
+management
+▪ Modifications to the CRM system
+ASSUMPTIONS
+▪ CRM API specs, auth, sample payloads 
+provided by BEDE
+▪ CRM APIs are stable in a non-prod test 
+environment
+CRM Integration (One-way Customer Read)
+IN SCOPE
+▪ Inbound repayment processing from 
+payment gateway
+▪ Event/webhook handler to mark 
+installments as paid
+▪ Reconciliation log between gateway 
+transactions and loan payments
+OUT OF SCOPE
+▪ Gateway merchant onboarding or 
+procurement
+▪ Cheque validation/clearing (handled 
+upstream)
+▪ Payment initiation by customer from 
+LMS (customer payments happen 
+outside LMS)
+▪ Card tokenisation / PCI-DSS scope on 
+LMS side (not storing card data)
+ASSUMPTIONS
+▪ Gateway APIs documented and stable
+▪ Cheque clearing handled by BEDE 
+upstream, LMS receives confirmed 
+payment only
+Payment Gateway Integration
+
+=== PDF PAGE 22 ===
+BEDE LMS
+Sprint 2
+Shariah & Core Customisation
+IN SCOPE
+▪ LMS REST APIs for backend services 
+to fetch loan, schedule, transaction 
+data
+▪ Expose restructured offers for 
+customer review through existing 
+channels
+▪ API authentication, rate limiting, error 
+codes
+OUT OF SCOPE
+▪ Direct mobile app integration (mobile 
+connects via BEDE backend)
+▪ Mobile app UI/UX development
+▪ Biometric, OTP, e-signature workflows 
+on the app
+▪ Customer acceptance flow UX for 
+offers
+▪ Wallet integration
+ASSUMPTIONS
+▪ Mobile app backend handles customer 
+acceptance and passes the signed offer 
+to LMS
+▪ BEDE backend team consumes LMS 
+APIs, no direct app-to-LMS contract
+APIs Exposed for BEDE Backend
+
+=== PDF PAGE 23 ===
+BEDE LMS
+Sprint 2
+Financial Modules & Compliance
+IN SCOPE
+▪ Insurance as a recurring charge, 
+amortised equally across tenure
+▪ Insurance percentage configurable at 
+product and loan level
+▪ Insurance included within the EMI 
+display (Principal + Profit + 
+Insurance)
+▪ Insurance treated as part of the 
+installment
+OUT OF SCOPE
+▪ External insurer integration
+▪ Separate insurance-specific accounting 
+entries or dedicated reports
+▪ Refund handling on early settlement 
+▪ Insurance policy document 
+management
+ASSUMPTIONS
+▪ Insurance is managed internally by 
+BEDE, not passed to a third-party 
+insurer
+▪ VAT treatment on insurance aligned 
+with general fee rules
+▪ Custom scheduling logic or advanced 
+payment allocation will be used
+Insurance Handling within Installment (EMI)
+IN SCOPE
+▪ Flexible fee definitions (fixed, 
+percentage, recurring, one-time)
+▪ VAT-exclusive calculation applied on 
+top of base fee
+▪ Configurable VAT rates over time per 
+fee type
+▪ Automatic VAT posting and fee 
+application
+▪ Variable fees with a configurable hard 
+cap
+OUT OF SCOPE
+▪ Country-specific tax registration or 
+filing automation
+▪ Complex multi-tier tax stacking (only 
+single VAT per fee)
+▪ Historical VAT adjustment on existing 
+loans
+ASSUMPTIONS
+▪ VAT rate changes are applied 
+prospectively unless BRD states 
+otherwise
+▪ Fee types and caps finalised in BRD, CR 
+applies to further types
+▪ FOO LMS Tax Groups used, extended 
+with capped-fee custom rule
+VAT & Fee Configuration Engine
+
+=== PDF PAGE 24 ===
+BEDE LMS
+Sprint 2
+Financial Modules & Compliance
+IN SCOPE
+▪ Configurable DPD buckets from 1–30 
+days up to 36 months
+▪ Auto-cease of profit accrual 
+▪ Legal fees & aging penalties included 
+in customer total outstanding
+▪ Early-settlement penalty tracking
+▪ Historical tracking of max delinquency 
+reached over product life
+▪ Delinquency dashboards
+OUT OF SCOPE
+▪ External collections agency integration
+▪ Legal case management system
+▪ Automated dunning letters or 
+customer communications
+▪ ECL/IFRS9 probabilistic modeling 
+(static provisioning only, full ECL is a 
+future phase)
+ASSUMPTIONS
+▪ Formulas for legal fees & aging 
+penalties finalised jointly during BRD
+▪ Bucket thresholds configured during 
+setup, not via UI at runtime
+▪ ECL support is data-layer only, no 
+probabilistic engine
+Aging, Delinquency & NPA Handling
+IN SCOPE
+▪ Deferred Profit movement report: 
+profit charged, closed-account 
+reversals, new disbursements
+▪ Receivable balance movement: 
+disbursements, repayments, 
+reversals, write-offs
+▪ Real-time outstanding principal, 
+accrued profit, unearned profit 
+tracking
+▪ Agreement-level drill-down
+▪ Dashboards reflecting receivable & 
+deferred profit
+OUT OF SCOPE
+▪ Predictive analytics or forecasting of 
+receivables
+▪ Variance analysis against budget 
+▪ Cross-subsidiary consolidation 
+reporting
+ASSUMPTIONS
+▪ LMS upfront-accrual accounting is used 
+for Murabaha
+▪ Reports built via Metabase 
+▪ Up to 10 reports configured, additional 
+reports via CR bucket
+Receivable & Deferred Profit Tracking
+
+=== PDF PAGE 25 ===
+BEDE LMS
+Sprint 2
+Financial Modules & Compliance
+IN SCOPE
+▪ Automated early settlement quote: 
+outstanding principal + accrued profit 
++ applicable fees
+▪ Configurable early-settlement fee: 
+fixed, percentage, or variable-with-
+cap
+▪ Cheque-based settlement surcharge
+▪ Partial settlement: pay one or 
+multiple future installments in 
+advance
+▪ Auto-closure on full settlement
+OUT OF SCOPE
+▪ Customer-facing settlement quote UI 
+on the mobile app
+▪ Negotiated waiver workflows
+ASSUMPTIONS
+▪ Pro-rata profit accrual to settlement 
+date
+▪ Fee caps and cheque surcharge 
+amounts configured in BRD
+Early & Partial Settlement Engine
+IN SCOPE
+▪ Support multiple active financing 
+agreements per customer
+▪ Configurable global exposure limit per 
+customer
+▪ Real-time validation at loan creation / 
+approval
+▪ Sum across all active products not to 
+exceed the cap
+OUT OF SCOPE
+▪ Credit scoring model
+▪ Bureau (BCRB) integration for external 
+exposure
+▪ Dynamic limit adjustment based on 
+behaviour
+ASSUMPTIONS
+▪ Exposure limit is a static configured 
+value per customer / risk tier
+▪ Custom validation hook implemented on 
+loan-origination API
+Customer Exposure Limit & Multi-Loan Handling
+
+=== PDF PAGE 26 ===
+BEDE LMS
+Sprint 2
+Financial Modules & Compliance
+IN SCOPE
+▪ Custom reports aligned with CBB 
+templates
+▪ AAOIFI FAS-compliant reports 
+(provisioning, deferred/earned profit)
+▪ Standard data exports (CSV/Excel) 
+suitable for manual submission to CBB
+▪ Capped delivery of an agreed number 
+of regulatory reports
+OUT OF SCOPE
+▪ Direct system-to-system API 
+submission to CBB
+▪ Regulatory certification or sign-off 
+(client responsibility)
+▪ Reports not defined during the SRS 
+phase (handled via CR)
+▪ ECL / IFRS9 probabilistic engine
+ASSUMPTIONS
+▪ BEDE provides final CBB templates and 
+FAS formats during implementation
+▪ Number of reports agreed in BRD and 
+frozen before build
+▪ The scope includes up to 20 reports. 
+Any additional reports will be considered 
+out of scope and charged separately 
+based on the applicable man-day rate.
+CBB & AAOIFI FAS Regulatory Reports - Capped to 20 Reports
+IN SCOPE
+▪ Management & finance dashboards 
+with real-time data refresh
+▪ Receivables, deferred profit, portfolio 
+yield, delinquency, disbursement KPIs
+▪ Branded customer statement (PDF) 
+generation
+▪ Bank-movement reconciliation report 
+(file-based)
+▪ Export to CSV/Excel
+OUT OF SCOPE
+▪ Third-party BI tool licensing 
+(Tableau/PowerBI)
+▪ Customer self-service statement UI on 
+the mobile app
+▪ Proactive statement email/SMS 
+distribution 
+ASSUMPTIONS
+▪ Real-time = sub-minute refresh 
+acceptable (not strict streaming)
+▪ Statement template provided by BEDE 
+in BRD
+Real-Time Dashboards & Customer Statements
+
+=== PDF PAGE 27 ===
+BEDE LMS
+Sprint 2
+Migration & Delivery
+IN SCOPE
+▪ Migration methodology document and 
+mapping rules
+▪ ETL scripts to migrate up to 10,000 
+active loan agreements and 
+associated history
+▪ Data cleansing and transformation to 
+Fineract schema
+▪ Reconciliation report post-migration
+▪ Mock migration cycles before go-live 
+▪ Cutover support during production 
+migration
+OUT OF SCOPE
+▪ Cleanup of data quality issues in 
+source systems
+▪ Migration of closed/inactive loans 
+beyond agreed historical retention
+▪ Data archival strategy for the legacy 
+LMS
+▪ Parallel-run operations beyond 4 
+weeks (additional via CR)
+▪ Data model reverse-engineering of 
+legacy system
+ASSUMPTIONS
+▪ BEDE provides the legacy schema, field 
+mapping, and sample extracts 
+▪ Data available in a single consolidated 
+format or via extract pipeline
+▪ Source data is in a reasonable quality 
+state, data cleansing effort is minimal
+▪ Parallel-run of up to 4 weeks at BEDE 
+discretion, 2 reconciliation passes
+▪ Capped Efforts
+Legacy LMS Data Migration & Cutover
+IN SCOPE
+▪ Deployment to UAT environment
+▪ Deliverable walkthrough with BEDE
+▪ FOO-led System Integration Testing 
+(SIT)
+▪ E2E test execution by FOO QA
+▪ Defect fix cycles during UAT (2 
+cycles)
+OUT OF SCOPE
+▪ UAT test execution by BEDE team 
+▪ User acceptance criteria definition 
+beyond what SRS covers
+▪ Support for ad-hoc UAT environment 
+changes outside defect fixes
+▪ Defects originating from third-party 
+systems
+ASSUMPTIONS
+▪ BEDE provides UAT test cases, else FOO 
+QA provides (1 review iteration)
+▪ BEDE manages UAT testers and 
+execution
+▪ UAT completes within agreed window, 
+extensions impact timeline/budget
+UAT Deployment & Support
+
+=== PDF PAGE 28 ===
+BEDE LMS
+Sprint 2
+Migration & Delivery
+IN SCOPE
+▪ Security hardening of AWS 
+infrastructure (container, network, 
+IAM)
+▪ Support for one VA/PT exercise 
+including remediation of valid findings
+▪ Role-based access control review
+▪ Compliance with data security 
+standards as defined in the RFP
+OUT OF SCOPE
+▪ The VA/PT audit engagement itself (to 
+be engaged by BEDE)
+▪ PCI-DSS certification (no card data 
+stored in LMS)
+▪ Re-testing for invalid/low-quality 
+findings beyond the capped effort
+▪ SOC 2 or ISO 27001 certification
+ASSUMPTIONS
+▪ VA/PT auditor delivers actionable, valid 
+findings
+▪ Poor-quality audits consume extra 
+budget, CR applies
+▪ One full VA/PT cycle is within the 5-MD 
+cap
+Security Hardening & VA/PT Support
+IN SCOPE
+▪ Production deployment with 
+documented runbook
+▪ Go-live cutover orchestration (single 
+window)
+▪ Hypercare hand-off to post-live 
+support
+OUT OF SCOPE
+▪ Multiple go-live windows / phased 
+rollouts not agreed in BRD
+▪ Customer communications and 
+marketing
+▪ 24×7 deployment support beyond the 
+cutover window
+ASSUMPTIONS
+▪ Single go-live event
+▪ All UAT defects resolved and signed off 
+before cutover
+Production Deployment & Go-Live
+
+=== PDF PAGE 29 ===
+BEDE LMS
+Sprint 2
+Migration & Delivery
+IN SCOPE
+▪ User guide documentation
+▪ Client training sessions (up to 5 MDs)
+▪ Support handover session
+▪ Post-live support
+OUT OF SCOPE
+▪ Ongoing training beyond initial rollout
+▪ Knowledge transfer to a third-party 
+support vendor
+▪ New features or change requests 
+(separate CRs)
+▪ NOC/SOC services unless optional 
+annex purchased
+▪ Hardware, travel, and out-of-pocket 
+expenses
+ASSUMPTIONS
+▪ Training is remote by default, on-site is 
+extra
+▪ M&S renews annually per separate SLA
+Training, Hypercare & Post-Live Support
+
+=== PDF PAGE 30 ===
+Environments
+FOO will use BEDE’s existing infrastructure.
+Infrastructure
+
+=== PDF PAGE 31 ===
+FOO will need to integrate with
+• CRM Provider
+• Core Accounting System
+• Payment Gateway
+• Commodity trading platform
+Due to the lack of documentation, integration efforts for each provider 
+are capped. Any additional efforts required will be assessed once all the 
+required documentation is available.
+Client and 3rd 
+Party 
+Integrations
+
+=== PDF PAGE 32 ===
+Third party APIs should be ready, documented and tested.
+For each integration FOO will be setting up the full API testing needed as a first step, 
+simulating the flow of API integrations, and including any dummy data as needed to 
+have a full test of the integration service. 
+All issues that arise during this process will be raised to the client and no additional 
+effort should be done by FOO until all issues are resolved.
+Once the above step is completed the integration will be developed on the application 
+level.
+Any issues or changes that arise after the first sign off on the integration APIs will be 
+estimated and charged separately (in case any effort is needed from FOO’s side for 
+debugging or changes in flow…)
+SMS & Email gateways (SMTP) to be provided by the client.
+The below is required to be provided for integration ahead of time
+• List of expected APIs
+• Documentation of the APIs
+• Request/Response samples
+• Access to the APIs through one of the below methods:
+• Public access
+• IP Whitelisting (FOO IP)
+• VPN site to site tunnel
+• Fixed data needed for APIs (IDs, passwords, tokens, keys, etc..)
+• Test data available for all APIs to be able to perform a full flow
+• Error codes returned in APIs to be handled
+• APIs to be provided on a stable environment
+• Regular updates on any changes applied on the APIs
+Client and 3rd
+Party 
+Integrations
+
+=== PDF PAGE 33 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Assumptions
+
+=== PDF PAGE 34 ===
+Based on the solution requirements for this project, the 
+following assumptions and constraints are included
+• LMS Migration is capped as it needs a separate discussion and further 
+clarifications.
+• Integration with BEDE’s current wallet is out of scope for this RFP and will be 
+treated as separate project. 
+• Loan offer creation, internal approval hierarchies, and customer acceptance 
+mechanisms (biometric, OTP, e-signature) on the mobile app are outside the 
+LMS scope. 
+• Account opening, digital wallet management, and cash deposit acceptance are 
+out of scope. 
+• Flat-rate is the primary profit calculation method, reducing-balance is supported 
+for disclosure, comparison, and future product configurations. 
+• Profit rates are configurable at both product and individual customer level. 
+• SME financing is a future-phase requirement and will be addressed separately.
+• Grace periods (principal-only, interest-only, and full) are configurable per 
+product. 
+• Multiple active financing agreements per customer are supported with separate 
+installment schedules. 
+• Insurance is treated as part of the installment structure (EMI) and managed 
+internally within the LMS, no external insurer integration is required. 
+Assumptions
+and 
+Constraints
+
+=== PDF PAGE 35 ===
+• No separate insurance-specific accounting entries or dedicated insurance 
+reporting are required. 
+• All fees are treated as VAT-exclusive, VAT is calculated and applied on top of 
+the base fee amount. 
+• VAT rates and VAT applicability are configurable over time at the fee level. 
+• There is no predefined limit on the number of fees that can be configured, 
+both one-time and recurring fees are supported. 
+• Partial settlement and advance installment payments are supported. 
+• Loan closure is system-driven and occurs automatically once all outstanding 
+balances are cleared. Specific business rules, triggers, and formulas for legal 
+fees and aging-based penalties will be defined jointly with BEDE during 
+implementation. 
+• Any adjustment to the OOB Rules impose extra fees. 
+• Specific CBB report templates, data structures, and submission frequencies 
+will be provided by BEDE during implementation, direct system-to-system 
+submission to CBB is not required, standard data exports are sufficient.
+Assumptions
+and 
+Constraints
+
+=== PDF PAGE 36 ===
+Capped Efforts
+Throughout this document, multiple activities are labeled as 
+capped to X MD (man days). 
+This indication highlights the importance of a predetermined 
+limit on the amount of time and efforts that will be spent on a 
+particular task. This concept is often used for activities whose 
+costs cannot be accurately estimated and can vastly vary 
+from an implementation to another. 
+The key aspects of capped estimates lie in:
+• Fixed Budget: There is a capped / maximum budget 
+allocated for the specified effort, beyond which the client 
+will be charged.
+• Defined Scope: The tasks under capped efforts are clearly 
+defined, ensuring that any amendments on the scope will 
+require additional charges.
+• Transparency: While some activities can be clearly defined 
+and estimated, others remain high level up until the 
+implementation phase where some business and technical 
+decisions get clearer, the reason why FOO remains 
+transparent vis-a-vis the client by capping such activities.
+Project 
+Deliverables
+
+=== PDF PAGE 37 ===
+For instance, capped efforts are usually mentioned for activities such as:
+• Requirements Gathering & Scoping Activities: The requirements 
+gathering phase might vary a lot in terms of timeline and effort based 
+on the parties involved in this exercise, the readiness and maturity of 
+the requisites.
+• Integration Activities: The implementation of integration layers 
+between FOO Backend Components and other 3rd party systems can 
+only be high level estimated since all detailed technical documents for 
+the 3rd party APIs are missing during the writing of this document. 
+Many variables can highly increase these tasks such as: 3rd party 
+APIs accessibility, connectivity, discovery, and testing.
+• UI/UX Activities: User journeys and design, when applicable, are 
+highly subject to change based on multiple Q&A sessions with the 
+client. Hence, such activities are limited in terms of iterations and 
+capped in terms of efforts.
+Project 
+Deliverables
+
+=== PDF PAGE 38 ===
+A Project Manager from the client side is expected to be 
+assigned to the project, to help resolve any issue arising. 
+The client is expected to include key decision makers for the 
+design phase and the sign off on all deliverables. 
+It is assumed the FOO tools will be used for issue and risk 
+tracking and communication (Jira, Google Meet, Slack etc. or 
+similar)
+Team
+and 
+Organization
+
+=== PDF PAGE 39 ===
+The client is responsible for the creation of the User Acceptance Test 
+scenarios and test cases and their execution. 
+The client is expected to furnish FOO with all necessary assets to enable 
+and expedite the testing process. These assets may include, but are not 
+limited to, national IDs, passports, cards, and any relevant bill payment 
+identifiers.
+The client should deliver the UAT test cases to FOO, to be used by the 
+FOO QA departmentfor internal validation prior to delivery for testing.
+If UAT test scenarios are not provided, FOO QAteam will share the test 
+cases with the client and will be limited to 1 iteration with the client to 
+finalize the list of test cases.
+FOO is responsible for the creation of the System Integration Test (SIT) 
+scenarios and test cases and their execution.
+The client is expected to manage the UAT cycle, including client testers 
+mobilization, tracking the test execution, raising issues detected to FOO 
+and coordinating the fixes, merge and retest.
+QA 
+And Testing
+
+=== PDF PAGE 40 ===
+Below is a list of what is out of scope including features mentioned in 
+the Product deck:
+• Any integrations with third parties not mentioned in this 
+proposal
+• Custom development services that are not mentioned in this 
+proposal
+• On-site hardware or software installation
+• Out-of-pocket and reasonable expenses, including hardware 
+and related supplies, travel expenses, etc..
+Out of
+Scope
+
+=== PDF PAGE 41 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Development 
+Plan
+
+=== PDF PAGE 42 ===
+The development methodology followed for this project is 
+agile methodology .
+Will be split into sprints that will cover 1 month and will 
+contain the features planned. 
+The features in each sprint can be rearranged based on 
+the client priorities. 
+All features included regardless of their position in the 
+sprint are all based on a single release which means one 
+production deployment at the end.
+Methodology
+
+=== PDF PAGE 43 ===
+BEDE LMS
+Sprint 2
+GroomDiscovery Accept & Deploy
+• Agreement
+• Strategy
+• Risk
+• Scrum Team 
+Design
+• Program Backlog-Epics, 
+Features & User Stories
+• Release Planning
+• Functional User Stories
+• Interface User Stories
+• Migration User Stories
+• Design
+• Configure & Build
+• Functional Testing
+• Test Integrations
+• Test Migrations
+• Business 
+Acceptance
+• Rollout
+• Support
+Sprint Backlog > 
+Story Prioritization
+Functional 
+Testing
+SIT Working Sprint
+GO 
+LIVE
+Methodology
+
+=== PDF PAGE 44 ===
+The following will be the team involved in the 
+development of the solution in each sprint:
+• PM
+• PTL
+• BA
+• Java Developer
+• Java Integrator
+• PHP Backend Developer
+• Web Portal Developer
+• QA
+• Sysadmin / Devops
+Team 
+Members
+
+=== PDF PAGE 45 ===
+BEDE LMS
+Sprint 2
+Technology Stack
+
+=== PDF PAGE 46 ===
+The project duration is estimated to be 
+4 months
+given the platforms in scope and the related assumptions. 
+The below image is the high-level project timeline. 
+A detailed Project Implementation Plan will be shared with the 
+client upon completion of the requirements gathering.
+PM and PTL efforts are charged based on the duration of the project, if the 
+duration of the project is extended additional will be incurred based on the 
+manday rate shared in the commercial proposal.
+Project 
+Plan
+
+=== PDF PAGE 47 ===
+BEDE LMS
+Sprint 2
+High Level Timeline
+
+
+=== PDF PAGE 48 ===
+Each sprint release will be a milestone, for each sprint we will 
+need the requirements and planning to be completed and signed 
+off before the start of the next sprint.
+Project 
+Milestones
+
+=== PDF PAGE 49 ===
+• If project timelines are extended beyond the initially agreed schedule, additional 
+budget will be required to cover the extended period. This includes costs related to 
+resources, administrative overhead, and potential re-allocation expenses.
+• If the SRS phase requires more time and iterations than initially planned, the 
+project timeline will be affected. If no additional changes are made to the scope, 
+the timeline will be extended by the same period needed to complete the SRS. Any 
+new changes will result in a re-assessment to evaluate their impact on the final 
+timeline and allocated or capped budget. Any new changes requested during 
+implementation will also be assessed for potential impact on timeline and budget. 
+• If the UI/UX phase requires more time and iterations than initially planned, the 
+project timeline will be affected. If no additional changes are made to the scope, 
+the timeline will be extended by the same period needed to complete the UI/UX. 
+Any new changes will result in a re-assessment to evaluate their impact on the final 
+timeline and allocated or capped budget. Any changes requested during 
+implementation will be assessed for potential impact on timeline and budget. 
+Project 
+Timeline and 
+Budget Impact 
+Considerations
+
+=== PDF PAGE 50 ===
+• If the infrastructure is provided by a third party, any delays in delivering any of the 
+agreed environments will impact the timeline. Additionally, any issues with the 
+connection between FOO servers and third-party integration endpoints will affect 
+the timeline and potentially the allocated or capped budget if FOO is responsible for 
+the connection testing.
+• If third-party APIs are not provided on time or do not function as expected, 
+additional budget will be required to address delays in integration, troubleshooting, 
+testing, and potential rework. This includes any additional development, review, 
+and testing efforts. Timelines will also be impacted based on the duration of the 
+delay and resource reallocation.
+• If the UAT phase takes longer and requires more iterations, a re-assessment of 
+resource availability will be done, and the allocated or capped budget will be 
+adjusted to cover extended testing efforts, additional iterations, feedback 
+incorporation, and retesting.
+Project 
+Timeline and 
+Budget Impact 
+Considerations
+
+=== PDF PAGE 51 ===
+• Poor or low-quality third-party VA & PT (Vulnerability Assessment and Penetration 
+Testing) auditing will impact the initial time and allocated or capped budget to re-
+check and evaluate any invalid raised issues. If the allocated or capped budget is 
+affected by the additional efforts mentioned above, the client has the option to 
+purchase a manday bucket, which will be calculated based on the allocated manday 
+rate. Available buckets are 5 MD, 10 MD, or 15 MD.
+• Any new regulatory compliance requirements not listed in the initial commercial or 
+technical proposal will be subject to timeline and budget assessment.
+• In case of a project stoppage or blockage due to external factors beyond FOO's 
+control, an evaluation will be conducted to determine the necessary timeline 
+adjustment and budget impact. Mainly this is due to potential resource reallocation.
+• If a change request (CR) remains in User Acceptance Testing (UAT) for an 
+extended period without being promoted to production, bringing it back to life will 
+require additional time and effort. This includes reallocating team members, 
+onboarding as needed, retesting the solution, and addressing any potential fixes 
+due to changes that have occurred in the meantime. These efforts will impact the 
+overall budget and require additional funds.
+Project 
+Timeline and 
+Budget Impact 
+Considerations
+
+=== PDF PAGE 52 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Support
+
+=== PDF PAGE 53 ===
+Providing the basis for managing relationships between FOO 
+and the Client, service level management deals with how user 
+service requirements are understood and handled. 
+Many benefits can be realized from a well-implemented service 
+level management discipline.
+Check Annex 2 for full details in SLA document
+Maintenance
+and
+Support
+
+=== PDF PAGE 54 ===
+Upgrades
+Upgrades to product versions, technology versions, security 
+updates will be included as part of the M&S budget, and all 
+backend upgrades will be handled by FOO.
+
+=== PDF PAGE 55 ===
+We use a centralized log management tool built to open standards. 
+The tool’s connectivity and interoperability seamlessly collect, enhances, 
+stores, and analyzes log data. 
+Coupled with a logs analysis tool (for gathering the logs from multiple 
+servers), the log management tool can parse the logs in real time and 
+send alerts if a certain predefined pattern occurs.
+The log management tool is to be installed on an independent server and 
+an instance of the log analysis tool to be installed on all the servers that 
+need to be monitored.
+Logging
+
+=== PDF PAGE 56 ===
+Use cases
+• Code Exceptions 
+The tool can read application logs. 
+We can set a specific pattern so that we would be alerted by email in case 
+exceptions occur. 
+for example, if a certain exception appears in the logs 5 times in 1 minute 
+this could mean that there is something about to go wrong. 
+It can also be configured to send an alert for certain types of exceptions.
+• System logs
+The tool can log and monitor all system logs to identify the following:
+• Successful ssh login attempts
+• Failed ssh login attempts
+• sudo access or root access
+• File Monitoring 
+The tool can monitor the files to detect and alert on any change on 
+monitored files like server or application configurations.
+• Log querying
+The tool has a GUI used to query the logs and it manages indices to be 
+able to query base on certain parameters (e.g. user, device, request id, 
+transaction id.)
+Logging
+
+=== PDF PAGE 57 ===
+We use a centralized monitoring system where clients 
+of that tool are installed on each server to monitor the 
+server availability and usage.
+It can be configured to send alerts on certain scenarios 
+or thresholds.
+Monitoring Use cases
+• CPU usage
+• Memory
+• Disk space
+• Service availability (like Apache, MySQL, Wildfly, 
+SSH,…)
+• Connections (connection between servers or to 
+certain APIs or modules)
+Monitoring
+
+=== PDF PAGE 58 ===
+Changes that are not part of the requirements discussed, 
+or that are not covered in the requirement documents will 
+be managed in a separate change request document (CR).
+The CR document will be considered binding once signed 
+by both parties and will cover the cost of implementation, 
+as well as the date & time for delivery. 
+CRs will have a validity date after completion if the client 
+decides not to go live right away with the CR. 
+After the expiration date, the CR will become dormant and 
+will require efforts to be assessed to reactivate and merge 
+with existing features if applicable.
+Change 
+Management
+
+=== PDF PAGE 59 ===
+Client will accept each Project Deliverable upon its completion 
+and will provide the company with a corresponding signed 
+certificate (the “Acceptance Certificate”) – or within 5 days
+notify the Company of any reasonable objections against 
+Acceptance of the relevant Project Deliverable. 
+Company will advise an appropriate rectification period within 2 
+days of receiving such a notification and will re-submit within 
+the rectification period as advised. The overall cycle can be 
+repeated up to 2 times.
+Failing to raise objections and after the 5 days period, the 
+Project Deliverable will be considered as accepted.
+Any third party task preventing testing and acceptance will 
+impact the budget and timeline of the project. Payments related 
+to deliverables that could not be tested due to a third party 
+intervention will be released after 5 business days from the 
+delivery. 
+The testing and acceptance can be resumed once the third 
+party issue is resolved.
+Acceptance
+Criteria
+
+=== PDF PAGE 60 ===
+BEDE LMS
+Sprint 2
+Annex Document Title Document Name
+Annex 1 Company Profile FOO Company Profile v1.14.pdf
+Annex 2 Service Level Agreement FOO - Service Level Agreement v2.13.pdf
+Annexes
+
+=== PDF PAGE 61 ===
+© Copyright 2024 FOO_ //                   @foo.mobi   //  www.foo.mobi
+Let’s Get Started!
+© Copyright 2026 FOO_ //                   @foo.mobi   //  www.foo.mobi

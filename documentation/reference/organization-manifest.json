@@ -1,0 +1,242 @@
+{
+  "organized_date": "2026-10-01",
+  "timezone": "Asia/Beirut",
+  "note": "Hashes were verified immediately after every move. Navigation and script paths were then updated; original binary source artifacts were not rewritten.",
+  "files": [
+    {
+      "previous_path": "minutes/Bede_Meeting_Minutes_2026-10-01.docx",
+      "path": "meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.docx",
+      "sha256_at_move": "e2d088025759a0706edac2f858fcf19700c7a0caae89b27978927a52b090526f"
+    },
+    {
+      "previous_path": "minutes/Bede_Meeting_Minutes_2026-10-01.md",
+      "path": "meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.md",
+      "sha256_at_move": "a622420c8416dee6736f35cc5a387513c53fc9995de4bcf190ef254f356dc69d"
+    },
+    {
+      "previous_path": "source/Bede.m4a",
+      "path": "meetings/2026-10-01/recordings/Bede.m4a",
+      "sha256_at_move": "f08bde0a0b079d7717f4447212daf7f41c1df73f1eac047fd723a451856bcfe2"
+    },
+    {
+      "previous_path": "source/attendees.md",
+      "path": "meetings/2026-10-01/attendees/attendees.md",
+      "sha256_at_move": "e71ea9134feee905a3c2bc1f4796bf8d4237c1f0ac697d93d437cc137b649de0"
+    },
+    {
+      "previous_path": "source/attendees.png",
+      "path": "meetings/2026-10-01/attendees/attendees.png",
+      "sha256_at_move": "99c9253240aff5b2e566c1cc2dbc1d4d6e689e77caa35feeb65dab5dfb21572e"
+    },
+    {
+      "previous_path": "source/documents/current-documents.md",
+      "path": "documentation/reference/current-documents.md",
+      "sha256_at_move": "82d1d9be202d0b11ecee57fbc7f83f99edfbcdf5f93386175434caa82c81edab"
+    },
+    {
+      "previous_path": "source/documents/Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "path": "documentation/compliance/Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "sha256_at_move": "e1328b53191830d50724b62041f9c5074275f483e07210f73752b751a53cf769"
+    },
+    {
+      "previous_path": "source/documents/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "path": "documentation/proposals/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "sha256_at_move": "e3c64a02ce1513858e82e8719b3d0442984c456cc327ccd8e2b49136809fd8d4"
+    },
+    {
+      "previous_path": "source/documents/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "path": "documentation/proposals/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "sha256_at_move": "ddb8c4dc7b48361ac5b4ec82e1163845cc21ccc6569a40befa3c81d388d6ac46"
+    },
+    {
+      "previous_path": "project-summary.md",
+      "path": "documentation/project-summary.md",
+      "sha256_at_move": "51cc67bc33002100aae10896412e0fbaf7e6f2906621e5c7064148c60a3995ca"
+    },
+    {
+      "previous_path": "working/document-index/google-sheet-intake-snapshot-2026-10-01.json",
+      "path": "documentation/estimates/google-sheet-intake-snapshot-2026-10-01.json",
+      "sha256_at_move": "40c9b6058c2dd5ef2f1e86c03027cfe28217da32391d5c59a1245e1dba63eefe"
+    },
+    {
+      "previous_path": "working/Bede_multilingual.m4a",
+      "path": "meetings/2026-10-01/recordings/Bede_multilingual.m4a",
+      "sha256_at_move": "f08bde0a0b079d7717f4447212daf7f41c1df73f1eac047fd723a451856bcfe2"
+    },
+    {
+      "previous_path": "working/Bede_normalized.wav",
+      "path": "meetings/2026-10-01/recordings/Bede_normalized.wav",
+      "sha256_at_move": "2b6c0caa37b3f1d84a297cb1e800dba1d0d94c89f4bd3e04ae3442446c66bbae"
+    },
+    {
+      "previous_path": "working/Bede_voice_boost.wav",
+      "path": "meetings/2026-10-01/recordings/Bede_voice_boost.wav",
+      "sha256_at_move": "53ec23ccaa2d307a276ea038150d94517f20c8624dc30aba52ab594b4b149415"
+    },
+    {
+      "previous_path": "working/build_minutes.py",
+      "path": "scripts/build_minutes.py",
+      "sha256_at_move": "41cb1357fab90c9c4abefedf373c94fbeb66234603cc1abdfa4c05456e9d602d"
+    },
+    {
+      "previous_path": "working/index_project_sources.py",
+      "path": "scripts/index_project_sources.py",
+      "sha256_at_move": "0127f4ea26cb75509253bbf8c1126060dc9ebfd67a4fa51732c927d7dd193c40"
+    },
+    {
+      "previous_path": "working/transcribe.py",
+      "path": "scripts/transcribe.py",
+      "sha256_at_move": "86588af2b8b8cab901fe43188e5c217eb5d0a506ff93cb376b30819d4d4d5de6"
+    },
+    {
+      "previous_path": "working/source-notes.md",
+      "path": "meetings/2026-10-01/supporting/source-notes.md",
+      "sha256_at_move": "f7aee808b29da08342d9a809641ee3467b4c2fda495c2a85bddaed130bd6ab77"
+    },
+    {
+      "previous_path": "working/minutes-content.json",
+      "path": "meetings/2026-10-01/supporting/minutes-content.json",
+      "sha256_at_move": "8de02d18969423b67efcaabaa39d9186046bc0a34d68324ecd0538c4fff2d85b"
+    },
+    {
+      "previous_path": "working/original-attachment-path.txt",
+      "path": "meetings/2026-10-01/supporting/original-attachment-path.txt",
+      "sha256_at_move": "32a9b981e4ba9e2533422484667745a83ceb12fe259c2fd98625d07d86708ae6"
+    },
+    {
+      "previous_path": "working/render/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "path": "meetings/2026-10-01/supporting/render/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "sha256_at_move": "7c2751f997e3128901360dda95d7e0d982d7cfeb2a0df129de571e8522a1d3d9"
+    },
+    {
+      "previous_path": "working/render/page-1.png",
+      "path": "meetings/2026-10-01/supporting/render/page-1.png",
+      "sha256_at_move": "19ac0840d5a3fc36207e054d344124d7088fb55ca7e532f98de354d681ae00d1"
+    },
+    {
+      "previous_path": "working/render/page-2.png",
+      "path": "meetings/2026-10-01/supporting/render/page-2.png",
+      "sha256_at_move": "b60ecd18da0762b008424cd9f0d89a06b7ce2510d8836413f182fd0f993f9030"
+    },
+    {
+      "previous_path": "working/render/page-3.png",
+      "path": "meetings/2026-10-01/supporting/render/page-3.png",
+      "sha256_at_move": "218183b9359e415a65370a19e5696ea28502b3d5ed14e7d28a1d55c01ca660db"
+    },
+    {
+      "previous_path": "working/render/page-4.png",
+      "path": "meetings/2026-10-01/supporting/render/page-4.png",
+      "sha256_at_move": "63d9994bb8002f1bdaaa70e0e860c1fec21f5aad1bce1f8659094c5729138476"
+    },
+    {
+      "previous_path": "working/render-final/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "path": "meetings/2026-10-01/supporting/render-final/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "sha256_at_move": "7465cde8c94e00a7e43754f869b23ac890e5174fd9e6107b0eafc7b3dd0544c2"
+    },
+    {
+      "previous_path": "working/render-final/page-1.png",
+      "path": "meetings/2026-10-01/supporting/render-final/page-1.png",
+      "sha256_at_move": "ee02c28b34c20e713846ba6b9e2129c74da4b64615cae311014e85d13c960cba"
+    },
+    {
+      "previous_path": "working/render-final/page-2.png",
+      "path": "meetings/2026-10-01/supporting/render-final/page-2.png",
+      "sha256_at_move": "606d0f3c523448721b4a743c9f07b06a877e7fda271475a54193d5724c9ec1bf"
+    },
+    {
+      "previous_path": "working/render-final/page-3.png",
+      "path": "meetings/2026-10-01/supporting/render-final/page-3.png",
+      "sha256_at_move": "801e2a7b8b8658c7622295e11e5c954c151dd2079e773cfb4a81d05cb8927187"
+    },
+    {
+      "previous_path": "working/render-release/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "path": "meetings/2026-10-01/supporting/render-release/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "sha256_at_move": "0d20fd2713adef83171d5340597bd5617b9615ce4b053257427fb0f64d7812db"
+    },
+    {
+      "previous_path": "working/render-release/page-1.png",
+      "path": "meetings/2026-10-01/supporting/render-release/page-1.png",
+      "sha256_at_move": "35d32605f22f1a7b261a385a606f191b007242e9edd6f04918840e94b0571ad4"
+    },
+    {
+      "previous_path": "working/render-release/page-2.png",
+      "path": "meetings/2026-10-01/supporting/render-release/page-2.png",
+      "sha256_at_move": "05d10ea3a6b9323b35802a17e1802e22ee8c729f366ba418ec1e5bcd402d6070"
+    },
+    {
+      "previous_path": "working/render-verified/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "path": "meetings/2026-10-01/supporting/render-verified/Bede_Meeting_Minutes_2026-10-01.pdf",
+      "sha256_at_move": "f71c044e09ffee2402bc3e6363c1693f73cf3b686b6b16436e6b100edfc7c7f1"
+    },
+    {
+      "previous_path": "working/render-verified/page-1.png",
+      "path": "meetings/2026-10-01/supporting/render-verified/page-1.png",
+      "sha256_at_move": "ee02c28b34c20e713846ba6b9e2129c74da4b64615cae311014e85d13c960cba"
+    },
+    {
+      "previous_path": "working/render-verified/page-2.png",
+      "path": "meetings/2026-10-01/supporting/render-verified/page-2.png",
+      "sha256_at_move": "5ab8c5e8848824579eadc922410c98b284baca67dd34037ad978122b6d302265"
+    },
+    {
+      "previous_path": "working/document-index/Annex2_LMS_Compliance_FOO_Response.json",
+      "path": "documentation/search-index/Annex2_LMS_Compliance_FOO_Response.json",
+      "sha256_at_move": "15804931ec23670146fc3722d7b21309b955aa098ddcf9f0b294363b038edc90"
+    },
+    {
+      "previous_path": "working/document-index/FOO - Bede - Loan Management System - Commercial Response V1.6.txt",
+      "path": "documentation/search-index/FOO - Bede - Loan Management System - Commercial Response V1.6.txt",
+      "sha256_at_move": "2a28ac25ebfaeb3e1dcac59bb697d60675084fba1ed1aa486c8525292e49b0fc"
+    },
+    {
+      "previous_path": "working/document-index/FOO - Bede - Loan Management System - Technical Response V1.0.txt",
+      "path": "documentation/search-index/FOO - Bede - Loan Management System - Technical Response V1.0.txt",
+      "sha256_at_move": "04113159909644ae424058a0c48b6b47e6669968cc1df4764385f105200d0190"
+    },
+    {
+      "previous_path": "working/document-index/commercial-maintenance.png",
+      "path": "documentation/search-index/commercial-maintenance.png",
+      "sha256_at_move": "d8e932672bc994adec90887521f2d47e159eec056d3aaeb68fc92a8fde267c6b"
+    },
+    {
+      "previous_path": "working/document-index/commercial-services.png",
+      "path": "documentation/search-index/commercial-services.png",
+      "sha256_at_move": "324adaee790b9736a42b91c3e4f90e450e11dadac6f056b1f517199c27621cbf"
+    },
+    {
+      "previous_path": "working/document-index/source-manifest.json",
+      "path": "documentation/search-index/source-manifest.json",
+      "sha256_at_move": "a0742d93893ce56d90d8dd576a3e44e577be98f78ac9aa707c6bb3501a8a2665"
+    },
+    {
+      "previous_path": "working/document-index/technical-cover.png",
+      "path": "documentation/search-index/technical-cover.png",
+      "sha256_at_move": "973132fa6d680411dce670aa9c045f9d2395537cc243922c0d5c8c6db40cd810"
+    },
+    {
+      "previous_path": "working/document-index/technical-page-18.png",
+      "path": "documentation/search-index/technical-page-18.png",
+      "sha256_at_move": "220fc2c87e5026a5a595fccc72771028e9cbb68bdf4d8a7685a7558706e79f82"
+    },
+    {
+      "previous_path": "working/document-index/technical-page-25.png",
+      "path": "documentation/search-index/technical-page-25.png",
+      "sha256_at_move": "7011cbfb5b17568385b4bf85ea796e07013d51ff423e9048e8774c0c6719cceb"
+    },
+    {
+      "previous_path": "working/document-index/technical-page-26.png",
+      "path": "documentation/search-index/technical-page-26.png",
+      "sha256_at_move": "2d5e964682fc57a71b776dcefc8561427860a1ce8ae4ab83200ea48114796dbd"
+    },
+    {
+      "previous_path": "working/document-index/technical-page-27.png",
+      "path": "documentation/search-index/technical-page-27.png",
+      "sha256_at_move": "1bc72c6095d64457155e9698cab521cd76688d541ebde5a573c7e7d07b4a6122"
+    },
+    {
+      "previous_path": "working/document-index/technical-page-9.png",
+      "path": "documentation/search-index/technical-page-9.png",
+      "sha256_at_move": "8481bfff56249e87b8383db115981609ffa2438a6447d14f9cc1acba001e8b13"
+    }
+  ]
+}
