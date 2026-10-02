@@ -5,3 +5,5 @@ Use this folder for delivery plans, workshop outcomes, scope decisions, action t
 Suggested names: `delivery-plan-YYYY-MM-DD.md`, `actions-YYYY-MM-DD.md`, `decisions-YYYY-MM-DD.md`, `risks-YYYY-MM-DD.md` and `workshop-TOPIC-YYYY-MM-DD.md`.
 
 Record the source, owner, date and approval status for each decision or commitment. No approved plan or assigned action tracker has been created by this repository organization. Current open points are in [the project summary](../documentation/project-summary.md).
+
+The [2 October requirements reconciliation](requirements-reconciliation-2026-10-02.md) compares Bede's later request with FOO's earlier proposal and lists scope and contract points that need agreement.

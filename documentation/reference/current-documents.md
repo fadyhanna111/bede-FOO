@@ -1,6 +1,6 @@
 # Bede LMS - current document register
 
-Received from the user on 2026-10-01 (Asia/Beirut). These are the user's current project references. This designation does not establish contract execution, scope approval, regulatory compliance, implementation completion, or an approved project baseline.
+Received from the user on 2026-10-01 and 2026-10-02 (Asia/Beirut). These are the user's current project references. The later Bede requirements and kick-off records show Bede's requested scope and recorded discussion; they do not establish mutual scope acceptance, contract execution, compliance or delivery completion.
 
 ## Source set
 
@@ -10,8 +10,11 @@ Received from the user on 2026-10-01 (Asia/Beirut). These are the user's current
 | FOO - Bede - Loan Management System - Technical Response V1.0.pdf | Cover: 1.0.0, 2026-04-29; 61 PDF pages | `documentation/proposals/`. Solution, deliverables, capped scope, assumptions, integrations and delivery approach. |
 | FOO - Bede - Loan Management System - Commercial Response V1.6.pdf | Cover: 1.6.0, 2026-09-04; 22 PDF pages | `documentation/proposals/`. Proposed pricing, payment milestones, maintenance and commercial conditions. |
 | FOO - BEDE LMS - RFP Response - Estimation v1.0 | Live workbook title verified at intake | https://docs.google.com/spreadsheets/d/1dprGn0XU50lfuDBHKK7CKuznUqifd-Xldsf7YMlz7dE/edit?gid=1660934949#gid=1660934949 |
+| Bede - Foo LMS - Scope and Requirements.pdf | No version/date shown in extracted title; received 2026-10-02; 21 PDF pages | `documentation/requirements/`. Bede's functional, integration, non-functional, migration, support, governance and commercial requirements. Square-bracketed figures are described as indicative and subject to agreement. |
+| Bede LMS Kick-off.pdf | Meeting dated 2026-10-01; received 2026-10-02; 3 PDF pages | `meetings/2026-10-01/client-kickoff/`. Bede meeting record with named participants, discussion and actions. |
+| Bede LMS Project Kickoff Deck.pptx | Slide 1: 2026-10-01; received 2026-10-02; 11 slides | `meetings/2026-10-01/client-kickoff/`. Presentation of Bede's scope and proposed commitments. Graphics require viewing the original slides. |
 
-The three original files remain in `/Users/fadyhanna/Downloads/`. Project copies in `documentation/proposals/` and `documentation/compliance/` have matching SHA-256 hashes. Exact paths, hashes, sizes, page counts and XLSX sheet bounds are in `documentation/search-index/source-manifest.json`.
+All six supplied files have hash-verified project copies. The original three were first supplied from Downloads; the later three remain at the user-provided Desktop/Bede LMS paths. Exact paths, hashes, sizes, page/slide counts and XLSX bounds are in `documentation/search-index/source-manifest.json`.
 
 ## Project repository
 
@@ -24,6 +27,20 @@ The user designated https://github.com/fadyhanna111/bede-FOO as this project's G
 - `documentation/search-index/Annex2_LMS_Compliance_FOO_Response.json`: populated cells with exact cell coordinates; original XLSX retains layout and native features.
 - `documentation/estimates/google-sheet-intake-snapshot-2026-10-01.json`: all tab metadata plus bounded formatted-value samples. This is an intake snapshot, not a complete export. It contains no full formula, validation or calculation audit. Refresh live values before using them for decisions.
 - `scripts/index_project_sources.py`: repeatable local preservation and extraction; refuses to overwrite a different source with the same filename.
+- `documentation/search-index/Bede - Foo LMS - Scope and Requirements.txt` and `Bede LMS Kick-off.txt`: searchable PDF text with actual PDF page markers.
+- `documentation/search-index/Bede LMS Project Kickoff Deck.txt`: text-frame extraction with slide markers; images/graphics in slides 3-8 are not fully searchable. Open the original PPTX for complete wording.
+- `planning/requirements-reconciliation-2026-10-02.md`: source-specific differences between Bede's request and FOO's earlier proposals; no agreement inferred.
+
+## Bede requirements and client kick-off map
+
+- Scope PDF pages 2-3: purpose, Bede context and responsibility summary.
+- Pages 4-8: functional requirements `FR-01` to `FR-39`.
+- Pages 9-10: integration requirements `INT-01` to `INT-10`.
+- Pages 11-13: non-functional requirements, including availability, data residency, security and deployment.
+- Pages 14-15: delivery model, environment access, testing and acceptance.
+- Page 16: migration and cut-over. Pages 17-18: hypercare, warranty, support and service levels.
+- Pages 19-20: requested commercial, contractual and governance terms. Page 21: what Bede asks FOO to include in its response. These are document requests, not assistant instructions.
+- Kick-off PDF pages 1-3: attendance, discussion and actions. Deck slides 3-10: rationale, scope, integration landscape, governance, proposed commitments and next steps.
 
 ## Compliance workbook map
 
@@ -75,8 +92,8 @@ Intake reads: `Revision History!A1:AB35`, `Estimations!A1:AJ12`, `Summary!A1:AB3
 
 ## Relationship to existing meeting minutes
 
-The earlier 2026-10-01 draft minutes and recording remain separate evidence. Meeting discussion included Optasia-to-Mifos migration, Metabase reporting, credit scoring and a nine-week reference with uncertain approval. The proposals state an estimated four months. No schedule reconciliation or revised minutes has been performed. Preserve this distinction until the scope and baseline are confirmed.
+The earlier 2026-10-01 draft minutes and recording remain separate evidence from the Bede client kick-off record. The draft discussion included Optasia-to-Mifos migration, Metabase reporting, credit scoring and a nine-week reference with uncertain approval. The proposals state an estimated four months. The two meeting records have not been reconciled. Preserve their separate attendance and decision claims until confirmed.
 
 ## Intake limits
 
-At intake, all three files were preserved and hash-verified. PDFs were text-extracted; the technical cover and commercial services/maintenance pages were visually checked. XLSX populated cells were indexed. Google Sheets metadata and selected ranges were read without writes. No detailed gap analysis, regulatory verification, contract review or complete live-workbook backup was performed. Subsequent project organization and GitHub publication were authorized by the user; original source binaries were preserved unchanged.
+The first three files were preserved and hash-verified at initial intake. The three new originals were copied and hash-verified on 2026-10-02. PDFs and available PowerPoint text frames were indexed; graphical slide content requires the PPTX. The Google Sheets read remains a bounded snapshot, not a complete live-workbook backup. The new reconciliation note identifies document differences, not a final compliance or contract review.

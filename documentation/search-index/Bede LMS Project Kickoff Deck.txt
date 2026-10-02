@@ -1,0 +1,55 @@
+=== SLIDE 1 ===
+LMS KICk-offOct 1st, 2026
+
+=== SLIDE 2 ===
+agenda
+Introductions & Objectives
+Why replace the existing LMS?
+Scope
+Requirements Overview
+Delivery Model & Governance
+Key Commitments
+Timeline & Next Steps
+Decisions & Open Items
+
+
+
+
+=== SLIDE 3 ===
+Why replace the existing LMS?
+
+=== SLIDE 4 ===
+Scope
+
+=== SLIDE 5 ===
+Requirements Overview
+
+=== SLIDE 6 ===
+Integration Landscape
+
+=== SLIDE 7 ===
+Delivery Model & Governance
+Governance
+
+=== SLIDE 8 ===
+Key Commitments: Non-negotiables
+
+=== SLIDE 9 ===
+Timeline & Next Steps
+Next 15 days
+FOO to  confirm plan and resourcing. Provide a plan for Discovery, Build & SIT, UAT, Simulations, Go-live & Hypercare
+Foo Response: Compliance Matrix against every requirement architecture; plan; commercials; SLA schedule
+Discovery Schedule: Workshop Calendar and stakeholder list from business, technical and operational teams
+Environment Access: Dev environment and sandbox (with credentials)
+Contract track:  IP, SLAs, etc
+
+=== SLIDE 10 ===
+Decisions: what we need agreed
+Scope boundary: LMS as a system of record origination and eligibility stay outside
+Governance: Steering committee members, PMs and escalation  contacts on both sides
+Commitments accepted in principle: Availability, zero-downtime,  cut-over limit, support model, monthly security release
+Discovery start date: On-site team confirmed; first workshop schedule
+Open items: <any items raised>
+
+=== SLIDE 11 ===
+THANK YOU!

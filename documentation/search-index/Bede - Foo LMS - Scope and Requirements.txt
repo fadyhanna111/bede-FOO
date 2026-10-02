@@ -1,0 +1,564 @@
+=== PDF PAGE 1 ===
+     Scope and Requirements2
+           Background, Context, Scope Summary3
+           Functional Requirements4
+           Integration Requirements9
+           Non-Functional Requirements11
+           Delivery Model14
+           Migration and Cut-over16
+           Hypercare, Warranty and Support17
+           Commercial and Contractual Terms / Governance / Assumptions19
+           Foo Response Requirements21
+ 
+
+=== PDF PAGE 2 ===
+Scope and Requirements
+1. Purpose
+This document sets out the scope, functional and non-functional requirements, delivery model,
+support obligations and contractual expectations for the design, build, integration, migration and
+ongoing maintenance of a Loan Management System (LMS) supporting Sharia-compliant
+(Murabaha-based) microfinancing products offered through the Bede mobile application.
+Foo is expected to deliver the LMS and all integrations described herein, including integrations
+with the existing mobile application and mobile backend that Foo built.
+All figures shown in square brackets are indicative and subject to agreement.
+2
+
+=== PDF PAGE 3 ===
+Background, Context, Scope Summary
+2. Background and Context
+Bede is a fintech licensed by the Central Bank of Bahrain (CBB) under Rulebook Volume 5.
+Financing is offered on a Murabaha basis; all products, calculations and accounting must be
+Sharia-compliant and subject to Sharia Supervisory Board approval.
+Customers apply for and manage financing exclusively through the Bede mobile application.
+Staff operate the system through a back-office console (currently CMS).
+Infrastructure is hosted in AWS and managed by Bede.
+An in-house Eligibility Engine determines customer eligibility; the LMS must consume its
+output.
+3. Scope Summary
+3.1 In scope
+1. LMS platform: product configuration, loan lifecycle, repayments, collections, accounting sub-
+ledger, reporting data access.
+2. All integrations listed in Section 5, including mobile app and mobile backend integration.
+3. Back-office console for operations, finance, risk and compliance users.
+4. Migration of existing customers and loans, including simulation cycles and cut-over.
+5. Deployment packages, documentation, training and knowledge transfer.
+6. Hypercare, warranty, 24x7 support and monthly security/hotfix releases.
+3.2 Out of scope
+Provisioning and management of AWS infrastructure (Bede responsibility; Vendor provides
+specifications).
+The Eligibility Engine itself (in-house).
+3
+
+=== PDF PAGE 4 ===
+Functional Requirements
+4.1 Product configuration
+4.2 Murabaha mechanics and accounting
+FR-01 Fully configurable Sharia-compliant financing products
+with no code changes: term, min/max amount, profit rate,
+fees, repayment frequency, grace periods, eligibility tags.
+FR-02 Product variants driven by: type of good being financed,
+customer nationality, credit report outcome, and any
+other attribute exposed by the Eligibility Engine.
+FR-03 Repayment schedule templates that are customisable and
+reusable, including irregular patterns (e.g., pay one
+month, skip two), bullet, step-up/step-down and seasonal
+schedules.
+FR-04 Configurable repayment allocation order (fees / profit /
+principal), day-count convention, rounding rules,
+weekend and public-holiday handling.
+FR-05 Product versioning: changes apply to new contracts only
+unless explicitly migrated; full history retained.
+FR-06 Sharia Supervisory Board approval recorded against each
+product version as an acceptance gate before activation.
+RequirementDetails
+FR-07 Explicit Murabaha contract model: cost price, profit
+amount, total sale price; commodity purchase then sale
+to customer.
+RequirementDetails
+4
+
+=== PDF PAGE 5 ===
+4.3 Loan lifecycle 
+FR-08 Generation of the Murabaha sale contract and
+offer/acceptance documents in Arabic and English,
+presented and e-signed in the app before disbursement,
+stored with the loan record.
+FR-09 Profit recognition rules configurable per product; no
+compounding of profit; late payment charges routed to a
+designated charity account, not to income.
+FR-10 Profit rebate (ibra'') rules configurable per product for
+early and partial settlement.
+FR-11 Full accounting sub-ledger: chart of accounts, automated
+journal postings for every financial event, month-end and
+year-end close, and audit-ready trial balance.
+FR-12 IFRS 9 / AAOIFI staging and provisioning outputs (days
+past due, stage classification, expected credit loss
+inputs) per loan and portfolio.
+FR-13 Daily automated reconciliation of the LMS sub-ledger
+against the Core Banking System with exception
+reporting.
+FR-14 Application: customer applies from the app; the LMS
+receives eligibility output and returns eligible products,
+terms and indicative schedules.
+FR-15 Approval workflow with configurable stages, maker-
+checker, and automated approval where rules permit.
+FR-16 Disbursement to customer account or
+merchant/commodity counterparty, with status tracked
+against Core Banking confirmation.
+FR-17 Repayment via the app through integrated payment
+gateways; repayments received through Core Banking
+are also matched and applied.
+RequirementDetails
+5
+
+=== PDF PAGE 6 ===
+4.4 Collections and defaults
+FR-18 Early settlement with configurable rules per product:
+settle without profit, with profit, with a fixed fee, or with a
+percentage of the settled amount. Settlement quote
+generated in-app.
+FR-19 Partial payment with the same configurable charging
+options as FR-18 and automatic schedule recalculation.
+FR-20 Loan top-up with configurable eligibility, re-underwriting
+via the Eligibility Engine, and treatment as new contract
+or consolidated contract per product configuration.
+FR-21 Multiple concurrent finances per customer, with
+portfolio-level exposure limits configurable per product
+and customer segment.
+FR-22 Deferment for a configurable number of days or months,
+with configurable limits per product and treatment of
+profit during deferment.
+FR-23 Restructuring and rescheduling (staff-initiated) with
+maker-checker approval and full audit trail.
+FR-24 Write-off, fee waiver, refund and overpayment handling
+with maker-checker approval.
+FR-25 Customer statements, repayment schedules and
+settlement quotes available on demand from the app
+and the back-office console.
+FR-26 Default and delinquency rules configurable per product
+(days past due thresholds, amount thresholds, missed
+instalment count).
+FR-27 Delinquency staging (e.g., pre-due reminder, 1–30, 31–
+60, 61–90, 90+, legal) with configurable stage names,
+thresholds and actions.
+Requirement Details
+6
+
+=== PDF PAGE 7 ===
+4.5 Back-office console
+4.6 Reporting and data access
+FR-28 Automated notifications to customers and to internal
+teams, with templates configurable per product, per
+stage and per channel.
+FR-29 Notification channels: SMS, push, email and WhatsApp;
+Arabic and English; delivery status tracked.
+FR-30 Collections work queues in the back-office console,
+promise-to-pay tracking and contact history.
+FR-31 Role-based access control with SSO (SAML/OIDC) and
+MFA; segregation of duties enforced.
+FR-32 Maker-checker on all configuration changes and
+financial adjustments.
+FR-33 Immutable audit trail of every configuration change,
+data change and user action, exportable for Internal
+Audit and CBB.
+FR-34 Customer 360 view: profile, contracts, schedules,
+payments, communications, documents.
+Requirement Details
+FR-35 Analytics team access to readable, structured loan data
+with zero impact on the transactional system, via a read
+replica or change-data-capture feed to Bede data
+warehouse.
+FR-36 Full data model documentation: entity-relationship
+diagram and data dictionary, maintained across
+releases.
+FR-37 Structured extracts to support CBB regulatory returns
+and Sharia audit.
+Requirement Details
+7
+
+=== PDF PAGE 8 ===
+4.7 Batch processing
+FR-38 Operational reports: portfolio, disbursements,
+collections, delinquency aging, settlements, profit
+recognised.
+FR-39 End-of-day and periodic jobs (accruals, aging,
+provisioning, dunning, schedule generation) that are
+monitored, idempotent, re-runnable and alert on failure.
+Requirement Details
+8
+
+=== PDF PAGE 9 ===
+Integration Requirements
+INT-01 Mobile
+application and
+existing mobile
+backend
+Bi-directional All customer
+journeys in
+Section 4.3; built
+by Foo
+INT-02 Eligibility Engine
+(in-house)
+Inbound to LMSTBD
+Receive eligibility
+outcome; return
+eligible products
+and terms
+or
+Return all
+products to
+Eligibility Engine
+and Eligibility
+Engine returns
+eligible products
+to customer
+INT-03 Commodity
+platform
+Bi-directional Commodity
+purchase and
+sale confirmation
+for Sharia
+compliance
+INT-04 Payment
+gateways
+Inbound Repayment
+status,
+reconciliation,
+refunds
+# System Direction Purpose
+9
+
+=== PDF PAGE 10 ===
+Integration standards (apply to all):
+OpenAPI 3.x specifications delivered and maintained for every API.
+Idempotent operations, retry with back-off, dead-letter handling, and automated
+reconciliation for every external system.
+Event/webhook support for status changes.
+API versioning with a documented deprecation policy.
+No customer PII in URLs, query strings or logs.
+INT-05 Core Banking
+System
+Bi-directional Disbursement
+fund movement,
+repayment
+detection, daily
+reconciliation
+INT-06 Credit bureau
+(Bahrain Credit
+Reference
+Bureau /
+BENEFIT)
+Outbound Reporting of
+facilities,
+delinquencies
+and closures
+INT-07 AML / sanctions
+screening
+Outbound Screening hooks
+at onboarding
+and
+disbursement
+INT-08 Notification
+providers (SMS,
+push, email,
+WhatsApp)
+Outbound Customer and
+internal
+notifications
+INT-09 Company data
+warehouse
+Outbound Read replica /
+CDC feed (FR-
+35)
+INT-10 Identity provider
+(SSO)
+Inbound Staff
+authentication
+10
+
+=== PDF PAGE 11 ===
+Non-Functional Requirements
+6.1 Availability and performance
+6.2 Security
+NFR-01 Availability [99.9%] measured monthly,
+excluding agreed maintenance
+windows.
+NFR-02 Recovery objectives [1 hour]; Recovery Point Objective:
+[15 minutes].
+NFR-03 Throughput & latency [X] transactions per second; API
+response time p95 under [500 ms]
+for customer-facing calls.
+NFR-04 Performance testing Performance test at [3–5x]
+projected peak volume before go-
+live, with results delivered.
+NFR-05 Deployment & DR Multi-AZ deployment in AWS
+Ireland (eu-west-1); documented
+disaster recovery procedure tested
+before go-live and annually.
+Requirement Details
+NFR-06 Data residency all customer data stored and
+processed in Bede's AWS account.
+NFR-07 Encryption Encryption at rest and in transit (TLS
+1.2+); secrets held in a managed
+vault, never in code or configuration
+files.
+Requirement Details
+11
+
+=== PDF PAGE 12 ===
+6.3 Observability and operability
+NFR-08 PII logging Field-level masking of PII in
+technical logs; a separate PII-
+bearing log tier accessible only to
+authorised Company staff.
+NFR-09 Secure SDLC SAST, DAST, dependency and
+container scanning in the CI/CD
+pipeline; results shared with Bede.
+NFR-10 Penetration testing Independent penetration test before
+go-live and annually thereafter, with
+all critical and high findings
+remediated before go-live.
+NFR-11 Vulnerability SLAs Critical [72 hours], High [14 days],
+Medium & Low [30 days - in the
+next security release].
+NFR-12 Standards alignment Alignment with OWASP ASVS and
+applicable CBB cybersecurity
+requirements.
+NFR-13 Foo access Foo personnel accessing any
+Company environment are named,
+background-checked and use
+individual, MFA-protected accounts.
+NFR-14 Telemetry Structured logs, metrics, distributed
+traces and health endpoints
+exposed for Company monitoring
+tools.
+NFR-15 Alerts & runbooks Alert definitions and runbooks
+delivered for every critical failure
+mode.
+Requirement Details
+12
+
+=== PDF PAGE 13 ===
+6.4 Architecture and deployment
+NFR-16 Retention policies Data retention and purge policies
+configurable to meet CBB and PDPL
+requirements.
+NFR-17 Containerization & IaC Containerized, deployable to Bede-
+managed Kubernetes (EKS);
+infrastructure and configuration as
+code (Terraform / Helm) allows
+instant deployment to recovery
+AWS regions.
+NFR-18 Environment parity Environment parity across dev, UAT
+and production.
+NFR-19 Platform & upgrades Software built on Apache Fineract
+or other similar open-source
+platform: upstream version pinned,
+documented upgrade path, and
+customizations delivered so as not
+to fork Bede off the upstream
+release line.
+NFR-20 Deployment downtime Zero-downtime deployments by
+default; any deployment requiring
+service interruption must be
+justified in writing and approved in
+advance by Bede.
+NFR-21 Rollback support Every deployment supports
+straightforward, tested rollback.
+Requirement Details
+13
+
+=== PDF PAGE 14 ===
+Delivery Model
+7.1 Discovery
+7.2 Environments and access
+7.3 Testing and acceptance
+D-01 Foo deploys a team or expert on site to document detailed
+system specifications in workshops with Bede's business,
+technical and operational teams.
+D-02 Deliverables: business requirements document, functional
+specification, solution architecture, integration
+specifications, data model, and a signed-off backlog with
+acceptance criteria per feature.
+Item Details
+D-03 Bede provisions and manages all AWS environments.
+D-04 Foo is granted deployment access to the development
+environment only.
+D-05 UAT and production deployments are performed by Bede
+using Foo-supplied, tested deployment packages and
+step-by-step guides. Foo may be granted a view-only
+shadowing session during deployments.
+D-06 Foo is granted access to PII-masked technical logs for
+troubleshooting (NFR-08). Access to logs containing PII
+remains with Bede.
+Item Details
+D-07 Definition of done and acceptance criteria agreed per
+feature before build.
+Item Details
+14
+
+=== PDF PAGE 15 ===
+7.4 Documentation, training and knowledge transfer
+D-08 Foo delivers unit, integration and system integration
+testing with evidence; supplies UAT test cases and
+anonymized test data.
+D-09 Bede conducts UAT; acceptance is by written sign-off.
+Defects classified by severity; no Severity 1 or 2 defects
+open at go-live.
+D-10 Performance (NFR-04), penetration (NFR-10) and disaster
+recovery (NFR-05) tests are acceptance gates.
+D-11 Administrator guide, operations runbooks, API
+documentation, deployment and rollback guides,
+architecture and data model documentation.
+D-12 Training for operations, finance, risk, compliance and IT
+teams; recorded sessions and training materials retained
+by Bede.
+Item Details
+15
+
+=== PDF PAGE 16 ===
+Migration and Cut-over
+Migration Requirements
+M-01 Migration of all existing customers, contracts,
+schedules, repayment history, balances and
+documents.
+M-02 Field-level data mapping document, agreed with Bede
+before the first simulation.
+M-03 Reconciliation to the fils on all balances and schedules,
+with a reconciliation report and Bede sign-off as the
+go-live gate.
+M-04 Historical repayment history and original contract
+terms preserved and visible in the new system.
+M-05 Multiple full simulation cycles of migration and cut-over
+using a new build of the app connected to the new
+LMS, without interrupting the existing app or backend.
+M-06 Production cut-over downtime not to exceed [2 hours].
+M-07 Documented and rehearsed rollback plan for cut-over.
+M-08 Data freeze window, communication plan and post-
+migration validation checklist agreed in advance.
+Requirement Details
+16
+
+=== PDF PAGE 17 ===
+Hypercare, Warranty and Support
+9. Hypercare, Warranty and Support
+Service Levels
+S-04 Severity definitions and SLAs
+Monthly Service & Security Items
+S-01 Hypercare 3–6 months post go-live with on-ground presence
+and daily review calls.
+S-02 Warranty 5 years post go-live; all defects corrected at no
+cost.
+S-03 24x7 support 24x7 support reachable by phone, email and
+ticketing portal, with a named escalation matrix up
+to executive level; support in English and Arabic.
+Service Description
+1 Service down or
+financial integrity
+at risk
+15 min 2 hours
+2 Major function
+degraded, no
+workaround
+30 min 8 hours
+3 Minor function
+impaired,
+workaround
+exists
+4 hours 3 business days
+4 Cosmetic / low
+impact
+1 business day Next release
+Severity Definition Response Resolution /
+workaround
+17
+
+=== PDF PAGE 18 ===
+S-05 Monthly security and hotfix release, with a report
+covering all vulnerabilities and bugs identified, their
+severity, and remediation status.
+S-06 Monthly service review covering SLA performance,
+incidents, root causes, capacity and upcoming changes.
+S-07 Service credits / penalties for SLA breaches per Section
+10.
+Item Description
+18
+
+=== PDF PAGE 19 ===
+Commercial and Contractual Terms / Governance / Assumptions
+Commercial and Contractual Terms
+C-01 Intellectual property: Bede owns all custom code,
+configuration, documentation and data. Source code held
+in a Bede-controlled repository or in escrow; inventory of
+all third-party and open-source licences delivered.
+C-02 Payment: milestone-based, tied to written acceptance;
+retention of 20% released after 3 months post go-live.
+C-03 Service credits: 5% of monthly support fees per SLA
+breach, capped at 20% per month; repeated breaches
+constitute grounds for termination.
+C-04 Liquidated damages for delivery delay: 8% of contract
+value per week.
+C-05 Change control: written change request process with
+impact assessment; rate card for out-of-scope work
+agreed at contract signature.
+C-06 Key personnel named in the contract; replacement only
+with Bede approval. No subcontracting without prior
+written consent.
+C-07 CBB outsourcing obligations: Bede and CBB right to audit;
+CBB access to Foo premises, staff and records; data
+location commitments; notification of material changes;
+compliance with CBB Rulebook Volume 5 outsourcing
+requirements.
+C-08 Business continuity: Foo maintains and tests its own
+continuity plan covering delivery and support of this
+contract.
+Clause Summary
+19
+
+=== PDF PAGE 20 ===
+Governance
+Assumptions
+Bede provides timely access to subject matter experts, environments, test data and third-
+party sandbox credentials.
+Third-party systems (Core Banking, commodity platform, payment gateways, credit bureau)
+provide documented APIs and test environments.
+Sharia Supervisory Board reviews are scheduled by Bede; Foo supplies required product
+documentation.
+C-09 Exit and transition: on termination or expiry, Foo provides
+transition assistance for 6 months, full return of data and
+code, and destruction certificates for Bede data held.
+C-10 Confidentiality (NDA) and a data processing agreement
+aligned to the Bahrain Personal Data Protection Law
+(PDPL).
+C-11 Liability cap, indemnities (including IP infringement) and
+professional indemnity / cyber insurance at [amount].
+C-12 Term: 5 years support and maintenance with annual
+renewal option and agreed pricing review mechanism.
+G-01 Steering committee (Bede executive sponsor, Head of IT,
+Foo account executive) meeting monthly.
+G-02 Weekly project status report and meeting; shared RAID
+(risks, assumptions, issues, dependencies) log.
+G-03 Single Foo project manager as point of accountability;
+single Bede counterpart.
+G-04 All decisions, scope changes and acceptances recorded in
+writing.
+Code Governance Item
+20
+
+=== PDF PAGE 21 ===
+Foo Response Requirements
+Foo is requested to respond with:
+1 Confirmation of compliance, partial compliance or non-
+compliance against every numbered requirement, with
+explanation.
+2 Proposed solution architecture and platform (including any
+open-source or licensed components).
+3 Delivery plan with milestones, resourcing and on-site
+commitments.
+4 Commercial proposal covering implementation, support, and
+rate card.
+5 Proposed SLA and service credit schedule.
+6 Relevant references for Sharia-compliant lending
+implementations.
+Item Description
+21

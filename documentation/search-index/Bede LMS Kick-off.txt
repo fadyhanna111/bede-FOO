@@ -1,0 +1,75 @@
+=== PDF PAGE 1 ===
+Bede LMS Kick-off 
+Meeting Minutes 
+Meeting title: Bede LMS Kick-off 
+Date: 01 Oct 2026 
+Time: 3:00PM – 4:00PM 
+Location / link: Online - Teams 
+Facilitator: Husain Alhelli 
+Note taker: Husain Alhelli 
+Attendees 
+Name Team Attendance 
+Abdulnasser Alrayes Bede Bahrain Present 
+Ghady Rayess FOO Present 
+Bader AlSane Zain Group Present 
+Fahad AlModaian Zain Group Present 
+Husain Alhelli Bede Bahrain Present 
+Petra Ammar FOO Present 
+Bassel Beaini FOO Present 
+Maher Haber FOO Present 
+Geryes Saikaly FOO Present 
+Rami Fatayri FOO Present 
+Joseph Jabbour FOO Present 
+Shaikha AlSalem Zain Bahrain Apologies 
+ 
+
+=== PDF PAGE 2 ===
+Discussion 
+Agenda items presented by Husain Alhelli and discussed with all meeting stakeholders: 
+1. The list of requirements is ready and will be shared by Bede to FOO today. 
+2. A recap of the reasons for why Bede Bahrain is replacing Optasia 
+3. Scope: Presented what is in scope for FOO to deliver versus what is out of scope 
+and will be managed by Bede 
+1. Eligibility Engine is in scope of Bede. Ghady Rayess mentioned that FOO 
+have an Eligibility Engine already which was presented a few months back to 
+Bede. Bede agreed to meet and go over the scope and features of FOO’s 
+Eligibility and Scoring Engine. 
+4. Requirements Overview 
+5. Delivery Model & Governance: Bede’s recommended phases for the delivery model 
+as well as the way to govern the project 
+1. Monthly steering committee 
+2. Weekly status update 
+6. Key Commitments: Non-negotiables including SLA, cut-over and support 
+requirements 
+1. Commitments accepted in principle by FOO 
+7. Timeline & Next Steps 
+1. Agreed that within the next 7 to 15 days, FOO will respond to the list of 
+Compliance against every requirement indicating if there are any flags to 
+raise against any of the requirements. 
+2. Emphasized the importance of providing a Workshop Calendar and to call for 
+the first workshop ASAP 
+3. Agreed that the Development Environment is hosted by FOO 
+8. Abdulnasser Alrayes emphasized importance of the presence of the project team 
+from FOO on-site in Bede Bahrain during the Discovery phase as well as during the 
+Hypercare stage. 
+1. Ghady Rayess mentioned that FOO plan to work in parallel streams / 
+workshops and highlighted the importance that Bede should allocate the 
+needed resource capacity from their end to support the parallel streams. A 
+plan and schedule will be provided by FOO. 
+9. Bader AlSane emphasized the importance of a smooth rollout that would make a 
+success story to support the delivery of FOO LMS in other markets. 
+10. Abdulnasser Alrayes and Ghady Rayess discussed commercial and payment 
+terms post the kick-off meeting to be incorporated in the contract. 
+Actions 
+1. FOO to call for another meeting to present the features of FOO’s Eligibility Engine to 
+Bede within 15 days 
+
+=== PDF PAGE 3 ===
+2. Contract to be formalized by FOO to incorporate the terms discussed by Bede 
+(including Commercial and Payment terms discussed by the CEO’s of both 
+companies) 
+3. Bede to share the list of requirements with FOO after the meeting 
+4. FOO to prepare a compliance matrix against the list of requirements within 7 to 15 
+days 
+5. FOO to send their version of the Delivery Plan including the workshops schedules, 
+the parallel workstreams and the on-site presence within 7 days 

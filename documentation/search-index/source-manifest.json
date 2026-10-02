@@ -1,13 +1,14 @@
 {
-  "received_date": "2026-10-01",
   "timezone": "Asia/Beirut",
   "files": [
     {
       "name": "Annex2_LMS_Compliance_FOO_Response.xlsx",
+      "received_date": "2026-10-01",
       "original_path": "/Users/fadyhanna/Downloads/Annex2_LMS_Compliance_FOO_Response.xlsx",
       "project_path": "documentation/compliance/Annex2_LMS_Compliance_FOO_Response.xlsx",
       "sha256": "e1328b53191830d50724b62041f9c5074275f483e07210f73752b751a53cf769",
       "bytes": 73630,
+      "available_source_path": "/Users/fadyhanna/Desktop/Bede LMS/Annex2_LMS_Compliance_FOO_Response.xlsx",
       "sheets": [
         {
           "title": "Technical compliance",
@@ -21,21 +22,55 @@
     },
     {
       "name": "FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
+      "received_date": "2026-10-01",
       "original_path": "/Users/fadyhanna/Downloads/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
       "project_path": "documentation/proposals/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
       "sha256": "e3c64a02ce1513858e82e8719b3d0442984c456cc327ccd8e2b49136809fd8d4",
       "bytes": 946243,
+      "available_source_path": "/Users/fadyhanna/Desktop/Bede LMS/FOO - Bede - Loan Management System - Technical Response V1.0.pdf",
       "pages": 61,
       "searchable_text": "documentation/search-index/FOO - Bede - Loan Management System - Technical Response V1.0.txt"
     },
     {
       "name": "FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
+      "received_date": "2026-10-01",
       "original_path": "/Users/fadyhanna/Downloads/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
       "project_path": "documentation/proposals/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
       "sha256": "ddb8c4dc7b48361ac5b4ec82e1163845cc21ccc6569a40befa3c81d388d6ac46",
       "bytes": 442029,
+      "available_source_path": "/Users/fadyhanna/Desktop/Bede LMS/FOO - Bede - Loan Management System - Commercial Response V1.6.pdf",
       "pages": 22,
       "searchable_text": "documentation/search-index/FOO - Bede - Loan Management System - Commercial Response V1.6.txt"
+    },
+    {
+      "name": "Bede LMS Kick-off.pdf",
+      "received_date": "2026-10-02",
+      "original_path": "/Users/fadyhanna/Desktop/Bede LMS/Bede LMS Kick-off.pdf",
+      "project_path": "meetings/2026-10-01/client-kickoff/Bede LMS Kick-off.pdf",
+      "sha256": "76b8b14005f3694fb69db2ca0e1b88eb59e5f3328a9560a2429d9c8c5f01d535",
+      "bytes": 64997,
+      "pages": 3,
+      "searchable_text": "documentation/search-index/Bede LMS Kick-off.txt"
+    },
+    {
+      "name": "Bede LMS Project Kickoff Deck.pptx",
+      "received_date": "2026-10-02",
+      "original_path": "/Users/fadyhanna/Desktop/Bede LMS/Bede LMS Project Kickoff Deck.pptx",
+      "project_path": "meetings/2026-10-01/client-kickoff/Bede LMS Project Kickoff Deck.pptx",
+      "sha256": "4f1471d0b7a251312e35ebf27f74bc3f4f78336613c07c4a6eefdb4f2bb2e45e",
+      "bytes": 3832039,
+      "slides": 11,
+      "searchable_text": "documentation/search-index/Bede LMS Project Kickoff Deck.txt"
+    },
+    {
+      "name": "Bede - Foo LMS - Scope and Requirements.pdf",
+      "received_date": "2026-10-02",
+      "original_path": "/Users/fadyhanna/Desktop/Bede LMS/Bede - Foo LMS - Scope and Requirements.pdf",
+      "project_path": "documentation/requirements/Bede - Foo LMS - Scope and Requirements.pdf",
+      "sha256": "b9083364975c694b7252d375c74c245abe3101a1c2d2bab455de641e25078029",
+      "bytes": 878598,
+      "pages": 21,
+      "searchable_text": "documentation/search-index/Bede - Foo LMS - Scope and Requirements.txt"
     }
   ]
 }

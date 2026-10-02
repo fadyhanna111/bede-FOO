@@ -6,7 +6,9 @@ Project documentation, meeting records, proposed scope and commercial references
 
 - [Project summary](documentation/project-summary.md) - purpose, workstreams, commercial terms and open questions.
 - [Current document register](documentation/reference/current-documents.md) - authoritative source locations, versions and retrieval map.
+- [Bede scope and proposal comparison](planning/requirements-reconciliation-2026-10-02.md) - open scope and contract differences to resolve.
 - [Agent reference](agent.md) - concise context and navigation for future work.
+- [Bede client kick-off record and deck](meetings/2026-10-01/client-kickoff/README.md) - supplied meeting record, presentation and actions.
 - [1 October 2026 meeting minutes](meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.md) - draft for review.
 - [Editable meeting minutes](meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.docx) and [final PDF preview](meetings/2026-10-01/supporting/render-release/Bede_Meeting_Minutes_2026-10-01.pdf).
 - [Live estimation workbook](https://docs.google.com/spreadsheets/d/1dprGn0XU50lfuDBHKK7CKuznUqifd-Xldsf7YMlz7dE/edit?gid=1660934949#gid=1660934949) - refresh live values before using them.
@@ -18,6 +20,7 @@ Project documentation, meeting records, proposed scope and commercial references
 | `meetings/YYYY-MM-DD/` | One folder per meeting: minutes, attendee evidence, recordings and supporting material. |
 | `documentation/proposals/` | Original technical and commercial response PDFs, retaining their supplied filenames and versions. |
 | `documentation/compliance/` | Original Annex2 compliance workbook. |
+| `documentation/requirements/` | Bede's supplied scope and numbered requirements. |
 | `documentation/estimates/` | Dated estimation snapshots and references to the live workbook. |
 | `documentation/reference/` | Document register and file organization/provenance manifest. |
 | `documentation/search-index/` | Searchable PDF text, compliance cells, source hashes and selected page previews. |
