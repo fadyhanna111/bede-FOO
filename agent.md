@@ -9,6 +9,8 @@
 
 ## Current request and outcome
 
+2026-10-02 document inventory and summaries: verified six uploaded original documents (four PDFs, one PPTX, one XLSX), plus one Google Sheets workbook shared by link. All six originals match the source-manifest hashes. One paragraph per reference is saved in `documentation/reference/document-summaries-2026-10-02.md`. This count excludes audio, attendee images, generated minutes, variants and extracts. The linked workbook summary uses the partial 2026-10-01 snapshot. The kickoff deck's SmartArt is indexed in `documentation/search-index/Bede LMS Project Kickoff Deck-smartart.txt`; consult it alongside the main deck text because the original extraction omitted diagram text.
+
 2026-10-02 intake: the user provided durable Desktop/Bede LMS copies of `Bede LMS Kick-off.pdf`, `Bede LMS Project Kickoff Deck.pptx`, and `Bede - Foo LMS - Scope and Requirements.pdf`. All three were copied into the project and hash-verified. Start with `meetings/2026-10-01/client-kickoff/README.md`, `documentation/reference/current-documents.md` and `planning/requirements-reconciliation-2026-10-02.md`. The client kick-off record and the existing audio-based draft minutes have separate provenance; do not merge attendance or approval status. Bede's later request differs materially from FOO's earlier proposal. Check the latest Git commit/remote before claiming publication.
 
 Earlier outcome: organized, committed and pushed the existing Bede project records to GitHub. See `README.md` for navigation, `documentation/project-summary.md` for the overview and `documentation/reference/current-documents.md` for the source register. Refresh live Google Sheets values when needed.
@@ -17,14 +19,17 @@ Earlier outcome: draft meeting minutes from Bede.m4a were produced; ownership, s
 
 ## Fast file index
 
+- `documentation/reference/document-summaries-2026-10-02.md` — verified document count and one-paragraph summaries for six uploaded files plus the linked estimation workbook.
 - `documentation/project-summary.md` — project overview, workstreams, proposed commercial terms, responsibilities and unresolved scope/schedule issues; prepared 2026-10-01, including a refreshed estimation Summary read.
 - `documentation/reference/current-documents.md` — current source register, version/date details, PDF page map, compliance row map, Google Sheets link and intake limits.
+- `documentation/reference/document-summaries-2026-10-02.md` — seven source-reference summaries (six preserved files and the linked estimation workbook).
 - `documentation/requirements/Bede - Foo LMS - Scope and Requirements.pdf` — Bede's numbered scope and requirements, received 2026-10-02.
 - `meetings/2026-10-01/client-kickoff/` — Bede's 1 October kick-off PDF and 11-slide deck, received 2026-10-02.
 - `planning/requirements-reconciliation-2026-10-02.md` — source-specific differences and unresolved scope/contract points.
 - `documentation/proposals/` and `documentation/compliance/` — hash-verified original supplied PDFs/XLSX.
 - `documentation/search-index/source-manifest.json` — original/project paths, SHA-256 hashes, sizes and source structure.
 - `documentation/search-index/` — searchable PDF text and compliance cells JSON; `documentation/estimates/` contains the bounded Google Sheets intake snapshot.
+- `documentation/search-index/Bede LMS Project Kickoff Deck-smartart.txt` — SmartArt text from the 11-slide deck that ordinary text-frame extraction misses.
 - `meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.docx` — editable draft minutes.
 - `meetings/2026-10-01/minutes/Bede_Meeting_Minutes_2026-10-01.md` — searchable version of the same minutes.
 - `meetings/2026-10-01/recordings/Bede.m4a` — preserved original, 51:49; SHA256 f08bde0a0b079d7717f4447212daf7f41c1df73f1eac047fd723a451856bcfe2.

@@ -6,6 +6,7 @@ Project documentation, meeting records, proposed scope and commercial references
 
 - [Project summary](documentation/project-summary.md) - purpose, workstreams, commercial terms and open questions.
 - [Current document register](documentation/reference/current-documents.md) - authoritative source locations, versions and retrieval map.
+- [Document-by-document summaries](documentation/reference/document-summaries-2026-10-02.md) - concise descriptions of the six preserved files and linked estimate.
 - [Bede scope and proposal comparison](planning/requirements-reconciliation-2026-10-02.md) - open scope and contract differences to resolve.
 - [Agent reference](agent.md) - concise context and navigation for future work.
 - [Bede client kick-off record and deck](meetings/2026-10-01/client-kickoff/README.md) - supplied meeting record, presentation and actions.

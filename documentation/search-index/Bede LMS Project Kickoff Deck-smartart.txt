@@ -1,0 +1,126 @@
+=== SLIDE 3 SMARTART (ppt/diagrams/drawing1.xml) ===
+Growth
+Microfinancing at scale, with product flexibility configured by the business – not coded by developers
+Reliable Mobile-only Customer Journey
+Apply, repay, settle, top-up and defer entirely in the Bede App. Stable and Reliable.
+Regulatory Confidence
+CBB Rulebook, Sharia Supervisory Board Approval and full Audit Trail by design.
+Operational Control
+Bede-managed AWS, zero-downtime releases, clean data for Analytics, and clear 24x7 support.
+
+=== SLIDE 4 SMARTART (ppt/diagrams/drawing2.xml) ===
+In scope - FOO
+LMS Platform: Product, Lifecycle, Repayments, Collections, Accounting sub-ledger
+All integrations inc. mobile app & backend
+Back-office console for Operations, Finance, Risk, Compliance
+Migration of existing customers and loans, with simulations
+Deployment packages, documentation, training, knowledge transfer
+Hypercare, warranty, 24x7 support, monthly security releases
+Bede
+AWS infrastructure provisioning and operation
+Eligibility Engine, Credit Assessment and Origination Logic
+UAT and Production Deployments
+Logs containing customer PII
+
+=== SLIDE 5 SMARTART (ppt/diagrams/drawing3.xml) ===
+Product Configuration
+Any Sharia-compliant product, any schedule template, configured without code
+Murabaha & Ledger
+Contract model, profit rules, sub-ledger, IFRS 9 / AAOFI, daily reconciliation
+Loan Lifecycle
+Apply, disburse, repay, settle, partial pay, top up, multi-finance, defer
+Collections & Defaults
+Stage delinquency, rules per product, automated multi-channel notices
+Back-office Console
+RBAC, SSO/MFA, maker-checker, immutable Audit Trail
+Reporting & Data
+Zero-impact data feed for Analytics, CBB extracts, monitored batch jobs
+Integrations
+App, Eligibility Engine, Commodity, Payments, Core Banking, Bureau, more
+Resilience & Security
+Availability, RTO/RPO, data residency, PII masking, secure SDLC
+Architecture & Deploy
+Containers, 
+IaC
+, zero-downtime releases, tested rollback
+
+=== SLIDE 6 SMARTART (ppt/diagrams/drawing4.xml) ===
+LMS
+System of Record
+Mobile App & Backend
+INT-01
+Eligibility Engine
+INT-02
+Commodity Platform
+INT-03
+Payment Gateways (TBD)
+INT-04
+Data Warehouse
+INT-09
+Identity Provider
+INT-10
+Notifications
+INT-10
+AML / Sanctions
+INT-08
+Credit Bureau (Benefit)
+INT-06
+Core Banking (KFH)
+INT-05
+
+=== SLIDE 7 SMARTART (ppt/diagrams/drawing5.xml) ===
+1. Discovery
+On-site workshops; signed-off specs and backlog
+D-01 - 02
+2. Build & SIT
+FOO deploys to dev; evidence-based testing
+D-03 - 08
+3. UAT & Gates
+Bede sigh-off; performance, 
+pentest
+, DR tests
+D-09 - 10
+4. Migrate & Go-live
+Simulated cut-overs; < 2h downtime
+M-01 - 08
+5. Hypercare & Run
+On-ground, warranty, 24x7 support
+S-01 - 07
+
+=== SLIDE 7 SMARTART (ppt/diagrams/drawing6.xml) ===
+Steering Committee
+Monthly, executive sponsor, Head of IT, Foo Account 
+Mgr
+G-01
+Weekly Status
+PM; decisions register
+G-02 - 04
+Change Control
+Written Change Requests; agreed Rate
+C-05
+
+=== SLIDE 8 SMARTART (ppt/diagrams/drawing7.xml) ===
+99.9%
+Availability
+RTO 1h, RPO 15 min, multi-AZ in Ireland, multi-Region
+NFR-01 – 05
+Zero
+Downtime Releases
+Tested rollback on every deployment
+NFR-20 – 21
+< 2 hours
+Cut-over Downtime
+Rehearsed simulations before go-live
+M-05 – 07
+24x7
+Support
+Severity-1 response 15 mins, resolution 2 hours
+S-03 – 04
+Monthly
+Security Release
+Vulnerability report; Critical fixed in 72h
+S-05, NFR-11
+100%
+IP Ownership
+Code, config and data are ours; audit rights for CBB
+C-01, C-07

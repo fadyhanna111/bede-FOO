@@ -30,6 +30,8 @@ The user designated https://github.com/fadyhanna111/bede-FOO as this project's G
 - `documentation/search-index/Bede - Foo LMS - Scope and Requirements.txt` and `Bede LMS Kick-off.txt`: searchable PDF text with actual PDF page markers.
 - `documentation/search-index/Bede LMS Project Kickoff Deck.txt`: text-frame extraction with slide markers; images/graphics in slides 3-8 are not fully searchable. Open the original PPTX for complete wording.
 - `planning/requirements-reconciliation-2026-10-02.md`: source-specific differences between Bede's request and FOO's earlier proposals; no agreement inferred.
+- `documentation/reference/document-summaries-2026-10-02.md`: concise descriptions of the six preserved files and linked estimation workbook.
+- `documentation/search-index/Bede LMS Project Kickoff Deck-smartart.txt`: search supplement for text embedded in SmartArt diagrams on slides 3–8.
 
 ## Bede requirements and client kick-off map
 
