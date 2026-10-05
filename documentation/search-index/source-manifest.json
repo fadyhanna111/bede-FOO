@@ -71,6 +71,38 @@
       "bytes": 878598,
       "pages": 21,
       "searchable_text": "documentation/search-index/Bede - Foo LMS - Scope and Requirements.txt"
+    },
+    {
+      "name": "BEDE_Requirements_vs_FOO_Roadmap.xlsx",
+      "received_date": "2026-10-05",
+      "original_path": "/Users/fadyhanna/Desktop/BEDE_Requirements_vs_FOO_Roadmap.xlsx",
+      "project_path": "documentation/requirements/BEDE_Requirements_vs_FOO_Roadmap.xlsx",
+      "sha256": "9f6191ab782d2dc55b04f0a61661897e6d9e557b8ce8b2ee9a5445b872579fcc",
+      "bytes": 114713,
+      "sheets": [
+        {
+          "title": "BEDE Req vs Roadmap",
+          "state": "visible",
+          "populated_last_row": 154,
+          "populated_last_column": 26,
+          "nonempty_rows": 153
+        },
+        {
+          "title": "BEDE Coverage by FRD",
+          "state": "visible",
+          "populated_last_row": 131,
+          "populated_last_column": 10,
+          "nonempty_rows": 128
+        },
+        {
+          "title": "Initial Roadmap",
+          "state": "visible",
+          "populated_last_row": 84,
+          "populated_last_column": 15,
+          "nonempty_rows": 52
+        }
+      ],
+      "searchable_cells": "documentation/search-index/BEDE_Requirements_vs_FOO_Roadmap.json"
     }
   ]
 }

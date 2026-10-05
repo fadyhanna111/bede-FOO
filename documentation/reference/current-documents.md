@@ -1,6 +1,6 @@
 # Bede LMS - current document register
 
-Received from the user on 2026-10-01 and 2026-10-02 (Asia/Beirut). These are the user's current project references. The later Bede requirements and kick-off records show Bede's requested scope and recorded discussion; they do not establish mutual scope acceptance, contract execution, compliance or delivery completion.
+Received from the user on 2026-10-01, 2026-10-02 and 2026-10-05 (Asia/Beirut). These are the user's current project references. The Bede requirements and kick-off records show requested scope and recorded discussion; the later roadmap workbook is a working comparison. None establishes mutual scope acceptance, contract execution, compliance or delivery completion.
 
 ## Source set
 
@@ -11,10 +11,11 @@ Received from the user on 2026-10-01 and 2026-10-02 (Asia/Beirut). These are the
 | FOO - Bede - Loan Management System - Commercial Response V1.6.pdf | Cover: 1.6.0, 2026-09-04; 22 PDF pages | `documentation/proposals/`. Proposed pricing, payment milestones, maintenance and commercial conditions. |
 | FOO - BEDE LMS - RFP Response - Estimation v1.0 | Live workbook title verified at intake | https://docs.google.com/spreadsheets/d/1dprGn0XU50lfuDBHKK7CKuznUqifd-Xldsf7YMlz7dE/edit?gid=1660934949#gid=1660934949 |
 | Bede - Foo LMS - Scope and Requirements.pdf | No version/date shown in extracted title; received 2026-10-02; 21 PDF pages | `documentation/requirements/`. Bede's functional, integration, non-functional, migration, support, governance and commercial requirements. Square-bracketed figures are described as indicative and subject to agreement. |
+| BEDE_Requirements_vs_FOO_Roadmap.xlsx | No version/date identified in the workbook; received 2026-10-05; three tabs | `documentation/requirements/`. Working traceability comparison against the FOO roadmap and named FRD/BRD documents, plus an initial roadmap. Its coverage, gaps, estimates and recommendations are workbook claims requiring source review. |
 | Bede LMS Kick-off.pdf | Meeting dated 2026-10-01; received 2026-10-02; 3 PDF pages | `meetings/2026-10-01/client-kickoff/`. Bede meeting record with named participants, discussion and actions. |
 | Bede LMS Project Kickoff Deck.pptx | Slide 1: 2026-10-01; received 2026-10-02; 11 slides | `meetings/2026-10-01/client-kickoff/`. Presentation of Bede's scope and proposed commitments. Graphics require viewing the original slides. |
 
-All six supplied files have hash-verified project copies. The original three were first supplied from Downloads; the later three remain at the user-provided Desktop/Bede LMS paths. Exact paths, hashes, sizes, page/slide counts and XLSX bounds are in `documentation/search-index/source-manifest.json`.
+All seven supplied files have hash-verified project copies. The first three were supplied from Downloads, the next three from Desktop/Bede LMS, and the latest roadmap from Desktop. Exact paths, hashes, sizes, page/slide counts and XLSX bounds are in `documentation/search-index/source-manifest.json`.
 
 ## Project repository
 
@@ -25,6 +26,7 @@ The user designated https://github.com/fadyhanna111/bede-FOO as this project's G
 - `documentation/search-index/FOO - Bede - Loan Management System - Technical Response V1.0.txt`: searchable extraction with actual PDF page markers. Architecture images and other graphics require opening the original PDF.
 - `documentation/search-index/FOO - Bede - Loan Management System - Commercial Response V1.6.txt`: searchable extraction with actual PDF page markers. Printed slide numbers are one less than PDF page numbers in this commercial file.
 - `documentation/search-index/Annex2_LMS_Compliance_FOO_Response.json`: populated cells with exact cell coordinates; original XLSX retains layout and native features.
+- `documentation/search-index/BEDE_Requirements_vs_FOO_Roadmap.json`: populated cells and formulas from all three tabs, with exact coordinates; the original XLSX retains formatting, cached results and native features. See the [requirements folder guide](../requirements/other.md) for the workbook's boundaries.
 - `documentation/estimates/google-sheet-intake-snapshot-2026-10-01.json`: all tab metadata plus bounded formatted-value samples. This is an intake snapshot, not a complete export. It contains no full formula, validation or calculation audit. Refresh live values before using them for decisions.
 - `scripts/index_project_sources.py`: repeatable local preservation and extraction; refuses to overwrite a different source with the same filename.
 - `documentation/search-index/Bede - Foo LMS - Scope and Requirements.txt` and `Bede LMS Kick-off.txt`: searchable PDF text with actual PDF page markers.
@@ -98,4 +100,4 @@ The earlier 2026-10-01 draft minutes and recording remain separate evidence from
 
 ## Intake limits
 
-The first three files were preserved and hash-verified at initial intake. The three new originals were copied and hash-verified on 2026-10-02. PDFs and available PowerPoint text frames were indexed; graphical slide content requires the PPTX. The Google Sheets read remains a bounded snapshot, not a complete live-workbook backup. The new reconciliation note identifies document differences, not a final compliance or contract review.
+The first three files were preserved and hash-verified at initial intake. Three more originals were copied and hash-verified on 2026-10-02; the roadmap workbook followed on 2026-10-05. PDFs, available PowerPoint text frames and populated workbook cells were indexed; graphical slide content requires the PPTX. The Google Sheets read remains a bounded snapshot, not a complete live-workbook backup. The reconciliation notes and roadmap statuses identify working differences, not final compliance or contract findings.

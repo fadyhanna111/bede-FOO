@@ -19,6 +19,7 @@ sources = [
     ('Bede LMS Kick-off.pdf', 'meetings/2026-10-01/client-kickoff', '2026-10-02'),
     ('Bede LMS Project Kickoff Deck.pptx', 'meetings/2026-10-01/client-kickoff', '2026-10-02'),
     ('Bede - Foo LMS - Scope and Requirements.pdf', 'documentation/requirements', '2026-10-02'),
+    ('BEDE_Requirements_vs_FOO_Roadmap.xlsx', 'documentation/requirements', '2026-10-05'),
 ]
 missing = [name for name, folder, _ in sources if not (root / folder / name).exists() and not (args.source_dir and (args.source_dir / name).exists())]
 if missing:
@@ -45,6 +46,8 @@ for name, folder, received in sources:
     entry = {'name': name, 'received_date': received, 'original_path': original_path, 'project_path': saved.relative_to(root).as_posix(), 'sha256': original_hash, 'bytes': saved.stat().st_size}
     if candidate.exists() and args.source_dir and str(candidate) != original_path:
         entry['available_source_path'] = str(candidate)
+    elif previous_entries.get(name, {}).get('available_source_path'):
+        entry['available_source_path'] = previous_entries[name]['available_source_path']
     if saved.suffix == '.pdf':
         pdf = PdfReader(saved)
         text_path = extracted / f'{saved.stem}.txt'
