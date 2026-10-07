@@ -1,0 +1,62 @@
+{
+  "received_date": "2026-10-07",
+  "timezone": "Asia/Beirut",
+  "files": [
+    {
+      "name": "BEDE Murabaha Assessment .xlsx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/BEDE Murabaha Assessment .xlsx",
+      "project_path": "documentation/sharia-murabaha/sources/BEDE Murabaha Assessment .xlsx",
+      "sha256": "dab3900b284210a9faef5ed3974ed94401855039b4b58f6a3962ea01f8aea7ee",
+      "bytes": 93402
+    },
+    {
+      "name": "Foo LMS Sharia Compliance.xlsx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Foo LMS Sharia Compliance.xlsx",
+      "project_path": "documentation/sharia-murabaha/sources/Foo LMS Sharia Compliance.xlsx",
+      "sha256": "632c91212f30a3d4b8ea4338123eaacc4327689575016afe344a8db7014ce125",
+      "bytes": 2446666
+    },
+    {
+      "name": "Implied_Profit_Rate_QA_Test_Cases.xlsx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Implied_Profit_Rate_QA_Test_Cases.xlsx",
+      "project_path": "documentation/sharia-murabaha/sources/Implied_Profit_Rate_QA_Test_Cases.xlsx",
+      "sha256": "0594b34b0e0d977fc859c2d1a955f8196fd4232293163f063fa9d657eafb0065",
+      "bytes": 17884
+    },
+    {
+      "name": "Islamic Financing Module for Loan Management System (LMS).docx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Islamic Financing Module for Loan Management System (LMS).docx",
+      "project_path": "documentation/sharia-murabaha/sources/Islamic Financing Module for Loan Management System (LMS).docx",
+      "sha256": "398a8453bac4c6656f15ec50a9b4d1adc8f6a1aee8d25fed793c7cb4465f4e9a",
+      "bytes": 1183792
+    },
+    {
+      "name": "Murabaha Lifecycle & Ownership Management - BRD.docx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Murabaha Lifecycle & Ownership Management - BRD.docx",
+      "project_path": "documentation/sharia-murabaha/sources/Murabaha Lifecycle & Ownership Management - BRD.docx",
+      "sha256": "6d74e26e2f5a1216c44e12a650a707eab5889e4efb85d77aa8b53fed851fdfef",
+      "bytes": 257480
+    },
+    {
+      "name": "Murabaha Pricing – Fixed Profit Amount & Contractual Profit Protection - FRD.docx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Murabaha Pricing – Fixed Profit Amount & Contractual Profit Protection - FRD.docx",
+      "project_path": "documentation/sharia-murabaha/sources/Murabaha Pricing – Fixed Profit Amount & Contractual Profit Protection - FRD.docx",
+      "sha256": "f839c4c968fd2b7a967fdd3347436b87fcf0f5e980c50fd44b0a64860d511907",
+      "bytes": 724860
+    },
+    {
+      "name": "Murabaha – Early Settlement & Ibra' Management – BRD.docx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Murabaha – Early Settlement & Ibra' Management – BRD.docx",
+      "project_path": "documentation/sharia-murabaha/sources/Murabaha – Early Settlement & Ibra' Management – BRD.docx",
+      "sha256": "95bbf437d09079b70199f90bef8a59680a8fd087cbc987e4623df0dc0926e991",
+      "bytes": 588143
+    },
+    {
+      "name": "Murabaha_Section6_Test_Scenarios.xlsx",
+      "original_path": "/Users/fadyhanna/Desktop/Sharia - Murabaha/Murabaha_Section6_Test_Scenarios.xlsx",
+      "project_path": "documentation/sharia-murabaha/sources/Murabaha_Section6_Test_Scenarios.xlsx",
+      "sha256": "3e6d93334dab4f0c5d6cd72de8f6152f32ba151fe27ca36f391aa38e4e319fd5",
+      "bytes": 31120
+    }
+  ]
+}
