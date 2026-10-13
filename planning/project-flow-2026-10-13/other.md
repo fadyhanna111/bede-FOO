@@ -1,0 +1,7 @@
+# Bede LMS project flow — 13 October 2026
+
+Open the [visual flowchart](bede-project-flow.html) for the delivery path, Murabaha transaction sequence, current evidence position and next gates. A [PNG preview](bede-project-flow.png) is available for quick viewing. The [editable Mermaid source](bede-project-flow.md) carries the same logic and can be pasted into a Mermaid-compatible editor.
+
+This is a project navigation aid, not an approved schedule or implementation certificate. The status snapshot was checked on 13 October 2026 against the live `X!A1:J30` and `Workshops!A1:E8` ranges in the [Bede Project sheet](https://docs.google.com/spreadsheets/d/1933qpzr-0yEUwWlPn2ad8pXh3biICLE0PNliuK5Xnhs/edit). All 25 `X` action rows still displayed `Not verified`, and the introductory/workshop `Proposed Date` cells were blank. Those are tracker values, not proof that no work occurred.
+
+The process is drawn from the [project summary](../../documentation/project-summary.md), [open decisions](../../project-context/decisions.md), [workshop proposal](../client-workshops-2026-10-05.md), [Murabaha reconciliation](../sharia-murabaha-2026-10-07/claim-reconciliation.md), [test plan](../sharia-murabaha-2026-10-07/test-execution-plan.md), and the user-provided two-page `bede-murabaha-ibra-flow (1).pdf` in Downloads. The PDF is marked `Internal | Dev` and is referenced for understanding, not copied into this public repository.
