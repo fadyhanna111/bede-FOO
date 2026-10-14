@@ -4,6 +4,7 @@ Two user-supplied Voice Memos, `Workshop1-a.m4a` (33:53) and `Workshop1-b.m4a` (
 
 ## Review package
 
+- [Team-shareable Murabaha workshop PDF](../../../output/pdf/Bede_LMS_Workshop_1_Murabaha_Report_2026-10-14.pdf): one structured report covering findings, decisions, actions, capability boundaries and test gates. The reproducible [PDF build script](supporting/build_workshop_report.py) is stored with the workshop evidence.
 - [Executive assessment](reports/01-executive-assessment.md): main findings, capability/evidence boundary and priority decisions.
 - [Draft minutes](reports/02-minutes-draft.md): chronological discussion with recording timestamps.
 - [Action and decision register](reports/03-actions-and-decisions.tsv): proposed leads, evidence gates and open status; no assignments are presumed accepted.
