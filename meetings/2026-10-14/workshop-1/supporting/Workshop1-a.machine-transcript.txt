@@ -1,0 +1,129 @@
+Machine transcript from local MacWhisper openai_whisper-large-v3-v20240930; review against audio before attributing speakers or accepting decisions.
+
+[00:00:01–00:00:29] I will briefly over the questions and almost all of them are related to either profit calculation or they will require Sharia Board review and approval. And we left the Sharia Board on the side for now. We have to involve our compliance team later on. As we go quickly over all of the questions, we might not have answers to all of them today. After the meeting, we'll sit internally.
+[00:00:30–00:00:59] and we'll draft an answer and most of our answers are probably going to be subject to approval from I believe both most of them but Mohamed has worked on especially on the calculation the proof of calculation so he has a better much better idea than I do on how it's to be calculated but yeah so we're ready to start from our end sounds great Hussain thank you very much
+[00:01:00–00:01:24] So from our end there will be like mostly some general clarification questions as well as some other questions related to Murabaha accounting part. And just one quick request please. If you are able to record this session so that we can have it as a reference so in case later on we need to get back to some details we can refer back to the recording.
+[00:01:36–00:01:59] Thank you, thank you, thank you, Hussain. Okay, so now, Petra, how do you want to take this forward? Shall we, like, share our screen and go through the questions? Yes, Hussain, we have two types of questions. We have questions related to accounting and other for the workflow. With which type do you want to say?
+[00:02:27–00:02:27] Okay.
+[00:02:30–00:02:31] Yes.
+[00:02:32–00:02:45] Okay, we need to start with the first one. Should Morabah by receivable be presented as net or gross? Currently in our system the receivable is a cost plus profit, recognized to date.
+[00:02:49–00:02:54] Okay, so currently what we are doing, let me know if my voice is audible to all of you.
+[00:02:54–00:02:56] Yes, we can.
+[00:02:56–00:02:56] Yes.
+[00:02:57–00:03:21] Okay, so currently what we are doing at the moment, we are presenting the receivable plus profit as a gross balance separately and then defer the profit that we have to receive as a separate balance and then we net it off in the GL separately. So we need the receivable balance plus profit as a separate line item and profit as well as a separate line item.
+[00:03:22–00:03:48] So the selling price right? Because plus actual contractual profit. Yeah. So as of now the current setup that we have gives us the visibility on both the line items on the principal and the profit and the aggregated amount.
+[00:03:52–00:04:21] you have it like this cost debit morabaha on disbursement we do debit morabaha receivable credit bank we have that if the financing amount is ten thousand okay here at the level of gross you want it with a profit at the disbursement like this or as it's currently okay so the this is the uh general entry or
+[00:04:23–00:04:51] Yes, I did an example here to show how the accounting will be with net and gross. So if we have a loan with 10,000 amount and the profit is 750, how it should be recorded at each step? In disbursement, if we follow the next one, it will be debit receiver that is only the financial amount, credit, the financial amount.
+[00:04:51–00:04:58] Here it will be a disbursement where we are recording the financing amount plus profit.
+[00:04:59–00:05:01] Yeah, the third column is gross.
+[00:05:02–00:05:02] This one?
+[00:05:03–00:05:08] Yeah, we recorded cost plus profit, then credit side we do the bank and the deficit.
+[00:05:09–00:05:09] Okay.
+[00:05:13–00:05:13] So it's a gross.
+[00:05:16–00:05:46] In our case would be, is the Alamos paid a book of record or a subledger filled in medical accounting? Will it be a subledger or we have also accounting? Can you repeat this question? Is the Alamos paid a book of record or a subledger? Will it be a book of record or only subledger? A subledger we have to export to bed every day
+[00:05:46–00:05:49] and we do reconciliation.
+[00:05:52–00:05:57] Okay, is this sub-ledger linked with the Oracle ERP?
+[00:05:58–00:06:03] My understanding is yes, but you need to confirm this.
+[00:06:04–00:06:10] You have your own, please, you need to integrate with it.
+[00:06:10–00:06:13] Okay, so will be the sub-ledger.
+[00:06:14–00:06:17] Okay, so in that case, correct me if I'm wrong.
+[00:06:17–00:06:47] So the LMS will be feeding the sub ledger and through the sub ledger in our Oracle we create the accounting and the data will be imported. Right? Right. Okay. So at the moment we do not have a separate sub ledger in Oracle a separate module for our load management system. The current load management system that we have is in isolation of our Oracle. So if we can have things that is integrated
+[00:06:54–00:07:09] So you need to have all the accounting to be done at our LMS or it will be done in your ERP? Your LMS. But I will revert back to you on this question. Okay.
+[00:07:20–00:07:46] From your ERP system you can generate accounting report or you don't have it also? From ERP system we cannot generate any sort of report related to our current LMS. Okay. Not the current but the future. Future one? Yes. We asked just for the community to integrate it to our best AARP.
+[00:07:47–00:07:54] Yes, definitely we would require reports from our ERP to be pulled up for the information in the LMS system.
+[00:07:57–00:08:04] For balance sheet, for other accounting should be generated from LMS or it can be in future generated? Okay.
+[00:08:06–00:08:14] Can't say in LMS we are integrated also with another ERP. I don't know if you want to have our ERP which is UDU.
+[00:08:14–00:08:22] And from Udo, we can generate the balance sheet and other ledger reports and all accounting reports.
+[00:08:24–00:08:41] I think after it's worth it, you mentioned this, but I mean, the situation is pretty decided after hiring a lot because we're using Zane's ERP and Zane is already upgrading. I think you're already replacing it, right?
+[00:08:42–00:08:50] We are going from Oracle EBS to Oracle Fusion. So we are still within the Oracle platform.
+[00:08:52–00:08:55] Do you support integration to Oracle Fusion?
+[00:08:57–00:09:09] Yes, you can support any type of integration, but what I mentioned is that you already, since your ARP, from your ARP, you are not generating any network. So if you want, you have another solution.
+[00:09:11–00:09:39] But that would mean we have to introduce Udo as well. We have to actually get Udo as an ERP. Yes. I think we'll keep it. So we'll keep this point open for discussion. We have to discuss it with other team members as well, with management, to see how we want to go ahead with it. But if we're not going to integrate ERP, then that means all reporting will be generated from Foo-LMS.
+[00:09:41–00:09:42] All right.
+[00:09:44–00:09:46] I'm gonna recommend some of that.
+[00:09:47–00:09:48] Ah, same things.
+[00:09:54–00:10:00] Okay, who will perform months and year and closing and like one after period?
+[00:10:02–00:10:02] Sorry.
+[00:10:05–00:10:06] Okay.
+[00:10:07–00:10:34] Question 4: Who will perform month and year end closing and by when after period end? Are any postings allowed into a closed period? So currently we don't allow postings in the closed period only postings are allowed in the open period and when you say that you are asking finance closers each month or you are recommending food to close the period and do the closing for resumes?
+[00:10:36–00:11:06] can close from your core banking or it should be done from our side. We can we have months and we can close at the end of each month we have this configuration but for here I don't know if it should be done from your side or from our side that's what I'm asking. At the moment what's the difference between the two if we are closing from our side and you are closing from your side so currently if it's integrated within our Oracle ERP so we close our
+[00:11:11–00:11:36] So if it is empty created. Okay. Just because I'm checking because currently we don't have year end closing. So if you want to do it from your side, we will not add it. If not, we will add it to our solution. Okay. We will get back to you on the spot. Okay. For daily reconciliation,
+[00:11:38–00:12:06] How it's done today and against which source? At what level should it range an account, product or financing? Can the core system provide a daily balance or transaction file? I'm checking if your ERP is doing like this. But because we need to offer reconciliation. Who will provide a posting level reconciliation log of every entry sent to core? And a daily balance will have a daily balance for
+[00:12:11–00:12:33] Okay, does it include reconciliation from third-party sources like bank or other platforms if integrated through API? I think when they say core, they mean they're true bank because we don't have a core banking. We integrate it together in this case.
+[00:12:41–00:13:05] Yes, but just I want to clarify because Mohammed asked if we have reconsideration for other system. Currently we can have any consideration for the ledgers that we have in our system. But can you clarify your point Mohammed, what do you mean? Again, the KFS logs are not with us.
+[00:13:06–00:13:16] the system that you guys have will read from KFS through an API and will update or reconcile that whatever has been dispersed is reconciled with the KFS statement.
+[00:13:18–00:13:23] What's that? Sorry for asking. This is the bank. Sorry. Okay.
+[00:13:57–00:14:24] So what we requested for reconciliation was an actual reconciliation against the core banking system. But what I'm reading is that you're going to only provide the looks and representation is about score. Or are you going to connect to KFH because you already have the APIs for KFH. You can read
+[00:14:25–00:14:29] all the postings from the accounts through the backend.
+[00:14:30–00:14:30] So...
+[00:14:31–00:14:35] No, we will check and we'll refer back to you. I will do it.
+[00:14:36–00:14:40] Just now we are collecting requirements and after we'll check how we'll do it.
+[00:14:41–00:14:41] Okay.
+[00:14:42–00:14:44] I didn't mention it's out of scope, no.
+[00:14:45–00:14:48] No, because you mentioned you're going to provide the log. That's it.
+[00:14:48–00:14:52] So posting level reconciliation log of agreeing to yourself to call. That's it.
+[00:14:52–00:15:17] I'm checking what we have currently and what to add on top. Okay. Okay. For question six, do you need the approved but not yet dispersed monabaha financing? Do you need to have it in accounting entries? Let me check if I have an example here.
+[00:15:24–00:15:30] This version of the document that you're using is a little bit different from the one that we received.
+[00:15:33–00:15:41] Yes, I updated a little bit here. I can send the updated one if you want. Just add one, please.
+[00:15:44–00:16:13] Here you are saying approved but not yet dispersed. So here what additions FOO can add and what are the limitations for FOO in this point? Currently we don't have accounting before disbursement but if you want it we need to add it. That's what we need to clarify here. You want to have this accounting and off balance before having the disbursement or it's trying to get out of it at the level of the disbursement.
+[00:16:14–00:16:43] Another thing on top of it, the vendor that we are dealing with, iGAR commodities. So, Hussain, if we have any API that Foo can connect with and they will have visibility on what AMRABAs are approved from their end, is there anything? Approved from their end? No, so iGAR is only dealing with the commodities, just tell it to buy this amount and pretty much that's it, just stores the agreements.
+[00:16:46–00:17:12] But when it comes to murabaha, murabaha, it's only the actual agreement that's in Aikr, not the murabaha agreement itself. So they're being used in the process of the murabaha, of the entire murabaha process. But who can read this from the mobile application? Yeah, but why do you want them to read it?
+[00:17:19–00:17:23] So it says that approved marabaha but not dispersed.
+[00:17:26–00:17:33] Yes, that's marabaha not commodity purchase. So keep an off balance memo.
+[00:17:34–00:17:37] So do you need an off balance? Where is the question Tetra sorry?
+[00:17:38–00:17:40] I'm reading my version of the document now.
+[00:17:54–00:17:58] So do you need approved but not yet dispersed
+[00:17:58–00:18:05] or are financing reported as an off-balance commitment for example for CBV returns or exposure limits?
+[00:18:06–00:18:35] What I mean here, do you want visibility via accounting entries on financing that are on approval state but not yet dispersed? On mobile app it's instant, you will move from approved to dispersed and instantly. So do you still need off balance accounting? I think we do.
+[00:18:36–00:18:40] If you do that, it's not that difficult to be done properly.
+[00:18:41–00:18:43] Okay, that's...
+[00:18:51–00:18:55] Now we move to the profit or non-performing financing.
+[00:18:57–00:19:04] Currently what we have, when a loan or financing go to a non-performing state,
+[00:19:04–00:19:34] The system will stop collecting the accrual. What we suggest, we are asking you which option do you want? It's only no new profit is recognized. Profit already recognized pay and income. Or for the non-recognized or to move unpaid recognized profit move from income to profit.
+[00:19:34–00:19:39] in suspense and return to income only when paid or when the financing performed again.
+[00:19:40–00:19:50] You have two options: just to stop recognizing profit and keep it in income or you want to move it also to profit suspense GL.
+[00:19:51–00:19:54] I can show you the accounting entry here.
+[00:19:59–00:20:29] Currently, on day 91, it's a configuration by the way, 90 or another number. If we follow option A, stop acrobat only, no entry, acrobat stop. Here in option B, we'll debit muraabaha profit income and we'll bid it profit in suspense. It will move the profit from the income GL to suspense muraabaha GL. After payment for option A, we'll debit
+[00:20:29–00:20:31] and the credit is rece
+[00:20:59–00:21:27] The first entry that has been posted is "I'm having cash, I'm getting receivable debit or debit profit debit and crediting my profit". And then in the next entry I'm debiting the same profit and crediting the profit in suspense. Yes. In order to track the unpaid profit, we'll not keep it as income because it's not an income, we'll move it to a suspense.
+[00:21:29–00:21:35] You can keep it in income or you can say no I want to move it to a suspense jar.
+[00:21:36–00:21:45] Okay another question, in case the customer has moved from stage 3 to stage 2, what will happen to the balance that he had in the suspense account?
+[00:21:47–00:21:49] You mean from non-performing to active?
+[00:21:50–00:21:52] To active, yes. What will be the entries?
+[00:21:54–00:21:58] Here, customer pay installment, it will be like this.
+[00:21:58–00:22:26] In the first month... No, the stage movement. Let's say he is non-performing today and he has accumulated a suspense balance of 100 units. So once he is moved to stage 2, the system will remove the entire balance from suspense profit and will book it in the profit for the month, the same period? No, only it's a paid one. If he didn't pay all his amount, we would stay in the suspense.
+[00:22:28–00:22:33] If he clears his profit on the suspense account, then only he will be moved to stage 2.
+[00:22:34–00:22:34] Correct.
+[00:22:36–00:22:45] Okay, another question. Does the system have functionality to get a report of suspense profit breakup, customer-wise?
+[00:22:47–00:22:50] We'll create it, we'll add it. Can it say no?
+[00:22:51–00:22:58] Because let's say we have a receivable balance from customers and there is a report for it that
+[00:22:58–00:23:12] 10,000 customers totaling to dismiss receivable balance as of date. Similar goes for the suspense account as well. Will we have a visibility for the customers as of date that these are the customers against whom we have this suspense balance?
+[00:23:32–00:23:56] Please, for a question, can you add it also in the document so we can discuss later? Because for some points I need to check. Okay, we will add it to the document. Also I have a question. Already I suggest a chart of account for Islamic JL. Do you want to share it with you or you prefer to send your own?
+[00:23:59–00:24:28] Currently we have our own internal GL accounts for the posting of receivable, deferred profit, profit fees and others and we create new as a new stream of might come up. So you guys will be using the same as we have today in our Oracle ERP or you guys will be creating new ones for your LMS? No, we create a new one for your Islamic Mono. So I can send for you what I suggest and you
+[00:24:28–00:24:34] We can check if you want more GL or if there is GL that you don't want we can remove it.
+[00:24:35–00:24:37] Okay, we can discuss on that.
+[00:24:38–00:24:38] Okay.
+[00:24:46–00:24:52] Of course this one is configuration as I mentioned for 90 days so whatever the value is fine.
+[00:24:56–00:25:12] Here, when does a financing return to performing? Only when all areas are cleared or as soon as a bank enter 90 days past due. By the way, we have configuration here at the level of the system.
+[00:25:40–00:25:56] Okay. Here we can define that account moves out of non-performing only after all areas have been created. We have a configuration. We can enforce not to move to non-performing
+[00:26:03–00:26:24] Does this have a functionality of cooling off period? Let's say he clears all his areas and now he is less than 90 days for overdue days but still we have a regulation to keep the customers for three months in the stage three and then move it to stage two. After three months he remains lower than 90 days.
+[00:26:26–00:26:55] Even if he paid his payments? Yes. Even if he cleared his payments, let's say on the first day of the month, and now the next payment he made doesn't have any DPD. But since he had a 90+ DPD one month back, we keep that customer for three months within NPA and then move it to stage 2. That's for the local regulations and I believe mostly these regulations are there throughout DCC.
+[00:26:57–00:27:02] Okay, it's mentioned as a functional requirement or you can add it.
+[00:27:04–00:27:06] I'll have to look into it. If not add it, we will add to it.
+[00:27:07–00:27:08] Okay.
+[00:27:39–00:28:08] We will most likely be going with option B but we need clarification on the breakup of the profit and suspense morale workaround. May it be a new requirement so you can add your requirement so we can implement it correctly. Also I have a question about option B. So now when the customer is not when the financial is not performing
+[00:28:08–00:28:37] What will happen for the profit? Because we stopped doing after one for the profit. But what will happen for the profit that's not counted? Do you want to add it in an off-balance month or will we keep it unrecognized? As we discussed for the same auction week before the first entry is posted, I'm assuming the profit has been posted the same way. That's why we are doing debit for the profit.
+[00:28:44–00:29:08] So before the first entry in option D is posted, is there any entry posted for this account who is non-performing? Really, I don't know. Because the only person who is here...
+[00:29:08–00:29:32] here, when I check this document, because I'm adding what will be our expected accounting entries, if you can go through them and add your requirements and how you want it. It's not like this, not that, but you can add a new color or you can correct another color here. So to know how the accounting should be executed.
+[00:29:33–00:29:34] Okay.
+[00:29:35–00:29:35] Okay.
+[00:29:39–00:29:59] Je vous souhaite un peu plus de la question.
+[00:30:17–00:30:35] Now we have partial e-draw. I will show you on the system. So what happens when a customer wants to pay several installments but not full financially, the system will check for the one that already
+[00:30:35–00:30:49] You will not apply a bra, will apply a bra for future installment and you will start closing the one from future. I can show you how it's working correctly.
+[00:31:20–00:31:35] Okay, here we have a financing and with 12 installments. The first one is due and I just I adjusted by the way.
+[00:31:35–00:31:42] So maybe let me check the system date first.
+[00:31:50–00:31:56] Oh, it's correct. Okay. So if we go here as we ask for a bra,
+[00:32:00–00:32:29] For the design it will be enhanced. We can have full settlement or partial settlement. A full settlement, so also we have a configuration I can show you. It can be percentage, it can be manual entry for Ebra, it can be the unearned profit or the unearned profit minus fees. So we have a configuration for it. Here I believe it's percentage, fixed percentage is 80% maybe from the
+[00:32:29–00:32:58] the unerred profit. If partial settlement, we can specify the number of installments and will apply only on future installments. If we have overdue one, we will not apply a graph of overdue one. Okay. So as you see here, it will start closing the one from down, future installment 12, installment 11.
+[00:32:59–00:33:29] If we add four installments, it will apply on the future one. And we have here the grant is 200. So you will pay the total minus 200 every supplement. We will need to read and study it, how you guys are doing and how we want. And we'll have to revert back to you on this thing. Yes. It can be adjusted.
+[00:33:29–00:33:51] So here as you see we apply for future one because you know for future schedule maybe sometimes we have the least profit. If it's declining profit calculation we'll have the highest profit on the initial installment and the least one is the future one for that.

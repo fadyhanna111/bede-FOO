@@ -1,0 +1,311 @@
+Machine transcript from local MacWhisper openai_whisper-large-v3-v20240930; review against audio before attributing speakers or accepting decisions.
+
+[00:00:04–00:00:28] Okay. For early settlement fee and check settlement searcher, confirm the amount or rate and caps per product. There are configurations, but we need to have a visibility of how we will calculate or how we will configure the charge and check settlement charge. If it will be amount, percentage, we have caps.
+[00:00:29–00:00:31] That's consideration at the end.
+[00:00:33–00:00:34] Okay.
+[00:00:37–00:00:38] Which line are we discussing?
+[00:00:41–00:00:42] It's 3.2.
+[00:00:44–00:00:48] 3.2, so early settlement fee and check settlements, right?
+[00:00:49–00:00:51] Check settlements, so charge, confirm moments,
+[00:00:52–00:00:58] and caps per product. Both will be posted as free in common. There are no. It's good question.
+[00:01:01–00:01:07] There are configuration by the way, sir. Just for to understand how you will do it.
+[00:01:11–00:01:13] Okay. For 3.3.
+[00:01:13–00:01:22] I think that our... Sorry, Patrick is going back to 3.2. Our main requirement is that this is configurable.
+[00:01:24–00:01:52] Yes, yes, yes, it's per product. So we're going to be rolling out the certain products? Yes, it's like this. Yes, we roll out the product. You can attach any charge and this charge will be applied to the financing account. You see, I applied to the legal fee, the settlement, check settlement charge.
+[00:01:54–00:02:22] For now, I consider them as flat amount, but of course it can be percentage, with staff, it can be any value. Okay? Yes. Legal fees added to the customer outstanding are only actual costs incurred recoverable should the recovery be posted to an end.
+[00:02:22–00:02:47] If it should be an income line or as reduction of legal expense. I have here accounting entries for legal fees. If a lady paid for a lower 200 and recovered the actual post from the customer, how it will be? I have here an example and I need your approval on the accounting entry.
+[00:02:50–00:02:54] If it should be an income line or reduction of legal expense.
+[00:02:57–00:02:59] Just a moment, just a moment.
+[00:03:12–00:03:18] Sorry Petra, currently what we are doing is whenever there is a legal expense incurred which is recoverable,
+[00:03:19–00:03:31] We add it to the receivable from the customer and whenever we receive that amount or recover that amount from the customer we reduce our receivable from the customer so legal expense in both the cases are not it.
+[00:03:36–00:03:38] Okay. So income land?
+[00:03:44–00:03:45] Is it income?
+[00:03:46–00:04:13] It's not income, it's a knocking off between the balance sheet items. So you're reducing the legal expense, you're not adding it as an income. Please, as I mentioned before, please adjust here based on your requirement. Alright? Okay, I will update it for clarification. I think you're referring to option B, so it's reducing the legal expense.
+[00:04:19–00:04:46] For what also its configuration, you will apply what on all charge? On all the fees that we have, all the admin processing fees, early settlement fees, check processing fees, all the fees that we have, that is applicable on all of them. Okay. For write-off, I can say it's assistant MoHAF for write-off, but do you need partial
+[00:04:46–00:04:48] Rightoff also so we can implement it.
+[00:04:51–00:04:55] For partial rightoff, do you have an example of this?
+[00:05:01–00:05:05] For partial rightoff, do you mean when it will be loose?
+[00:05:06–00:05:09] How is the functionality, how it will move?
+[00:05:11–00:05:12] Yes.
+[00:05:28–00:05:43] So currently when we apply write-off we have it full and on the total outstanding amount. When we need partial write-off we can specify a partial
+[00:05:46–00:05:50] and fees and it will be applied on last installment.
+[00:05:51–00:05:56] I have a form or rules.
+[00:06:00–00:06:03] Let me check if I added accounting entries for it.
+[00:06:11–00:06:20] I didn't add how it should be performed but it should be applied same accounting entries as a write-off but on partial amount not total amount
+[00:06:23–00:06:31] okay we will need to read it first what are the details yes do you have it currently or you don't have it
+[00:06:32–00:06:37] If you don't have it for now, we can skip it. We can add it later after go live.
+[00:06:39–00:06:46] Let us read the things that you have. If it's available instantly, we will get back to you.
+[00:06:47–00:06:47] Okay.
+[00:06:48–00:06:55] So it's available today, Mohamed is full write-off. Partial write-off is not available, requires development.
+[00:06:55–00:07:04] I think we will either way, if it's not available, we will need an estimation for the development, how long it will take to be implemented.
+[00:07:05–00:07:06] Alright.
+[00:07:10–00:07:13] Aysa, can you answer that it requires estimation?
+[00:07:15–00:07:16] Yup.
+[00:07:24–00:07:54] Yes, I want validation on something. Now, in Murabaha, we cannot change the profit amount during the long life cycle, right? So even if they do rescheduling or midterm grace period or any action, it shouldn't change the profit amount. It should be always fixed. It cannot increase or decrease. So at least if the installment is deferred or the
+[00:07:58–00:08:23] Yes, I want your validation. Only we can adjust profit during a break. It can be reduced. But is there any action or event that can adjust the profit during the normal life cycle? But is there a possibility that additional fees added to the normal life cycle if a restructure is done?
+[00:08:24–00:08:51] For fees, yes. What I want to validate is profit. It can be adjusted or it should be fixed. We can add charge anytime. We can change the profit as well in case of restructuring. I want your input on that. Do you want the profit change or it should be fixed? Again, we will get back to you on this one. Okay.
+[00:08:54–00:09:18] Because as I understand from the documents that the profit cannot be updated or cannot be changed so I want your validation if you don't want it during the restructuring during the crisis period to keep it fixed so we can keep it fixed but for charge yes you can add charge at any time during account life selection.
+[00:09:18–00:09:47] So when there is an active loan and we want to restructure it or reschedule it, then the profit rate, the partial rate requirements should never change. Yes, that's what I understand. We can change the installment date, you can change the number of installments, but the profit should remain fixed. Correct.
+[00:09:51–00:10:13] Yes. For TopUp, you mentioned also in your requirement that when you have TopUp, we need to close the current account and open a new one, right? We should treat it as a new loan account or how it should be done?
+[00:10:22–00:10:48] It should be treated as a new loan account but what exact questions do you have that you want to have a clarification to amend the current agreement or close the current agreement and enter into a new agreement in the system right? Yes. And it should start from XAM mobile app right? We should have a flow for top up from XAM mobile app
+[00:10:48–00:11:16] But what will happen? Will we close the current agreement? What happens if we have unpaid installment? We need all the details for this flow. Sure. Of course, the mobile app side of LONTOPOP is another requirement outside the scope of illness. But illness by itself should support LONTOPOP functionality. So basically going through eligibility again.
+[00:11:18–00:11:22] We're going to treat this as a new contract.
+[00:11:23–00:11:25] Okay, so for LOMAS it's a new contract?
+[00:11:26–00:11:28] No change from LOMAS?
+[00:11:28–00:11:31] Yes, it should be a new contract.
+[00:11:32–00:11:32] Okay.
+[00:11:34–00:11:44] And even if the previous account is overdue or in areas or non-performing or...
+[00:11:45–00:12:14] That's why you mentioned it's going to go through eligibility courses. So there will be cases if an overdue loan or other areas then they might not approve it on top of course. But the function activity by itself should be there within the areas. Okay. So expect something like, I don't know if it's already available out of the box, but we expect
+[00:12:14–00:12:23] N-ATI to hit which basically calls to top up L1 and then front and back and will handle it accordingly.
+[00:12:28–00:12:37] But we don't need top up in this case. We need to open it as a new contract. It will not be treated from the LMS as a top up.
+[00:12:40–00:13:10] It will not back, but that means we're going to have to do all of the operations into closing the current contract and creating a new contract again. So we were hoping that the LMS supports a way for it to do this whole calculation for us. At least the calculation part, the eligibility is still outside, checking eligibility for the new contract, the top-up will happen outside, but at least
+[00:13:10–00:13:20] And doing this with, I think, the minimal amount of actions to be done against the AMS as much as possible.
+[00:13:21–00:13:37] Yes, during top-up you will increase the amount only but you will keep the same tenure, you will keep the same schedule. Of course, what I mean with tenure is the number of installments.
+[00:13:38–00:14:08] It will remain the same or it can be changing. You will give the customer another offer or just you will add the total amount, the financing amount. I think I'll have to involve Hussain because there's already a whole journey for the loan to pop. It's already created. We can involve him in this later on. But what you're saying is there's no functionality for loan to pops within.
+[00:14:09–00:14:38] No, there's top up. But we need to understand, because in your requirement, what I understand, when we have top up, we need to close the current one and open a new one. Not the normal top ups that we do for conventional loan. For that, we need to understand the correct flow and how it should be done. Okay, the account will go through eligibility and check-in, but will not give the customer a new offer. Will follow
+[00:14:38–00:15:08] the old one, the existing one, right? Yeah, so from a front-end point of view, it might look different, but when it comes to EMS, it has to be a new contract, partially required, because we've already purchased a commodity for the previous contract, and now the customer wants, if they want to top it out, that means we're going to have to buy different commodities, which means they're going to do
+[00:15:15–00:15:24] I don't know how I'm done if you have an idea about the changes around belong to POPs that were created by Hussain.
+[00:15:30–00:15:35] I'm not aware to be honest about all the details so we need to see on purpose.
+[00:15:37–00:16:05] It's fine saying you can add more details about the top-up workflow so to be able to have the requirement and implemented in our system. Okay? Okay. It's a configuration on the net-plus fluid.
+[00:16:08–00:16:35] Is there a cap per installment per financing or both? And an amount or a percentage? Let me check functional requirement 9. Profit recognition more configurable per product. No compounded profit, late payment charge, not to do it. Designated charity account net to income. Can you explain it a little bit for this one?
+[00:16:49–00:16:56] So profit configuration rules configure per product.
+[00:17:19–00:17:24] I'm with you.
+[00:17:27–00:17:55] So when you say prospective admission notice for charity it should never go to the... No, it's functional line. What do you understand here that all late fees should be go to the charity? Yes. Okay. For the charity it should be recorded in our system.
+[00:17:55–00:18:00] When a charge is applied to the customer or when the customer pays.
+[00:18:04–00:18:04] Okay.
+[00:18:09–00:18:24] So when I throw this back to the customer, it will reflect like a sort of charity income and then at the same time receive a charity receivable debit, charity income credit and then onwards we move it to the actual charity.
+[00:18:24–00:18:48] The funds received for the charity receive, right? Our system is currently reported when it's applied. To be honest, I didn't go in deep more on how it should be performed. So if you can add for us your accounting, how it should be implemented, it would be great. Okay.
+[00:18:54–00:18:58] How often do they outmate mostly, quarterly or on request?
+[00:19:13–00:19:17] We actually need to get that on the approval thing.
+[00:19:27–00:19:47] Also, is one approver as maker/checker enough for charity payout or is there a second approver needed above and above? There should be an equality matrix based on our internally approved documents that we have. So there should be layer by layer approval of these things.
+[00:19:54–00:20:17] You mean another layer of approval, right? Yes, yes. There's Sammy that you want to join our call. Can you allow them to answer please? I don't know if it's from your side. Yeah. Thank you. Yeah, I did.
+[00:20:20–00:20:21] Thank you.
+[00:20:23–00:20:27] Now we'll move to the frequency staging and ACL.
+[00:20:33–00:20:41] Currently in our system, we have a booked configuration specifies this here.
+[00:20:48–00:21:11] Yes, we can have a bucket configuration, we can do it in the honey way. Currently I created like this, between 1 and 30, between 61 and 60 and above 90 it would be non-performing assets. So here, days past due, how many grace dates before a financial account as in ARIS, and what
+[00:21:11–00:21:41] It's a configuration, so you can do it in your way. You don't need to answer this one. Maximum you can send the configuration that you want to build data system. Okay. Amount station should overdue amount below a minimum be ignored. If yes, what minimum per installment or in total? So let's assume that an account has been as non-performing.
+[00:21:46–00:22:04] If the amount is less than the threshold, would we still type him as non-performing asset or no? We refer to the number of days or also refer to a minimum amount?
+[00:22:14–00:22:34] Yes, maybe if the amount is one AED or one DINAR, it would be considered as non-performing or no because the amount is below the solution. Then we need to confirm with the risk team as per the internal policy and we will revert back to loss. Alright.
+[00:22:45–00:22:59] Yes, if a customer missed several installments but he didn't reach the 90 days, also we consider a non-performing asset or only we refer to the 90 days.
+[00:23:14–00:23:41] Because here you mentioned this one delinquency rule configurable per product, days past due threshold, amount threshold, misinstallment count. For that I'm asking. Because can-care is a system we refer to the 90 days. The 90 days is configurable but we don't have this configuration as minimum amount or installment count. So if you wanted you need to ask.
+[00:23:42–00:23:48] I just mentioned that if it's not there we'll check internally if it's not needed right now.
+[00:23:48–00:23:56] Okay. This person mentions that only we have the non-performing acid by number of days.
+[00:23:56–00:23:57] Number of days, okay.
+[00:24:02–00:24:07] Because I think we wanted to have a little more flexibility.
+[00:24:08–00:24:10] Not everyone should be treated the same.
+[00:24:15–00:24:16] Okay.
+[00:24:19–00:24:26] Confirm the stage name and range at the table below. So just we need the configuration from your side.
+[00:24:27–00:24:32] And if there's an action to be done for this stage, which action should be applied?
+[00:24:33–00:24:46] as customer notification, channel and template, internal notification, collection, work with you and promise to pay, late payment, etc. And what we need here, by stage, we need the action to be performed.
+[00:24:48–00:24:50] It's perfect. Yeah.
+[00:24:54–00:24:54] Okay.
+[00:24:56–00:25:02] But does the system support these actions or is it something that you're going to have to develop?
+[00:25:06–00:25:09] For that we need confirmation in order to work on it.
+[00:25:12–00:25:14] But what's supported right now?
+[00:25:15–00:25:30] We have the pocket configuration and the customer can be classified based on the configuration and the MPA a number of days but we don't have action for now.
+[00:25:31–00:26:01] for different stages. But do you have a place to define the stages at least? Yes we have. Okay. Then if we decide, yeah because after staging the next section is going to be sent to send identification in SMS message. Yes that's what we want to know, the action at each stage so we can apply. Okay. We'll send you that but yeah as with other requirements as well we just need an estimation of
+[00:26:01–00:26:09] the development so that we know if we need to incorporate it within the elements or should we just handle it outside.
+[00:26:11–00:26:12] Okay.
+[00:26:14–00:26:15] Okay.
+[00:26:15–00:26:18] Okay, Spicer for 5.6.
+[00:26:20–00:26:22] I will go 5.5.
+[00:26:22–00:26:23] Okay.
+[00:26:34–00:26:53] The ECL should be calculated from LMS or from BD side, the credit loss, PD, LGD and POSTA provision. Does LMS have the functionality to calculate the ECL itself? No, we can provide data for it as mentioned here.
+[00:26:57–00:27:20] So if we have, because we have our ECL model, and that model calculates the provision per account, so that can be imported in the current LMS per account? We can have the value, but no need to be calculated inside LMS. No, not calculated, not calculated, but the data can be imported, right? Yes, data of course can be imported.
+[00:27:36–00:27:54] Also here we need more details about besides 30 and 90 days past huge event move in financing to stage 2 or stage 3 we need more details about restructuring watchlist credit score downgrade
+[00:28:04–00:28:13] "Are customers notified today when a late payment charge is applied or an installment is overdue?"
+[00:28:26–00:28:54] Are we notifying through the application? Currently, we don't use the correct elements to send the notifications. But that's one requirement that we added. So we needed automated notifications to customers. So with specific configurations or configurable templates for products. So for some products, we might want to send
+[00:28:54–00:29:21] specific notifications, specific notifications, specific notifications, specific notifications, specific notifications, specific notifications, specific notifications, or cases, like in this case when a late payment charge is uploaded. For some products you might not want to upload this or set this notification to go. So that's FR 28 and 29. It's not today, but it's in your coin that we want.
+[00:29:27–00:29:35] And you're asking what sequence is required? Again, we want to have the flexibility to configure it.
+[00:29:43–00:29:47] Now we move for deferment or midterm and grace period.
+[00:29:49–00:29:52] Let me explain what we have currently.
+[00:29:52–00:30:22] So now for deferment, we add a configuration per product where we can specify the maximum number of deferment during a long life cycle. So maybe a customer can ask one time or two time or maximum three time for deferment during a long life cycle. Also we have a configuration for how many installments he can defer per request. So maybe he can ask for
+[00:30:22–00:30:52] to have a mandatory period for two months or two installments or three installments and he can specify it for principal or for principal and interest or for interest only we have this consideration so but i found in your requirements that you need to try i mean it's not this one but maybe you have the installment a number of you you want the deferment a number of days so maybe it
+[00:30:55–00:31:21] So if the installment is 30 days, it can be 50 or 20. So days will always refer to, yeah I mean we should be able to defer for the number of days. I don't know, Hamad, what do you think? But if we defer that doesn't change the profit for the product, right? For the ferment, no.
+[00:31:24–00:31:50] It will be a monthly schedule. If you do deferment by days, it will be less than one month. Right? You want it this way? So you are asking deferment by days only, not by month? It's now what we did by installment. You can defer two installment, one installment.
+[00:31:52–00:31:57] that can be monthly, can be weekly or can be daily.
+[00:32:00–00:32:16] I mean if we defer it to a number of days instead of months, so that means let's say 15 days instead of 30 days one month, then customers' payment cycle will change and I don't think we will want to go through that route.
+[00:32:17–00:32:22] No, but that will change the payment cycle for all the installments or just one particular installment?
+[00:32:23–00:32:51] What you do? You push the schedule with the number of deferred installments. So, for example, a customer asks for two months and he has a schedule of 12 installments. He will finish with 14 installments, but we have two months grace period in the middle. And in case we want to charge additional of these two months, we cannot do it in this current setup, right?
+[00:32:59–00:33:22] What do you mean to charge additional? Let's say for this service, for admin processing fee for deferring this two installments, or for additional profit for these two installments, a new contract. We cannot amend anything in the... You can apply charge. You can apply charge. We can apply charge. It's okay.
+[00:33:22–00:33:46] So as you said Mohamed, if you want to defer only one installment, so instead of paying it on first to 15, only this installment, I just don't have the money for it beginning of the month, I want it to be deferred for a number of days. It's a different case from deferring an entire installment. So it shifts to 15, then in this case we have to apply something, some sort of a charge.
+[00:33:48–00:33:49] So, yeah.
+[00:33:52–00:33:58] I think different than Stormat functionality is better than definitely by days?
+[00:33:59–00:34:15] It's an option, it's a different case. Some customers would say we still want to pay, it's just that we're not going to pay this month, on this day, beginning of the month. We're going to have to pay it after two weeks.
+[00:34:45–00:35:15] If we do this, is this going to encourage charge? I don't know, Mohammed, does this change anything with the profit calculated for that month? Yeah, that's a pattern of keeping that form. Let's say if we defer the monthly installment, will the profit be calculated for that month? The profit will also be deferred and will be calculated in the later month. For the profit, you can choose based on the product configuration. You can say
+[00:35:15–00:35:26] I want the customer to pay only the profits but deferred the principal or they can give grace period for both principal and profit.
+[00:35:27–00:35:29] So in case of grace period is that it?
+[00:35:30–00:35:30] Oh sorry?
+[00:35:31–00:35:32] I'm continuing sorry.
+[00:35:33–00:35:45] And what will happen for profit also we have a configuration the deferred profits can be paid immediately in the next due payment or it can be distributed.
+[00:35:48–00:35:50] and the remaining installment.
+[00:35:52–00:36:01] Ok, but I think for the grace period, will the system calculate the profit or the system will skip the profit for grace period?
+[00:36:02–00:36:04] No, no, it will calculate the profit.
+[00:36:06–00:36:13] For a few days, you can't change the profit. For a few days, for changing a few days, you can't change overall contract value based on this.
+[00:36:13–00:36:43] So if I go to the system and decide, okay, I'll change the due date from 1st to 15th, then I can't change the profit calculation. That's Sharia requirement. So I think if business wants, then we can just say if you want to defer it until 15th, then pay 5D or something like that. Just a fixed fee. Administration administrative fee. So that my question to you, Petrod, is this supportive? Because you mentioned you can change the
+[00:37:06–00:37:10] It will be by product. It will be configuration per product.
+[00:37:14–00:37:43] or it depends on the restructuring type? What I mean, if we do a grace period, we will have a specific charge or if you push the payment date to have another charge or it will be defined per product? It will probably be per product. So we want it to be configurable per product. Some products should be flexible and now we can push because
+[00:37:43–00:38:12] Let me give you an idea. We might want to offer a specific microfinancing product where customers have more flexibility in payment. You can pay from 1st to 15th whenever you can at no charge. But some products we might want to ask the customer to pay if they want to push the payment date. It's a little bit more rigid for probably lower profit rate, something like this.
+[00:38:24–00:38:43] Okay, here, how is a deferment approved as a contract change? New sign comes in by the customer in the app, make a checker approval in some ads or both? And must document be resigned or resigned on each deferment? Because as I mentioned, when we do
+[00:39:01–00:39:11] I believe there will be a balance related to that contract that will be signed with the customer for the changes.
+[00:39:16–00:39:21] So the customer should accept the change in the app? Yes.
+[00:39:22–00:39:23] Okay.
+[00:39:42–00:39:45] I think we need to get back to you on this thing.
+[00:39:49–00:40:02] For this one, you're waiting for this one that the profit is, but Hussain mentioned that profit should be always fixed and cannot be changed. Only again a validation.
+[00:40:02–00:40:32] Is any deferment fee allowed? Already you explained that we should have fee configured per product. Right? Deferment fee allowed? Yes. The deferment fee should be there but then profit calculation for deferment is different because profit will be calculated based on the deferment
+[00:40:32–00:41:02] There is a whole because we have just been through the deferment exercise just a few months back and we can send you all the details for how profit should be calculated for deferred loans. Okay, calculate normally the profit during deferment but actual profit will be added to the first installment or it will be distributed on the remaining installment.
+[00:41:05–00:41:32] Yeah, the way we did it was the installment by itself does not change. The third amounts should be the same installment amount exactly, but we accrue the entire profit and that creates a few one or more additional installments. Okay. And that was, yeah, for us, maybe this was a specific case because it was,
+[00:41:32–00:42:02] The deferment scheme that was done a few months back that we did here was by request from the authorities and the central bank that we should do this and it came with constraints in that the installments should be the same except that we can just increase the number of installments it needed to accommodate the additional profit. But do business want to offer this as a way and a feature where you go and
+[00:42:02–00:42:14] defer your loan but at the same time change the actual installment amount or not I don't know we have to discuss this more details.
+[00:42:16–00:42:17] Alright.
+[00:42:19–00:42:23] For migration, let me skip it for now.
+[00:42:24–00:42:30] We have some questions related to the work flow.
+[00:42:35–00:42:58] Okay, we need to understand which mura structure do you run currently. As I understand you have tower for now, but do you need to have also good mura or hamish or other flow or only tower for now?
+[00:43:05–00:43:07] I might that's a question for you.
+[00:43:16–00:43:17] You're here on mute.
+[00:43:34–00:43:39] I don't know how it is going but let's give that question and we'll get back to you on it as well.
+[00:43:39–00:43:40] Okay.
+[00:43:40–00:43:48] Because Sherry will also need to be involved with this. But my understanding is correct, it's only Tawarro, but we don't know if they want to add anything else.
+[00:43:49–00:44:10] Okay. Which system runs the Merabaha Webflow, offer acceptance, commodity purchase and sale? Do you want it at the level of the Alamas or it should be outside the Alamas? Currently it's outside the Alamas. But if you want the data to be visible in the Alamas, we can
+[00:44:10–00:44:16] we can export it through APR. But for the flow, it will be outside LMS.
+[00:44:19–00:44:22] And it's not supported to be in some elements?
+[00:44:24–00:44:30] I know it can be done, but currently for what we have at the mobile app, it's outside.
+[00:44:31–00:44:36] Because it's a flow, it's a workflow, no need to be at the level of LMS.
+[00:44:37–00:44:38] Just I'm confirming that.
+[00:44:39–00:45:05] But can we integrate at least to the modernity platform? Yes, sure, sure. Yes, we can have all details at the level of Alamas. At any step, we can add all fields to be visible from the Alamas, but the world flow will be handled outside us. But for the fields to be visible, that means integration directly to IGOR, not through the backend, just for visibility.
+[00:45:39–00:46:08] Also, I want confirmation about lock step. The NMS must block disbursement and as I say it's confirmed. Right? We're discussing point 1.3, correct? Yes. So, currently we block disbursement.
+[00:46:12–00:46:39] When we say it is confirmed with eager we can proceed with disbursement right? So LMS should block disbursement until the sale is confirmed of course disbursement should never happen until sale is confirmed that's for sure so your question is
+[00:46:42–00:46:53] So either who should confirm purchase sales, that's what she understands here. Because we have the dynamic.
+[00:46:57–00:46:58] I can't hear it.
+[00:46:59–00:47:07] This purchase of the commodity, nothing more than that. And the other leg is a tabber site.
+[00:47:09–00:47:14] But the whole flow is not just the purchase of commodity, right? But the end of it.
+[00:47:16–00:47:23] No, just what I want to know, at what number we confirm SAITS. So SAITS will be confirmed from?
+[00:47:27–00:47:37] SAITS. SAITS for commodity, yes. It is confirmed by Iker. But does that mean releasing or dispersing
+[00:47:37–00:48:06] The amount with the customer? No, that's not always the same. Okay, who will confirm it's from your side? So in order to proceed with a disbursement? That will be through the bank it will be. Bank? Yeah. And right now it's all being done by the full backend. Okay. So checks, confirms that the sale is complete.
+[00:48:42–00:49:07] It's for me, question? Yeah, so what's the involvement of LMS when it comes to disbursement? I'll be waiting for a confirmation to disperse because we've been locking the disbursement. Once we receive it, just what I want to confirm from you, it's not from Eiger, it should be from
+[00:49:09–00:49:14] So we'll proceed with accounting entries and the disbursement.
+[00:49:18–00:49:32] So I think the integration part still needs to be discussed a little bit more because so first point integration 0-3 is here we're only talking about commodity purchase confirmation.
+[00:49:34–00:50:01] It's where the RMS will know that the commodity purchase and sale is confirmed and it's complete. That's it. Okay. So then, disbursement, payment is another integration. So if you go through the requirements, then integration requirements 4 and 5, they're related to integration with the payment gateway, integration to the core banking, the UK Fetch.
+[00:50:06–00:50:34] Does this mean LMS will communicate back to core banking to instruct it to do the dispersion? Because dispersion is handled by KFH. Moving the funds from one account to the other. Doing the EFTS transfer because we use EFTS. So that's an API called KFH to go ahead and disperse the amount. But is this going to be something that we were actually discussing
+[00:50:34–00:51:04] We need to have more detailed discussions, technically even, how should this be treated. Because one of the things that we have today is this entire workflow is handled by the back end, not by LMS. And only the back end will communicate to, for example, the KFH, do the disbursement. And I don't know if today it's actually communicating back to
+[00:51:04–00:51:09] in optasia informing that the amount was already dispersed or not i don't know about that
+[00:51:09–00:51:19] may alhamdulillah you know this where uh alone is marked as dispersed at edinus and with the this federal
+[00:51:19–00:51:25] integration services being in the middle it's creating lots of issues because there are technical
+[00:51:25–00:51:33] issues in which alone is dispersed but it's not marked as dispersed in optasia
+[00:51:34–00:52:01] because of whatever reason. There are issues in customer paying and the payment gateway confirming the payment which happens through the backend, not by the LMS. But then because of the communication issue with the LMS, that installment is not marked as paid. So for the past year those issues have been happening and there doesn't seem to be any solution to them.
+[00:52:06–00:52:33] The back end communicate the actions, the disbursement and the repayment actions to LMS. LMS then communicates to the payment gateway or the core banking with the instructions. So the repayment or checking the status of the repayment or actually instructing the bank to do the disbursement. So LMS will communicate the
+[00:52:33–00:52:35] "Wait for
+[00:53:05–00:53:32] So we can discuss it more in the integration workshop. But we got the idea. Okay. For this one, at what exact moment is the murabaha say concluded?
+[00:53:33–00:53:38] The customer is signed the offer in the app when they confirm ownership or disbursement.
+[00:53:40–00:53:51] For Murabha Hasir it's concluded as I understand it's when the commodity stands through eager.
+[00:53:52–00:53:58] For sale. But at this time the customer is signed the offer in the app or no?
+[00:53:59–00:54:01] When they confirm ownership of disbursement.
+[00:54:10–00:54:11] Hamad and Hamad?
+[00:54:12–00:54:18] Yes, I plead from accounting perspective until the disbursement is made.
+[00:54:19–00:54:26] Until that part, we do not consider the start of agreement or the loan schedules with the customer.
+[00:54:30–00:54:52] The parts before the disbursement are the formal agreement and those sorts of parts. So the customer is signed after disbursement you're near or after the sales executed? So sale execution and then comes the disbursement to the customer.
+[00:54:57–00:55:06] the transfer, the transfer, the transfer, the request of sale, confirm sale, then we do the dispersion.
+[00:55:08–00:55:09] We activate.
+[00:55:14–00:55:20] So we activate the loan after, no, we activate the loan before we disperse the amount.
+[00:55:21–00:55:23] Yeah, currently this is the setup.
+[00:55:23–00:55:25] And that's approved by Sharia.
+[00:55:32–00:55:53] I think actually it's part of Sharia to have the one activated before doing the community transfer, say confirmation and dispersion. Before the sale even? I think so, yeah. We need to get this confirmed but since it's already approved by Sharia I think this is the case, yeah.
+[00:55:55–00:56:25] So we activate just to approve, we activate a loan, we send to Eager for commodity, once we receive response from Eager we have sales executed, after we go to disbursement, right? Yeah. Okay, but at what level the customer will sign the offer? It will be before the actual approval from
+[00:56:25–00:56:55] our backend so when they select the amount and the tenant they will be signing the contracts and even before sending to eager before it will be ordering the community okay because we need to own the community to get the customer an offer okay yeah and i'm ready to confirm ownership yeah
+[00:56:55–00:56:56] All right.
+[00:56:57–00:57:00] But do you want to confirm this comment before we send it?
+[00:57:01–00:57:03] It's letter of code.
+[00:57:03–00:57:03] Yeah, yeah.
+[00:57:04–00:57:06] So will you confirm it?
+[00:57:07–00:57:12] Yes, I will send both documents so you can add all your comments and your confirmation.
+[00:57:13–00:57:13] Okay.
+[00:57:19–00:57:22] These confirmances are out of scope for now.
+[00:57:25–00:57:36] Purchase, Wad and Security Deposant, Hamish, Takaful and Multi Currency. They are out of scope for now.
+[00:57:52–00:58:22] Is one item financed by contract or can any contract cover a basket of several items from one merchant? So if the customer buys one phone, one laptop, all together will have one financing account or how it should be treated? Good question. I think it's separate? Yeah, because it's a different transaction with a different period for each
+[00:58:24–00:58:50] What are you talking about here? Is it a one single purchase or separate purchase? Sorry. It's got several items from one merchant. So that's FR function 7. This will be applicable. Like saying, we are offering, for example, a voucher, like, certain possible persons provided.
+[00:58:53–00:58:58] otherwise it would be one product I believe
+[00:59:07–00:59:07] synthesis
+[00:59:15–00:59:38] But we're only talking about commodity purchases here, why are we talking about actual items to be purchased? So it's just one commodity purchase for one contract. So there's nothing to do. So it should be treated as one contract?
+[00:59:41–00:59:44] I don't understand.
+[00:59:45–00:59:54] No, what I mentioned, if a customer wants to buy one phone, one laptop from the same merchant, it will be treated as a total amount and as one contract, right?
+[00:59:55–01:00:06] But where is merchant? Why is merchant being mentioned here? So if R07 is only talking about commodity purchase, so there are no merchants.
+[01:00:07–01:00:12] I just don't understand the concept of a merchant and mobile phone and baskets.
+[01:00:13–01:00:16] Maybe this one is wrong about it.
+[01:00:22–01:00:33] No, but what I mean, even if we have several items, we'll have one commodity for this item, right?
+[01:00:33–01:00:36] So it will be based on the total amount.
+[01:00:37–01:00:40] What do you mean, several items? Several microfinances?
+[01:00:43–01:00:47] That's what I want to confirm. It will be treated as one microfinance.
+[01:00:48–01:00:51] Because what you will take is the total amount, right?
+[01:00:51–01:00:55] What you will treat is the total amount of the what you bought.
+[01:00:57–01:01:03] The total amount, so we don't have the option for someone to go and apply for multiple items.
+[01:01:05–01:01:08] So they don't apply for once, what's the point of applying for multiple
+[01:01:09–01:01:33] microfinances? The only thing we want to offer is multiple finances, yes, but at different stages. In one basket, I don't think any customer will buy multiple things at the same time. It'll be just one item per purchase or per contract. One microfinance per contract and then after a few days they might go and apply for
+[01:01:34–01:02:03] they might do this and we want to offer that so they will have two contracts running at the same time but at purchase stage they're different flows different contracts different I don't know if you're calling it the basket then it's a different basket when it comes to the merchant side of it the merchant portal and the
+[01:02:03–01:02:32] That's a new project that we're doing. Where someone can go to a merchant, buy something. But then that purchase might include multiple items from a merchant. From a merchant side. It has nothing to do with... When it comes to illness, it's going to create one contract for that entire amount. Between us and the customer, we're giving the customer that amount for the purchase that they made.
+[01:02:32–01:03:00] We don't tie it to the actual item being bought. It's that sale that happened between the customer and the merchant. And then we just create a microfinance for that customer for the amount that he requested. So we don't track the sales. And I don't know if we mentioned anything related to the merchant flow and the requirements. But yeah, we don't really track it.
+[01:03:01–01:03:31] We have two documents, we have the initial one, we have this one and we have the latest one. To which document we should refer or we should check both of them? The second document is more detailed. That's the one we should, we will track the requirements. Yes, but I found some requirements in the initial one and I didn't found them in the second one. So for that I'm asking,
+[01:03:31–01:03:51] I refer for both of them or only the latest one. But like what? Like insurance it's not mentioned here like write-off by the way it wasn't I add here it's a document it's FR only as all.
+[01:04:04–01:04:07] I think write-off is mentioned.
+[01:04:10–01:04:18] Yes, that is one. Some of the requirements were in the SO, not in the functional.
+[01:04:19–01:04:22] And here we don't have the relevant mention for insurance. Let me check.
+[01:04:23–01:04:30] There is insurance. Yes, it's not in the functional requirement.
+[01:04:32–01:04:35] I think let's stick to the second document.
+[01:04:37–01:04:38] Okay.
+[01:04:39–01:04:45] Because the first one was circulated as part of the RFP, things might have changed a little bit.
+[01:04:47–01:04:53] But it's more detailed. We have all of the other requirements in Confluence already.
+[01:04:54–01:04:58] I think it's better if we give you access to Confluence.
+[01:04:58–01:05:27] We've created one with confidence page for LMS. And then all of your questions, I think you can add them as comments against each point. When we discuss together, it can be shared with you at this stage. Okay. Let's make my seat here. How long is an offer or indicative schedule valid before it must be reprised? Because you know sometimes customers take an offer.
+[01:05:28–01:05:34] But you will not proceed with a loan, so for how long it should be valid?
+[01:05:47–01:05:53] Hamad, do you have any definition for how long an offer is valid?
+[01:05:54–01:05:55] Today? I think two days.
+[01:05:59–01:06:24] We can configure it, we have configuration folder. I believe the author is guided for 3 days. But the important thing is it should be configurable. Because what happens better is we integrate this with the credit bureau as well.
+[01:06:26–01:06:56] loan, then there's a record opened for this customer with the credit bureau benefit. And that locks them from being able to apply for another loan from another bank. So if they've initiated the process with us and they haven't concluded it, they can't initiate the same request with different banks at the same time. Otherwise, they'll apply for a loan with us and at the same time apply for another loan.
+[01:06:57–01:07:26] which might exceed that DVR and that burden ratio so the way we do it is we open their account basically with the credit bureau that they've applied for this amount so it reserves a ratio from the DVR and some customers would want that to be closed they don't want to proceed with the sale so we need
+[01:07:28–01:07:56] I saw that it used to be seven days before and then we changed it to three days after complaints from customers. So we just want to have the flexibility to configure this. Okay. For profit, currently in the system we have a rate. Just I want to confirm with you that you need it as fixed
+[01:07:57–01:08:25] You need this option to have it. So which one is that? Profit? It's 1.8. So 1.8 is the original document you made? No, for functional requirement it's 1 and 4. So if R1, fully configurability, finance, personal code changes, profit rate, fees, repayment.
+[01:08:26–01:08:54] And four says configurable repayment allocation of their fees, they can't. So what's the question? How is profit processing? Just I want to confirm with you if you want profit to be amount also because Canada is a system will have a trade. You want it as an amount so to implement this option. Imagine it. Over the profit.
+[01:08:59–01:09:23] Do we want to configure profit as a fixed amount? Not as a fixed amount, for sure. It is as a percentage based on the tenor, based on the amount for the customer. And percentage is different from one customer base to another customer base. So for profit, no need to be a fixed amount.
+[01:09:26–01:09:55] we have a financing amount of $10,000. We need the profit to be $2,000 or it can be percentage? So it would be a percentage. Let's say a customer is being dispersed $2,000. So based on his customer base profiling and based on the tenor, the rate will be applied and then the result in amount will be the profit embedded in the store. Okay, so now need to add the profit amount to be fixed.
+[01:09:57–01:10:13] As for the current products we have no but in future can we have this option available we can fix the amounts for the customers as well if we have a separate product or slightly customized product. Yes of course we can add it. Okay. Okay.
+[01:10:26–01:10:32] How usually is profit spread across installment flood or declining? Also we have it as configuration for now.
+[01:10:33–01:10:36] As for now we have declining.
+[01:10:37–01:10:37] Okay.
+[01:10:38–01:10:41] So based on the diminishing balance method it's working.
+[01:10:43–01:10:46] Master apps close in annual percentage rate APR.
+[01:10:47–01:10:48] Yes we need to disclose.
+[01:10:49–01:10:50] Okay.
+[01:11:20–01:11:21] So as of now, we have
+[01:11:25–01:11:37] So let's say customers being dispersed thousand BAD. So the fees and the BAD all are deducted from these amount and a net amount is dispersed actually to the customer. Okay.
+[01:11:58–01:12:01] We will get back to you on this one in more details.
+[01:12:54–01:13:21] you want to pay every two weeks. Is that what you mean here or something else? Yeah, so as you mentioned, the example I think I remember in the meeting. So it should be configurable how the repayment should be. We should be able to have a template for it or a product, basically. If they apply for this product, then this product repayment schedule is this specific structure.
+[01:13:22–01:13:51] Yes, it's a spare product consideration. But what do you mean by step up, step down? Skip months, step up, step down, seasonal, balloon, um, you can send you the details. Okay. But these are just things. I can say you can change the consideration as a frequency of payment as you want. You can say you can pay twice per year, you can pay every quarter, you can pay, you can play with the
+[01:13:52–01:13:53] with the frequency.
+[01:13:57–01:14:17] Because I remember one of the cases that was mentioned by the CEO, we might want them to pay different installment amounts during the beginning of the long term and then it keeps increasing or decreasing. Maybe this is what we mean by step up, step down.
+[01:14:22–01:14:51] You mean the schedule will not be fixed? The amount itself might have to change. That was one idea I would say. Business requirement idea. Yeah, but because for amount, if it will change, it's like top up. So maybe it will not be allowed for the place of the Sharia, no? Because in this case, the profit will be changed.
+[01:14:52–01:15:19] No, Sharia, I think they approves a whole amount, that's it. So the whole amount, including the profit, is what the customer should pay. Now how the customer pays it back is up to however I can agree with them. So if I want to say, if my product says customers should pay 50% from day one or first month, and then 50% would be divided based on the number of months.
+[01:15:19–01:15:48] That depends on the kind of repayment structure. Similarly to paying one month and then skipping two months. Okay. But we'll just get this right and what we'll need to provide you more details of what we expect. Let's see what the system supports out of the books and what needs to be developed if needed.
+[01:15:49–01:15:58] to skip months or to pay a different frequency but for amount no we don't have it for now
+[01:16:18–01:16:21] which early settlement charging option applied per product?
+[01:16:22–01:16:27] No profit with profit, a fixed fee or a percentage of the amount settled?
+[01:16:28–01:16:34] I will have a configuration of the early settlement option, fee amount and caps are asked in the accounting document.
+[01:16:36–01:16:42] Just, we need an idea about the early settlement charge, how it should be done.
+[01:16:48–01:16:50] Configuration, where you need the details.
+[01:16:51–01:17:01] How is the unearned profit, the base for Ibra, measured profit for installing, not yet due, or time of proportion, or settlement date?
+[01:17:03–01:17:05] What do you mean here? How is it?
+[01:17:14–01:17:20] Yes, for Ibra, if we, you know, we need to have Ibra on unearned profit.
+[01:17:21–01:17:28] But this profit is only for not yet due or it will take any not paid profit.
+[01:17:28–01:17:39] because as I mentioned before, maybe a customer didn't pay for three months. It should be included in the IPRA also or only in the future and not in the G1.
+[01:17:57–01:18:03] We will get back to you. We need to revisit things and we will come back to you how we want things as a comment.
+[01:18:13–01:18:22] Also this one we discussed in the other document for partial settlement. It shortens the turner or reduce the remaining instalment currently.
+[01:18:53–01:18:58] When we plan it from my side, I'll have to drop by, I'll have to turn to another meeting.
+[01:19:00–01:19:16] Okay, Mohamed, I will share with you these two documents. Okay, so you can add your comments and your approval in case you need approval. And for the accounting one, please, if you can add the dates of the accounting, so to implement them correctly, okay?
+[01:19:18–01:19:46] Okay, is there anything else that you want to discuss that's not related to accounting or sharia? Yes, we have. For today, no, but we can schedule another call to go through eligibility and scoring and if you want to see our solution also. And for sure, we need another workshop for integration, migration, reports, because we don't have details about reports. Sorry to interrupt you, Petra.
+[01:19:49–01:20:18] If there is any possibility, you think today we can schedule another session so that we can continue or finalize these points before sharing them for your confirmations. That would be great. Maybe another hour today if it's possible. But for what? So the other session you wanted just to continue discussing the list of requirements, you mean? Yes. And Petra, if there is a possibility for the eligibility
+[01:20:21–01:20:48] I think LGBT scoring let's keep it as not for today okay something because we need to invite other people as well but is there because you mentioned you're referring to the workshops yes is there one of the other workshops that you want to have today actually we can continue to continue the remaining
+[01:21:18–01:21:47] Yes, we have now two documents, one for the accounting which updated, I will share with you, and this one about workflow. And it contains also for the other steps as eligibility, data migration, integration, reporting. But I will share with both questions. How many more questions do you have in the initial requirements? A few for 25. We were at 20, I have to reach.
+[01:21:51–01:21:56] 117. I still have 7 questions.
+[01:21:58–01:22:05] Just send it. Let's see if we can schedule another hour today and I'll let you know within the next hour. We can do that.
+[01:22:07–01:22:08] Okay. Sounds great.
+[01:22:13–01:22:42] Okay, so thank you for your time. Thank you for your time. We'll be sharing documents as mentioned and have another email for the workshop in order to track them and so that you can have like a high level overview on the coming workshops on what we'll be discussing as well. Yeah, one thing, Fali, I think just looking at the calendar today, it might be a little bit difficult for me to arrange another session today. It's fully booked. We can do it tomorrow.
+[01:22:42–01:23:11] Yeah, tomorrow should we find. But we have, I think, a meeting that Bomerium called for. Correct. No, that's a different topic. I prefer to have a separate meeting, not to merge them together. Okay. Yeah, so tomorrow, let's say same time. Tomorrow will be 10 to 11.
+[01:23:12–01:23:26] Yeah, I think it should be good. Perfect. Thank you everyone. Thank you. Thank you. Thank you. Have a great day. Bye bye.

@@ -1,0 +1,25 @@
+{
+  "intake_date": "2026-10-14",
+  "timezone": "Asia/Beirut",
+  "recordings": [
+    {
+      "name": "Workshop1-a.m4a",
+      "project_path": "meetings/2026-10-14/workshop-1/recordings/Workshop1-a.m4a",
+      "source_path": "/Users/fadyhanna/Library/Containers/com.apple.VoiceMemos/Data/tmp/.com.apple.uikit.itemprovider.temporary.uZQmGW/Workshop1-a.m4a",
+      "size_bytes": 17106019,
+      "sha256": "f9aac324d34ae66aab1cb3a68820980c0cd570238d6fd10313341e47a0f5f1cd",
+      "duration_seconds": 2032.554667,
+      "embedded_creation_utc": "2026-10-14T07:04:32Z"
+    },
+    {
+      "name": "Workshop1-b.m4a",
+      "project_path": "meetings/2026-10-14/workshop-1/recordings/Workshop1-b.m4a",
+      "source_path": "/Users/fadyhanna/Library/Containers/com.apple.VoiceMemos/Data/tmp/.com.apple.uikit.itemprovider.temporary.2r9k7m/Workshop1-b.m4a",
+      "size_bytes": 42167721,
+      "sha256": "0a5a48159fc5d9e7f168777b6a8d922460d09d808780840f936bf4b6c5f787d5",
+      "duration_seconds": 5008.576,
+      "embedded_creation_utc": "2026-10-14T07:39:34Z"
+    }
+  ],
+  "provenance_note": "Creation timestamps are embedded Voice Memos metadata, not independently confirmed workshop start times. Original attachments were copied byte-for-byte and source/project hashes matched on intake."
+}
